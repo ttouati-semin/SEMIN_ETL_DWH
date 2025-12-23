@@ -1,0 +1,208 @@
+{
+  "itemId" : "_k58hwGldEfC_po8-nai2bg",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_ToX1gLiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_TolQ4biTEe-W-dL5fDhv3g",
+      "name" : "Azure_Account_Name"
+    }, {
+      "id" : "_TolQ47iTEe-W-dL5fDhv3g",
+      "name" : "Azure_Container_Name"
+    }, {
+      "id" : "_TolQ5LiTEe-W-dL5fDhv3g",
+      "name" : "Azure_Local_Folder"
+    }, {
+      "id" : "_TolQ4riTEe-W-dL5fDhv3g",
+      "name" : "Azure_SAS"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_1jaCgLiREe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_rX9_cBrMEfCjtsB6USVc1g",
+      "name" : "File_Context"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_O5EumfjuEe-cbK0N63nycQ",
+    "parameterList" : [ {
+      "id" : "_O_JyRFKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_password"
+    }, {
+      "id" : "_O_JyQlKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_port"
+    }, {
+      "id" : "_O_JyQVKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_smtp"
+    }, {
+      "id" : "_O_JyQ1KsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_username"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_nR7PALiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_ZASOgBtxEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_ARCHIVE"
+    }, {
+      "id" : "_foPO4LiVEe-W-dL5fDhv3g",
+      "name" : "Local_DIRECTORY_FILE_AZURE_PATH"
+    }, {
+      "id" : "_b7PdkBuOEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_INTER_PATH"
+    }, {
+      "id" : "_vEjB0BtvEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_REJECTS"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_e668YCTyEfCNzeboE91SRw",
+    "parameterList" : [ {
+      "id" : "_jlzXISTyEfCNzeboE91SRw",
+      "name" : "smtp_receiver"
+    }, {
+      "id" : "_jlzXIiTyEfCNzeboE91SRw",
+      "name" : "smtp_receiver_cc"
+    }, {
+      "id" : "_jlzXIyTyEfCNzeboE91SRw",
+      "name" : "smtp_sender"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_hPgZkLiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_tgoX6WY1EfCIQuZeKmJtYQ",
+      "name" : "Keystore_password"
+    }, {
+      "id" : "_tgoX6mY1EfCIQuZeKmJtYQ",
+      "name" : "Keystore_path"
+    }, {
+      "id" : "_tgoX4WY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Account"
+    }, {
+      "id" : "_tgoX5mY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_DB"
+    }, {
+      "id" : "_tgoX42Y1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Password"
+    }, {
+      "id" : "_tgoX5WY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_BRONZE"
+    }, {
+      "id" : "_tgoX6GY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_GOLD"
+    }, {
+      "id" : "_tgoX52Y1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_SILVER"
+    }, {
+      "id" : "_tgoX4mY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_UserId"
+    }, {
+      "id" : "_tgoX5GY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_WAREHOUSE"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_ToX1gLiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_TolQ4biTEe-W-dL5fDhv3g",
+      "name" : "Azure_Account_Name"
+    }, {
+      "id" : "_TolQ47iTEe-W-dL5fDhv3g",
+      "name" : "Azure_Container_Name"
+    }, {
+      "id" : "_TolQ5LiTEe-W-dL5fDhv3g",
+      "name" : "Azure_Local_Folder"
+    }, {
+      "id" : "_TolQ4riTEe-W-dL5fDhv3g",
+      "name" : "Azure_SAS"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_1jaCgLiREe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_rX9_chrMEfCjtsB6USVc1g",
+      "name" : "File_Context"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_O5EumfjuEe-cbK0N63nycQ",
+    "parameterList" : [ {
+      "id" : "_O_JyRFKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_password"
+    }, {
+      "id" : "_O_JyQlKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_port"
+    }, {
+      "id" : "_O_JyQVKsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_smtp"
+    }, {
+      "id" : "_O_JyQ1KsEeyg7PF6M0KqtA",
+      "name" : "connection_smtptelenco_username"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_nR7PALiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_ZASOgBtxEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_ARCHIVE"
+    }, {
+      "id" : "_foPO4LiVEe-W-dL5fDhv3g",
+      "name" : "Local_DIRECTORY_FILE_AZURE_PATH"
+    }, {
+      "id" : "_b7PdkBuOEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_INTER_PATH"
+    }, {
+      "id" : "_vEjB0BtvEfCFm5KRTxd34w",
+      "name" : "Local_DIRECTORY_FILE_REJECTS"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_e668YCTyEfCNzeboE91SRw",
+    "parameterList" : [ {
+      "id" : "_jlzXJSTyEfCNzeboE91SRw",
+      "name" : "smtp_receiver"
+    }, {
+      "id" : "_jlzXJiTyEfCNzeboE91SRw",
+      "name" : "smtp_receiver_cc"
+    }, {
+      "id" : "_jlzXJyTyEfCNzeboE91SRw",
+      "name" : "smtp_sender"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_hPgZkLiTEe-W-dL5fDhv3g",
+    "parameterList" : [ {
+      "id" : "_tgoX9GY1EfCIQuZeKmJtYQ",
+      "name" : "Keystore_password"
+    }, {
+      "id" : "_tgoX9WY1EfCIQuZeKmJtYQ",
+      "name" : "Keystore_path"
+    }, {
+      "id" : "_tgoX7GY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Account"
+    }, {
+      "id" : "_tgoX8WY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_DB"
+    }, {
+      "id" : "_tgoX7mY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Password"
+    }, {
+      "id" : "_tgoX8GY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_BRONZE"
+    }, {
+      "id" : "_tgoX82Y1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_GOLD"
+    }, {
+      "id" : "_tgoX8mY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_Schema_SILVER"
+    }, {
+      "id" : "_tgoX7WY1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_UserId"
+    }, {
+      "id" : "_tgoX72Y1EfCIQuZeKmJtYQ",
+      "name" : "Snowflake_WAREHOUSE"
+    } ]
+  } ]
+}

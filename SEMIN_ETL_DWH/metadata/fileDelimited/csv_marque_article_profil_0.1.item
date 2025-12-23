@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_GYQBMIQQEfCFlOf0JVQV-A" name="csv_marque_article_profil" dataPackage="_GYQBMYQQEfCFlOf0JVQV-A" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Projet_BI/Schemas2/S_Marque articles Profil.csv" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_GYQBMYQQEfCFlOf0JVQV-A" name="default" dataManager="_GYQBMIQQEfCFlOf0JVQV-A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_GYQBMoQQEfCFlOf0JVQV-A" id="_8MqW8IQPEfCFlOf0JVQV-A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBM4QQEfCFlOf0JVQV-A" label="Colonne" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBNIQQEfCFlOf0JVQV-A" label="timestamp" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBNYQQEfCFlOf0JVQV-A" label="Code_Marque" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBNoQQEfCFlOf0JVQV-A" label="Brand_Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBN4QQEfCFlOf0JVQV-A" label="SEMIN_Brand" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBOIQQEfCFlOf0JVQV-A" label="Picture" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBOYQQEfCFlOf0JVQV-A" label="Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBOoQQEfCFlOf0JVQV-A" label="Brand_Owner" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GYQBO4QQEfCFlOf0JVQV-A" label="Code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_42KAkIyTEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_CYQ8EIysEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_QNm4EIyoEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_SkwDsIyqEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_eGmdoIynEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_kThWEIyrEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_opxaEIyqEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_qPJuYIyoEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_vRtEQIySEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_xT4x4IynEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_6BEbQIp0EfCKPKO8fgsTWA" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_IcxMUHNqEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_PYDp0HNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_UWTFcHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_WK_WMHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_Wr4H8Ip3EfCKPKO8fgsTWA" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_a1FGwHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_cI_lsHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_doXGsHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_e0HIIHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_gihxwHNyEfC7B4UAtUnYhQ" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_mQjBoIp1EfCKPKO8fgsTWA" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_ofdTwIp2EfCKPKO8fgsTWA" path="FLUX/BRONZE/DELTA/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_1sidcLaGEfCYOfROa5bA1Q" path="FLUX/BRONZE/FULL/SEMIN_PROFIL" type="PROCESS"/>
+  <deletedItems id="_MXS8sG3OEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_RqK2cG3MEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_mmiYIG3LEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+</recyclebin:RecycleBin>

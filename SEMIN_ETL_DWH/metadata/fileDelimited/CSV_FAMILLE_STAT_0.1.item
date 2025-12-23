@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ABOI8HKREfC7B4UAtUnYhQ" name="CSV_FAMILLE_STAT" dataPackage="_ABOI8XKREfC7B4UAtUnYhQ" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Projet_BI/Schemas/S_Final_FAMILLE_STAT.csv" Format="WINDOWS" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_ABOI8XKREfC7B4UAtUnYhQ" name="default" dataManager="_ABOI8HKREfC7B4UAtUnYhQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ABOI8nKREfC7B4UAtUnYhQ" id="_cjtugHKQEfC7B4UAtUnYhQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ABOI9HKREfC7B4UAtUnYhQ" label="timestamp" length="265" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ABOI9XKREfC7B4UAtUnYhQ" label="Code" length="265" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ABOI9nKREfC7B4UAtUnYhQ" label="Libelle" length="265" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_dAi1MJfDEfCkevbwpoPjAg" name="CSV_Product_Group_SEMIN_SA" dataPackage="_dAi1MZfDEfCkevbwpoPjAg" Server="Localhost 127.0.0.1" FilePath="C:/Talend/Projet_BI/Schemas2/S_Final_Product Group.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_dAi1MZfDEfCkevbwpoPjAg" name="default" dataManager="_dAi1MJfDEfCkevbwpoPjAg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_dAi1MpfDEfCkevbwpoPjAg" id="_UUJs0JfDEfCkevbwpoPjAg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1M5fDEfCkevbwpoPjAg" label="timestamp" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1NJfDEfCkevbwpoPjAg" label="Item_Category_Code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1NZfDEfCkevbwpoPjAg" label="Code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1NpfDEfCkevbwpoPjAg" label="Description" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1N5fDEfCkevbwpoPjAg" label="Warehouse_Class_Code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1OJfDEfCkevbwpoPjAg" label="Default_Salesperson_Code" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1OZfDEfCkevbwpoPjAg" label="Type" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1OpfDEfCkevbwpoPjAg" label="Code_statistique" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1O5fDEfCkevbwpoPjAg" label="Leroy_Merlin_RFA_13_" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1PJfDEfCkevbwpoPjAg" label="Stat__Family" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1PZfDEfCkevbwpoPjAg" label="Default_Rate_Unit_of_Measure" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dAi1PpfDEfCkevbwpoPjAg" label="Default_Rate_Code_Text_Std" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
