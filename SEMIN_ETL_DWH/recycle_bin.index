@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
+  <deletedItems id="_Vua6AOKDEfCBWawNnQ4E_w" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_42KAkIyTEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_CYQ8EIysEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_QNm4EIyoEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
@@ -26,5 +27,7 @@
   <deletedItems id="_1sidcLaGEfCYOfROa5bA1Q" path="FLUX/BRONZE/FULL/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_MXS8sG3OEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
   <deletedItems id="_RqK2cG3MEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_duo8QOKsEfCWnpb6bzMU2g" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
   <deletedItems id="_mmiYIG3LEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_xZ2ZINz6EfCCxeKF1CC12Q" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
 </recyclebin:RecycleBin>
