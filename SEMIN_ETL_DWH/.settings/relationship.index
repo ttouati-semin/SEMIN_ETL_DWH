@@ -85,6 +85,141 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_0VTeMOS8EfCtus2Yhx0k6A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1jaCgLiREe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_NZqn0Hv0EfCCZ8EYmrLolQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_c_yqUG1dEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hPgZkLiTEe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_-fq_UISnEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_09KVoIRXEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_0gROUKAvEfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_2BBKcJrAEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_90A10JfEEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_9fjKQIRTEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_B3jEoISpEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_CpFMEISlEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Ttj4AJfxEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_UB6WMIRPEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Y9gl0LaJEfCYOfROa5bA1Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Zpvk8LVxEfCYOfROa5bA1Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_aSK_sLTpEfCYOfROa5bA1Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_avUvIISsEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_eb75gIRZEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_ecqVQJfAEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_iDAH8Ji_EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_jnQI8Ji_EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_keuDQJq-EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_lrZyAJi_EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_oCz2gJfIEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_q3ICIIRJEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_qlTYsIRREfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_r6Y-4ISqEfC6GJaoB3EIMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_tWrZYIN7EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_wiMc8KA0EfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_2MG44G1JEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "joblet"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_0gROUKAvEfCwgLuKps8qUQ",
     "version" : "0.1",
     "type" : "job"
@@ -1233,6 +1368,277 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_GfbOkOL3EfCWnpb6bzMU2g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1jaCgLiREe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_NZqn0Hv0EfCCZ8EYmrLolQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_c_yqUG1dEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hPgZkLiTEe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_-lPzoIN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_0uHoYIN4EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_104F8JfNEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_1OeRgIN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_2GezoKAuEfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_4BPekJfHEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_4T_A0LaGEfCYOfROa5bA1Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_4XXtwG3REfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_5o1rYG1-EfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_6A4GAIN5EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_6YDv8G3NEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_8bDCwG3KEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_AlKWMJkiEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_BZZ9QJfHEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_BldXoJq5EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_DihqwN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_FX5ooIN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_G_2_MN_jEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_GfB4IN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Hs57sIN7EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_JCkL4N_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_L4xkAN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_N75_gG3NEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_OJMO0N_iEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_PFILQN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Q7FAQN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_Q9wscJq7EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_QlRAsG3IEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_R7-wcG3SEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_RegD4G3KEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_S1AWUN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_SrrL0IN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_T5sI8JfEEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_UlNvsN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_V9CIcJe-EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_VSKnMN_jEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_VT95MIN5EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_WU3DkIN7EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_WcidsN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_YJOpAN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_ZgguUG3REfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:__6_skKAsEfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:__Ke4ILTREfCYOfROa5bA1Q",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_bK-QIJfCEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_bMGuEG18EfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_emL2AIN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_fzgGwJq9EfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_hIFHcOJjEfCBWawNnQ4E_w",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_hVC1IN_hEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_hjSvsN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_ip3BEN_jEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_jZVrUN_lEfCb1fxtoKgLGg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_k9yjkG3JEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_lr-aoJfLEfCkevbwpoPjAg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_ofXXEIN5EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_pzp0AIN6EfCFlOf0JVQV-A",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_x7INgKAuEfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_xFUR4G3QEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_yDoJkKArEfCwgLuKps8qUQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_yfOZcOJjEfCBWawNnQ4E_w",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_2MG44G1JEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "joblet"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_Hf4bAGleEfC_po8-nai2bg",
     "version" : "0.1",
     "type" : "job"
@@ -1300,6 +1706,53 @@
     "id" : "_Vua6AOKDEfCBWawNnQ4E_w - SEMIN_PROFIL_Product_Group",
     "version" : "Latest",
     "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_I9vjwOL6EfCWnpb6bzMU2g",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1jaCgLiREe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_NZqn0Hv0EfCCZ8EYmrLolQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_c_yqUG1dEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hPgZkLiTEe-W-dL5fDhv3g",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_JqkMYIypEfCQ8OWAfw9dRQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_XdITgHNyEfC7B4UAtUnYhQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_ZGalgHNyEfC7B4UAtUnYhQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "SEMIN_ETL_DWH:_p_nBEIypEfCQ8OWAfw9dRQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_2MG44G1JEfChkvInqLRHZA",
+    "version" : "Latest",
+    "type" : "joblet"
   } ]
 }, {
   "baseItem" : {
@@ -3982,6 +4435,10 @@
     "id" : "_2MG44G1JEfChkvInqLRHZA",
     "version" : "Latest",
     "type" : "joblet"
+  }, {
+    "id" : "_Vua6AOKDEfCBWawNnQ4E_w - SEMIN_PROFIL_Sales_Invoice_Line",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
