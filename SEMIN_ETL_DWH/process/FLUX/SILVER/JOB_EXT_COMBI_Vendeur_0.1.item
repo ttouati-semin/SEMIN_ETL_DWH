@@ -389,14 +389,14 @@
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="&quot;&quot;" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:K2lw5tVch1756pxNb8lsWJST6Wal8KO72MtPqHXb" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:BrcYCtdC4bkGKlxlBcOp1k5mV2sWdWwBfWcaMQAi" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.keyAlias" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:8DPGxGwOfHRs5O3eMAg3U5ll156EOVX+mYnU0JXr" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:hc4bjr/W3oTzcm/QMbU5Z9yG9FkNqg+2MVCDelaz" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:Svo2vpqZkdcs2YfqjBJsi+7BvD++k6P8M2kKgP3b" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:YNS/IfFw+t1k7ehv3XtyEAHCAHJ4j93xEzpbB5gO" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.warehouse" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="&quot;&quot;" show="false"/>
@@ -439,731 +439,59 @@
       <column comment="" key="false" length="265" name="E_Mail" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="E_Mail"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Phone_No_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Phone_No_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Phone_No_"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Job_Title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Job_Title" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Job_Title"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Search_E_Mail" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Search_E_Mail" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Search_E_Mail"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="E_Mail_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="E_Mail_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="E_Mail_2"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Code_regularisation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Code_regularisation" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Code_regularisation"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Compte_vendeur_ristourne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Compte_vendeur_ristourne" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Compte_vendeur_ristourne"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Moby_User_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Moby_User_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Moby_User_Code"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Filtre_Magasin_Stat__Achat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Filtre_Magasin_Stat__Achat" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Filtre_Magasin_Stat__Achat"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Active_Directory_User" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Active_Directory_User" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Active_Directory_User"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Apply_Current_Territory__N_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Apply_Current_Territory__N_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Apply_Current_Territory__N_1"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Last_Territory_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Last_Territory_Date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Last_Territory_Date"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Code_Assistante_Commerciale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Code_Assistante_Commerciale" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Code_Assistante_Commerciale"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="BI_Report_Subscription_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="BI_Report_Subscription_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="BI_Report_Subscription_Code"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="First_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="First_Name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="First_Name"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Initials" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Initials" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Initials"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Demonstrator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Demonstrator" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Demonstrator"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Not_send_letter_of_increase" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Not_send_letter_of_increase" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Not_send_letter_of_increase"/>
       </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Product_Group_Filter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="265" name="Product_Group_Filter" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Product_Group_Filter"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column26" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column26"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column27" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column27"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column28" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column28"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column29" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column29"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column30" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column30"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column31" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column31"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column32" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column32"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column33" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column33"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column34" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column34"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column35" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column35"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column36" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column36"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column37" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column37"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column38" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column38"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column39" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column39"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column40" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column40"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column41" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column41"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column42" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column42"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column43" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column43"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column44" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column44"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column45" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column45"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column46" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column46"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column47" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column47"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column48" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column48"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column49" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column49"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column50" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column50"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column51" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column51"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column52" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column52"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column53" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column53"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column54" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column54"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column55" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column55"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column56" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column56"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column57" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column57"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column58" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column58"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column59" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column59"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column60" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column60"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column61" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column61"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column62" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column62"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column63" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column63"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column64" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column64"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column65" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column65"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column66" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column66"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column67" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column67"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column68" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column68"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column69" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column69"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column70" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column70"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column71" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column71"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column72" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column72"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column73" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column73"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column74" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column74"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column75" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column75"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column76" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column76"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column77" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column77"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column78" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column78"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column79" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column79"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column80" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column80"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column81" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column81"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column82" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column82"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column83" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column83"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column84" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column84"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column85" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column85"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column86" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column86"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column87" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column87"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column88" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column88"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column89" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column89"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column90" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column90"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column91" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column91"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column92" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column92"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column93" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column93"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column94" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column94"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column95" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column95"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column96" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column96"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column97" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column97"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column98" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column98"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column99" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column99"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column100" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column100"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column101" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column101"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column102" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column102"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column103" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column103"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column104" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column104"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column105" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column105"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column106" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column106"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column107" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column107"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column108" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column108"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column109" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column109"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column110" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column110"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column111" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column111"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column112" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column112"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column113" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column113"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column114" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column114"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column115" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column115"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column116" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column116"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column117" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column117"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column118" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column118"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column119" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column119"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column120" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column120"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column121" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column121"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column122" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column122"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column123" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column123"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column124" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column124"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column125" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column125"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column126" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column126"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column127" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column127"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column128" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column128"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column129" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column129"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column130" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column130"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column131" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column131"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column132" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column132"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column133" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column133"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column134" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column134"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column135" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column135"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column136" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column136"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column137" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column137"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column138" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column138"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column139" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column139"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column140" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column140"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column141" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column141"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column142" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column142"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column143" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column143"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column144" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column144"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column145" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column145"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column146" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column146"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column147" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column147"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column148" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column148"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column149" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column149"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column150" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column150"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column151" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column151"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column152" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column152"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column153" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column153"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column154" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column154"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column155" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column155"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column156" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column156"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column157" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column157"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column158" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column158"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column159" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column159"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column160" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column160"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column161" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column161"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column162" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column162"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column163" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column163"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column164" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column164"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column165" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column165"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column166" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column166"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column167" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column167"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column168" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column168"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column169" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column169"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column170" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column170"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column171" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column171"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column172" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column172"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column173" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column173"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column174" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column174"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column175" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column175"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column176" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column176"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column177" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column177"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column178" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column178"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column179" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column179"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column180" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column180"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column181" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column181"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column182" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column182"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column183" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column183"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column184" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column184"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column185" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column185"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column186" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column186"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column187" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column187"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column188" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column188"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column189" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column189"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column190" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column190"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column191" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column191"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column192" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column192"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column193" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column193"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column194" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column194"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column195" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column195"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column196" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column196"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column197" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column197"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column198" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column198"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column199" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column199"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column200" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column200"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column201" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column201"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column202" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column202"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column203" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column203"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column204" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column204"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column205" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column205"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column206" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column206"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column207" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column207"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column208" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column208"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column209" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column209"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column210" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column210"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column211" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column211"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column212" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column212"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column213" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column213"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column214" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column214"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column215" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column215"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column216" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column216"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column217" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column217"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column218" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column218"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column219" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column219"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column220" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column220"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column221" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column221"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column222" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column222"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column223" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column223"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column224" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column224"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column225" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column225"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column226" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column226"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column227" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column227"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column228" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column228"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column229" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column229"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column230" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column230"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column231" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column231"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column232" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column232"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column233" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column233"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column234" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column234"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column235" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column235"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column236" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column236"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column237" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column237"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column238" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column238"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column239" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column239"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column240" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column240"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column241" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column241"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column242" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column242"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column243" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column243"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column244" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column244"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column245" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column245"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column246" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column246"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column247" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column247"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column248" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column248"/>
-      </column>
-      <column comment="" defaultValue="" key="false" length="265" name="Column249" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Column249"/>
       </column>
     </metadata>
     <metadata connector="LOOKUP" name="LOOKUP"/>
@@ -1193,7 +521,7 @@
       <column comment="" key="false" length="-1" name="vendor_Key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="out1">
         <mapperTableEntries name="Code" expression="row1.Code" type="id_String" nullable="true"/>
@@ -1229,230 +557,6 @@
         <mapperTableEntries name="Demonstrator" type="id_String" nullable="true"/>
         <mapperTableEntries name="Not_send_letter_of_increase" type="id_String" nullable="true"/>
         <mapperTableEntries name="Product_Group_Filter" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column26" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column27" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column28" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column29" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column30" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column31" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column32" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column33" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column34" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column35" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column36" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column37" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column38" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column39" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column40" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column41" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column42" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column43" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column44" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column45" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column46" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column47" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column48" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column49" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column50" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column51" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column52" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column53" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column54" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column55" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column56" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column57" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column58" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column59" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column60" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column61" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column62" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column63" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column64" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column65" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column66" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column67" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column68" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column69" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column70" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column71" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column72" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column73" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column74" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column75" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column76" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column77" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column78" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column79" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column80" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column81" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column82" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column83" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column84" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column85" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column86" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column87" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column88" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column89" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column90" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column91" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column92" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column93" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column94" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column95" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column96" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column97" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column98" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column99" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column100" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column101" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column102" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column103" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column104" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column105" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column106" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column107" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column108" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column109" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column110" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column111" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column112" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column113" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column114" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column115" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column116" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column117" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column118" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column119" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column120" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column121" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column122" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column123" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column124" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column125" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column126" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column127" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column128" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column129" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column130" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column131" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column132" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column133" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column134" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column135" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column136" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column137" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column138" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column139" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column140" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column141" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column142" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column143" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column144" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column145" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column146" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column147" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column148" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column149" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column150" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column151" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column152" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column153" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column154" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column155" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column156" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column157" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column158" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column159" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column160" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column161" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column162" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column163" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column164" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column165" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column166" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column167" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column168" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column169" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column170" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column171" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column172" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column173" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column174" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column175" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column176" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column177" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column178" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column179" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column180" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column181" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column182" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column183" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column184" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column185" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column186" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column187" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column188" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column189" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column190" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column191" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column192" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column193" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column194" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column195" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column196" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column197" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column198" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column199" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column200" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column201" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column202" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column203" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column204" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column205" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column206" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column207" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column208" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column209" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column210" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column211" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column212" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column213" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column214" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column215" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column216" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column217" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column218" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column219" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column220" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column221" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column222" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column223" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column224" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column225" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column226" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column227" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column228" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column229" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column230" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column231" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column232" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column233" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column234" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column235" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column236" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column237" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column238" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column239" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column240" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column241" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column242" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column243" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column244" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column245" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column246" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column247" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column248" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Column249" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -1708,7 +812,7 @@
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;TELENCO_DATA&quot;" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="(String)globalMap.get(&quot;Snowflake_Tablefusion&quot;)"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="INSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="Code" show="false"/>
     <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
@@ -1720,11 +824,11 @@
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.convertColumnsAndTableToUppercase" value="true"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useSchemaKeysForUpsert" value="true" show="false"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.enforceDatabaseSchema" value="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false"/>
     <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.columnAndDBTypes" show="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dateMapping" value="DATE" show="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useVectors" value="false"/>
     <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.vectorConfigs" show="false"/>
     <elementParameter field="CHECK" name="configuration.convertEmptyStringsToNull" value="false"/>
