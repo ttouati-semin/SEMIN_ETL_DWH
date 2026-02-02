@@ -70,6 +70,11 @@
     "version" : "8.0.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.core.generic.model.migration.NewTckSnowflakeMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.designer.core.generic.model.migration.RevertJDBCContextModeMappingFileValueMigrationTask",
     "breaks" : "7.4.0",
     "version" : "7.4.1",
@@ -249,6 +254,11 @@
     "breaks" : "6.2.1",
     "version" : "6.2.1",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.gitprovider.migration.DeleteDocFolderMigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.gitprovider.migration.DeletePomsFolder",
     "breaks" : "8.0.0",
@@ -778,6 +788,11 @@
     "id" : "org.talend.repository.model.migration.ChangeDBVersion4tSAPConnection",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeDBVersion4tSAPConnectionV2",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeDBVersionValue4BonitaComponents",
@@ -1357,7 +1372,7 @@
     "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
-    "status" : "noimpact"
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
@@ -1658,6 +1673,11 @@
     "version" : "7.4.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.RenameJavajetDynamoDBComponents",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.RenameModeParaForPigMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -1883,9 +1903,24 @@
     "version" : "6.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.S3SQSAddComponentIdMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.S3toTCKMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.SAPBAPIParameterTypeMigrationTask",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.SQS2TCKMigrationTask",
+    "breaks" : "8.0.1",
+    "version" : "8.0.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.SafelyCreateTemporaryFileMigrationTask",
@@ -2361,6 +2396,11 @@
     "status" : "noimpact"
   }, {
     "id" : "org.talend.studio.components.tck.jdbc.migration.GenericJDBCConnectionToTacokitJDBCMigrationTask",
+    "breaks" : "8.0.0",
+    "version" : "8.0.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.studio.components.tck.snowflake.migration.GenericSnowflakeConnectionToTacokitMigrationTask",
     "breaks" : "8.0.0",
     "version" : "8.0.1",
     "status" : "noimpact"
