@@ -474,6 +474,7 @@
       <column comment="" key="false" length="10" name="Secondary_SalesPerson_Filter" nullable="false" originalDbColumnName="Secondary SalesPerson Filter" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="20" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -485,6 +486,7 @@
         <mapperTableEntries name="Demonstrator_Code" expression="row1.Demonstrator_Code" type="id_String"/>
         <mapperTableEntries name="Work_Study_Code" expression="row1.Work_Study_Code" type="id_String"/>
         <mapperTableEntries name="Secondary_SalesPerson_Filter" expression="row1.Secondary_SalesPerson_Filter" type="id_String"/>
+        <mapperTableEntries name="Database_Origin" expression="&quot;SEMIN S_A_&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="timestamp" type="id_String"/>
@@ -518,6 +520,7 @@
       <column comment="" key="false" length="10" name="Secondary_SalesPerson_Filter" nullable="false" originalDbColumnName="Secondary SalesPerson Filter" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="20" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="SnowflakeOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="840" posY="480">
@@ -588,6 +591,7 @@
       <column comment="" key="false" length="10" name="Secondary_SalesPerson_Filter" nullable="false" originalDbColumnName="Secondary SalesPerson Filter" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="20" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
     <metadata connector="reject" name="reject">
       <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
@@ -715,6 +719,7 @@
       <column comment="" key="false" length="10" name="Secondary_SalesPerson_Filter" nullable="false" originalDbColumnName="Secondary SalesPerson Filter" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="20" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -726,8 +731,9 @@
         <mapperTableEntries name="Demonstrator_Code" expression="row6.Demonstrator_Code" type="id_String"/>
         <mapperTableEntries name="Work_Study_Code" expression="row6.Work_Study_Code" type="id_String"/>
         <mapperTableEntries name="Secondary_SalesPerson_Filter" expression="row6.Secondary_SalesPerson_Filter" type="id_String"/>
+        <mapperTableEntries name="Database_Origin" expression="&quot;SEMIN PROFIL&quot;" type="id_String" nullable="true"/>
       </outputTables>
-      <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+      <inputTables sizeState="INTERMEDIATE" name="row6" activateExpressionFilter="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="timestamp" type="id_String"/>
         <mapperTableEntries name="Code" type="id_String"/>
         <mapperTableEntries name="Name" type="id_String"/>
@@ -831,6 +837,7 @@
       <column comment="" key="false" length="10" name="Secondary_SalesPerson_Filter" nullable="false" originalDbColumnName="Secondary SalesPerson Filter" pattern="" precision="0" sourceType="NVARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="20" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -842,6 +849,7 @@
         <mapperTableEntries name="Demonstrator_Code" expression="row2.Demonstrator_Code" type="id_String"/>
         <mapperTableEntries name="Work_Study_Code" expression="row2.Work_Study_Code" type="id_String"/>
         <mapperTableEntries name="Secondary_SalesPerson_Filter" expression="row2.Secondary_SalesPerson_Filter" type="id_String"/>
+        <mapperTableEntries name="Database_Origin" expression="&quot;SEMIN ESPAGNE&quot;" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="timestamp" type="id_String"/>
@@ -1834,6 +1842,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="Demonstrator_Code" id="30"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="31"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="32"/>
+      <elementValue elementRef="TRACE_COLUMN" value="Database_Origin" id="33"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="34"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="35"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>
@@ -1950,6 +1961,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="copyOfout11" lineStyle="10" mergeOrder="3" metaname="copyOfout11" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tUnite_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Database_Origin" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout11" show="false"/>
   </connection>
