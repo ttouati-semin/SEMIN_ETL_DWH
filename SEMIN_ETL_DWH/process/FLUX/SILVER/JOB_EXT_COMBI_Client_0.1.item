@@ -624,7 +624,7 @@
         <mapperTableEntries name="Chain_name" expression="row1.Chain_Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Vendeur_Key" expression="&quot;SEMIN S_A_&quot; + &quot; &quot; +  row1.Salesperson_Code " type="id_String" nullable="true"/>
         <mapperTableEntries name="classification_tiers" expression="row1.Third_Classification " type="id_String" nullable="true"/>
-        <mapperTableEntries name="SIRET_NO" expression="row1.SIRET_No_ " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SIRET_NO" expression="StringHandling.EREPLACE(row1.SIRET_No_, &quot; &quot;, &quot;&quot;) " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="timestamp" type="id_String" nullable="true"/>
@@ -1329,7 +1329,7 @@
         <mapperTableEntries name="Chain_name" expression="row6.Chain_Name " type="id_String" nullable="true"/>
         <mapperTableEntries name="Vendeur_Key" expression="&quot;SEMIN PROFIL&quot; + &quot; &quot; +   row6.Salesperson_Code " type="id_String" nullable="true"/>
         <mapperTableEntries name="classification_tiers" expression="row6.Third_Classification " type="id_String" nullable="true"/>
-        <mapperTableEntries name="SIRET_No" expression="row6.SIRET_No_ " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SIRET_No" expression="StringHandling.EREPLACE(row6.SIRET_No_, &quot; &quot;, &quot;&quot;)" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="timestamp" type="id_String" nullable="true"/>
