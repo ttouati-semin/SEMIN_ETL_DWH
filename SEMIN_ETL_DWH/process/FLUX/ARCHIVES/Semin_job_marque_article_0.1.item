@@ -6,7 +6,7 @@
     <contextParameter comment="" name="Azure_Container_Name" prompt="Azure_Container_Name?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_JC8LcWY4EfCIQuZeKmJtYQ"/>
     <contextParameter comment="" name="Azure_Local_Folder" prompt="Azure_Local_Folder?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_JC8LcmY4EfCIQuZeKmJtYQ"/>
     <contextParameter comment="" name="Azure_SAS" prompt="Azure_SAS?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_JC8Lc2Y4EfCIQuZeKmJtYQ"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_JC8LdGY4EfCIQuZeKmJtYQ"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_JC8LdGY4EfCIQuZeKmJtYQ"/>
     <contextParameter comment="" name="connection_smtptelenco_password" prompt="connection_smtptelenco_password?" promptNeeded="false" repositoryContextId="_O5EumfjuEe-cbK0N63nycQ" type="id_String" value="5vHe%5sC#^73wH@X" internalId="_JC8LdWY4EfCIQuZeKmJtYQ"/>
     <contextParameter comment="" name="connection_smtptelenco_port" prompt="connection_smtptelenco_port?" promptNeeded="false" repositoryContextId="_O5EumfjuEe-cbK0N63nycQ" type="id_String" value="587" internalId="_JC8LdmY4EfCIQuZeKmJtYQ"/>
     <contextParameter comment="" name="connection_smtptelenco_smtp" prompt="connection_smtptelenco_smtp?" promptNeeded="false" repositoryContextId="_O5EumfjuEe-cbK0N63nycQ" type="id_String" value="smtp.office365.com" internalId="_JC8Ld2Y4EfCIQuZeKmJtYQ"/>
@@ -822,6 +822,10 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tJava_3">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tSchemaComplianceCheck_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="Type" id="0"/>
@@ -847,10 +851,6 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tJava_3">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
-  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tDBConnection_2" target="tWarn_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
@@ -864,15 +864,15 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tSchemaComplianceCheck_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tSchemaComplianceCheck_1" target="tSortRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
-  </connection>
-  <connection connectorName="REJECT" label="row8" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tSchemaComplianceCheck_1" target="tFileOutputDelimited_2">
+  <connection connectorName="REJECT" label="row8" lineStyle="0" metaname="REJECT" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tSchemaComplianceCheck_1" target="tFileOutputDelimited_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tSchemaComplianceCheck_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tSchemaComplianceCheck_1" target="tSortRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row9" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row51" lineStyle="0" metaname="tSortRow_1" offsetLabelX="0" offsetLabelY="0" source="tSortRow_1" target="tUniqRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
