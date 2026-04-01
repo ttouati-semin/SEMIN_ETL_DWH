@@ -50,11 +50,17 @@
       "id" : "_NZ3cJHv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_BDD"
     }, {
+      "id" : "_erFCcB1cEfGoauYJ5eghPA",
+      "name" : "Snowflake_BDD_Silver"
+    }, {
       "id" : "_NZ3cI3v0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_MDP"
     }, {
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
+    }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
     }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"
@@ -155,11 +161,17 @@
       "id" : "_NZ3cJHv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_BDD"
     }, {
+      "id" : "_erFCcB1cEfGoauYJ5eghPA",
+      "name" : "Snowflake_BDD_Silver"
+    }, {
       "id" : "_NZ3cI3v0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_MDP"
     }, {
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
+    }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
     }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"
@@ -260,11 +272,17 @@
       "id" : "_NZ3cJHv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_BDD"
     }, {
+      "id" : "_erFCcB1cEfGoauYJ5eghPA",
+      "name" : "Snowflake_BDD_Silver"
+    }, {
       "id" : "_NZ3cI3v0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_MDP"
     }, {
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
+    }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
     }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"

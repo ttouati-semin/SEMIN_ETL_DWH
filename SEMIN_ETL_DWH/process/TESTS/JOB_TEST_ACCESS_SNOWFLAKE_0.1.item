@@ -256,7 +256,7 @@
     <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:3rODLokSyb9flvjpN1eLKficT2y4TzsT+dihG9BD"/>
     <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" value="PKCS12"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" value="context.Keystore_path"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="enc:system.encryption.key.v1:fmh2wboiuaUSlI5ZowMcs9iW8CADlcyNUqCj+kLgTbXzfjJs07HsObZ1qCztg9wM1jc+ZJk="/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="context.Keystore_password"/>
     <elementParameter field="CHECK" name="VERIFY_NAME" value="false"/>
     <elementParameter field="CHECK" name="USE_SSLCONTEXT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
