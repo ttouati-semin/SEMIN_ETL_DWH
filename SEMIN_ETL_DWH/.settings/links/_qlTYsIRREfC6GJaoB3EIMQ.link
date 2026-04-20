@@ -59,8 +59,14 @@
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
     }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
+    }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"
+    }, {
+      "id" : "_5yo9IC2YEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Schema_Buitex"
     }, {
       "id" : "_YN0lsxucEfGAnr_IBLIxUw",
       "name" : "Snowflake_Schema_SEMIN_ADMINISTRATION"
@@ -167,8 +173,14 @@
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
     }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
+    }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"
+    }, {
+      "id" : "_5yo9IC2YEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Schema_Buitex"
     }, {
       "id" : "_YN0lsxucEfGAnr_IBLIxUw",
       "name" : "Snowflake_Schema_SEMIN_ADMINISTRATION"
@@ -275,8 +287,14 @@
       "id" : "_G7mOwIQkEfCFlOf0JVQV-A",
       "name" : "Snowflake_Password"
     }, {
+      "id" : "_HqEyMC1FEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Role"
+    }, {
       "id" : "_NZ3cJXv0EfCCZ8EYmrLolQ",
       "name" : "Snowflake_Schema_Bronze"
+    }, {
+      "id" : "_5yo9IC2YEfGqx9YHxNUT1Q",
+      "name" : "Snowflake_Schema_Buitex"
     }, {
       "id" : "_YN0lsxucEfGAnr_IBLIxUw",
       "name" : "Snowflake_Schema_SEMIN_ADMINISTRATION"

@@ -5,114 +5,120 @@
     <contextParameter comment="" name="Param_Delta_H" prompt="Param_Delta_H?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="24" internalId="_G2LPMW1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Output_File" prompt="Param_Output_File?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_G2LPMm1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Context_File_L" prompt="Param_Context_File_L?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_G2LPM21aEfChkvInqLRHZA"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-wB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-wR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-wh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-wx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-xB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-xR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-xh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_kUV-xx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="" internalId="_kUV-yB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="" internalId="_kUV-yR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-yh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-yx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-zB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-zR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-zh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-zx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-0B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-0R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-0h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-0x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-1B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-1R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-1h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-1x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-2B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-2R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_kUV-2h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_kUV-2x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_kUV-3B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_kUV-3R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_kUV-3h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_kUV-3x1hEfGoauYJ5eghPA"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFknsDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFknsTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFknsjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFknszySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFkntDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFkntTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFkntjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="" internalId="_bFkntzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="" internalId="_bFknuDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="" internalId="_bFknuTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknujySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknuzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknvDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknvTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknvjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknvzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknwDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Role" prompt="Snowflake_Role?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknwTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknwjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Buitex" prompt="Snowflake_Schema_Buitex?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknwzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknxDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknxTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknxjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknxzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknyDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknyTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknyjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFknyzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_bFknzDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_bFknzTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_bFknzjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_bFknzzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_bFkn0DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_bFkn0TySEfGcr4Z427YIZQ"/>
   </context>
   <context confirmationNeeded="false" hide="true" name="DEV">
     <contextParameter comment="" name="Param_Display_L" prompt="Param_Display_L?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_G2LPNG1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Delta_H" prompt="Param_Delta_H?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="24" internalId="_G2LPNW1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Output_File" prompt="Param_Output_File?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_G2LPNm1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Context_File_L" prompt="Param_Context_File_L?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_G2LPN21aEfChkvInqLRHZA"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_kUV-4B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_kUV-4R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_kUV-4h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_kUV-4x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Rejets/" internalId="_kUV-5B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI" internalId="_kUV-5R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Schemas/" internalId="_kUV-5h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Tests/" internalId="_kUV-5x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_kUV-6B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_kUV-6R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-6h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-6x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-7B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-7R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-7h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-7x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-8B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-8R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-8h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-8x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-9B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-9R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-9h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV-9x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV--B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV--R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_kUV--h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_kUV--x1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_kUV-_B1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_kUV-_R1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_kUV-_h1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_kUV-_x1hEfGoauYJ5eghPA"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_bFkn0jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_bFkn0zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_bFkn1DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_bFkn1TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Rejets/" internalId="_bFkn1jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI" internalId="_bFkn1zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Schemas/" internalId="_bFkn2DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Tests/" internalId="_bFkn2TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_bFkn2jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_bFkn2zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn3DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn3TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn3jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn3zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn4DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn4TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn4jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Role" prompt="Snowflake_Role?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn4zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn5DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Buitex" prompt="Snowflake_Schema_Buitex?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn5TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn5jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn5zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn6DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn6TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn6jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn6zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn7DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn7TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_bFkn7jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_bFkn7zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_bFkn8DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_bFkn8TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_bFkn8jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_bFkn8zySEfGcr4Z427YIZQ"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="Default">
     <contextParameter comment="" name="Param_Display_L" prompt="Param_Display_L?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_G2LPNG1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Delta_H" prompt="Param_Delta_H?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="24" internalId="_G2LPNW1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Output_File" prompt="Param_Output_File?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="true" internalId="_G2LPNm1aEfChkvInqLRHZA"/>
     <contextParameter comment="" name="Param_Context_File_L" prompt="Param_Context_File_L?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" internalId="_G2LPN21aEfChkvInqLRHZA"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_kUV_AB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_kUV_AR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_kUV_Ah1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_kUV_Ax1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Rejets/" internalId="_kUV_BB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI" internalId="_kUV_BR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Schemas/" internalId="_kUV_Bh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Tests/" internalId="_kUV_Bx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_kUV_CB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_kUV_CR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Ch1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Cx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_DB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_DR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Dh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Dx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_EB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_ER1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Eh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Ex1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_FB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_FR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Fh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_Fx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_GB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_kUV_GR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_kUV_Gh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_kUV_Gx1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_kUV_HB1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_kUV_HR1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_kUV_Hh1hEfGoauYJ5eghPA"/>
-    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_kUV_Hx1hEfGoauYJ5eghPA"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_bFkn9DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_bFkn9TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_bFkn9jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_bFkn9zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Rejets" prompt="Folder_Rejets?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Rejets/" internalId="_bFkn-DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Root_PRJ" prompt="Folder_Root_PRJ?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI" internalId="_bFkn-TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Schema" prompt="Folder_Schema?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Schemas/" internalId="_bFkn-jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Folder_Tests" prompt="Folder_Tests?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Tests/" internalId="_bFkn-zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Context_File_G" prompt="Param_Context_File_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_bFkn_DySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Param_Display_G" prompt="Param_Display_G?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_Boolean" value="true" internalId="_bFkn_TySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_password" prompt="Keystore_password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn_jySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Keystore_path" prompt="Keystore_path?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkn_zySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Account" prompt="Snowflake_Account?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoADySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD" prompt="Snowflake_BDD?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoATySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoAjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_MDP" prompt="Snowflake_MDP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoAzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Password" prompt="Snowflake_Password?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoBDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Role" prompt="Snowflake_Role?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoBTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Bronze" prompt="Snowflake_Schema_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoBjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Buitex" prompt="Snowflake_Schema_Buitex?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoBzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ADMINISTRATION" prompt="Snowflake_Schema_SEMIN_ADMINISTRATION?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoCDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_ESP" prompt="Snowflake_Schema_SEMIN_ESP?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoCTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_PROFILS" prompt="Snowflake_Schema_SEMIN_PROFILS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoCjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_SEMIN_SAS" prompt="Snowflake_Schema_SEMIN_SAS?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoCzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Schema_Silver" prompt="Snowflake_Schema_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoDDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_User" prompt="Snowflake_User?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoDTySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Bronze" prompt="Snowflake_Warehouse_Bronze?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoDjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Snowflake_Warehouse_Silver" prompt="Snowflake_Warehouse_Silver?" promptNeeded="false" repositoryContextId="_NZqn0Hv0EfCCZ8EYmrLolQ" type="id_String" value="" internalId="_bFkoDzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_BDD" prompt="Navision_BDD?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SEMIN" internalId="_bFkoEDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Host" prompt="Navision_Host?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="ulysse" internalId="_bFkoETySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true" internalId="_bFkoEjySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="" internalId="_bFkoEzySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_Schema" prompt="Navision_Schema?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="dbo" internalId="_bFkoFDySEfGcr4Z427YIZQ"/>
+    <contextParameter comment="" name="Navision_User" prompt="Navision_User?" promptNeeded="false" repositoryContextId="_c_yqUG1dEfChkvInqLRHZA" type="id_String" value="SQLTalend" internalId="_bFkoFTySEfGcr4Z427YIZQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -320,6 +326,7 @@
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="240">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot; Erreur d'extraction depuis la table &quot; + (String)globalMap.get(&quot;dir_table&quot;) + &quot; Message d'erreur : &quot; + (String)globalMap.get(&quot;tDBInput_1_ERROR_MESSAGE&quot;)"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
@@ -327,7 +334,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_2"/>
   </node>
-  <node componentName="JBLT_RECUP_LOGS" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1520" posY="-80">
+  <node componentName="JBLT_RECUP_LOGS" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="2320" posY="40">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="JBLT_RECUP_ERREURS_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
@@ -434,7 +441,7 @@
     <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
     <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
-    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.role" value="context.Snowflake_Role"/>
     <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tDBConnection_2"/>
@@ -464,6 +471,7 @@
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -1076,6 +1084,7 @@
   </node>
   <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUnite_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tUnite_1">
       <column comment="" key="false" length="265" name="No_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -1101,6 +1110,7 @@
   <node componentName="SnowflakeOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1040" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNPdXRwdXQ" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -1201,6 +1211,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -1453,6 +1464,7 @@
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -2104,6 +2116,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="640" posY="200">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -2369,6 +2382,7 @@
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="80" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -3020,6 +3034,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="280" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -3285,6 +3300,7 @@
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="240" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -3897,6 +3913,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="360">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_4" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -4145,6 +4162,714 @@
         <mapperTableEntries name="Gen__Bus__Posting_Group_ECC" type="id_String"/>
       </inputTables>
     </nodeData>
+  </node>
+  <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1400" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_3" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:uRcHHVGWTHqJ19sK5f9RwG1mQTKVfVd2Q1sB5GzJ" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.keyAlias" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:voJipMQCh8HAxPry/AyCA3XfwjB0TZ2GYnAtDVNB" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:lTo5+HVUCBiIPPIKHWtp5LrjreAK1anTFkG1xbON" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.warehouse" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;COMMANDES_SEMIN&quot;"/>
+    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_p02sMCqiEfG37agPLczUig - COMMANDES_SEMIN" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_SAS'                                 AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE                               AS DOCUMENT_TYPE,&#xD;&#xA;    NO                                          AS NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE                           AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO                                  AS VERSION_NO,&#xD;&#xA;    SELL_TO_CUSTOMER_NO                         AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO                         AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                                AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                              AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                             AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                           AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                                AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                             AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                              AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                                AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                                AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                              AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                             AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                           AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                                AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                             AS SHIP_TO_CONTACT,&#xD;&#xA;    ORDER_DATE                                  AS ORDER_DATE,&#xD;&#xA;    POSTING_DATE                                AS POSTING_DATE,&#xD;&#xA;    SHIPMENT_DATE                               AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                         AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                          AS PAYMENT_TERMS_CODE,&#xD;&#xA;    DUE_DATE                                    AS DUE_DATE,&#xD;&#xA;    PAYMENT_DISCOUNT                            AS PAYMENT_DISCOUNT_,&#xD;&#xA;    PMT_DISCOUNT_DATE                           AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                        AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                               AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                   AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                   AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                      AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                               AS CURRENCY_CODE,&#xD;&#xA;    CURRENCY_FACTOR                             AS CURRENCY_FACTOR,&#xD;&#xA;    PRICE_GROUP_CODE                            AS PRICE_GROUP_CODE,&#xD;&#xA;    PRICES_INCLUDING_VAT                        AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC_CODE                           AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                            AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                 AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO                                 AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO                         AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN_BUS_POSTING_GROUP                       AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                     AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                       AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                     AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                             AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                           AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                                AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                             AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                           AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                              AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                 AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                           AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                              AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                 AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                           AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                              AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                 AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    DOCUMENT_DATE                               AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO                        AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS_POSTING_GROUP                       AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                     AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                     AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    IC_DIRECTION                                AS IC_DIRECTION,&#xD;&#xA;    NULL                                        AS CAMPAIGN_NO_,&#xD;&#xA;    NULL                                        AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                        AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                        AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    NULL                                        AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    NULL                                        AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    NULL                                        AS DATE_CHARGEMENT,&#xD;&#xA;    NULL                                        AS DATE_LIVRAISON,&#xD;&#xA;    NULL                                        AS MONTANT_DOUANES,&#xD;&#xA;    NULL                                        AS MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                        AS MONTANT_TIMBRE,&#xD;&#xA;    NULL                                        AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    NULL                                        AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                        AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    NULL                                        AS PURCHASE_ORDER_NO_,&#xD;&#xA;    NULL                                        AS DATE_FACTURATION,&#xD;&#xA;    NULL                                        AS CODE_PREPARATEUR,&#xD;&#xA;    NULL                                        AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NULL                                        AS NOM_DU_GROUPE,&#xD;&#xA;    NULL                                        AS PURCHASING_CODE,&#xD;&#xA;    NULL                                        AS LOCATION_NO_,&#xD;&#xA;    NULL                                        AS LOCATION_CITY,&#xD;&#xA;    NULL                                        AS LOGISTIC_TYPE,&#xD;&#xA;    NULL                                        AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    NULL                                        AS CROSS_DOCK_NO_,&#xD;&#xA;    NULL                                        AS STAND,&#xD;&#xA;    NULL                                        AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NO_SERIES                                   AS NO_SERIES,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO, '') AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(NO, '')                  AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(LOCATION_CODE, '')       AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(SALESPERSON_CODE, '')    AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_SAS+&quot;.SALES_HEADER_ARCHIVE_SEMIN_S_A&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_SAS'                                                AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0))                    AS DOCUMENT_TYPE,&#xD;&#xA;    NO_                                                        AS NO_,&#xD;&#xA;    --TRY_CAST(DOC__NO__OCCURRENCE AS NUMBER(10,0))            AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0))                               AS VERSION_NO,&#xD;&#xA;    SELL_TO_CUSTOMER_NO_                                       AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO_                                       AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                                               AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                                             AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                                            AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                                          AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                                               AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                                            AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                                             AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                                               AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                                               AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                                             AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                                            AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                                          AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                                               AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                                            AS SHIP_TO_CONTACT,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(ORDER_DATE)                           AS ORDER_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(POSTING_DATE)                         AS POSTING_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(SHIPMENT_DATE)                        AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                                        AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                                         AS PAYMENT_TERMS_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DUE_DATE)                             AS DUE_DATE,&#xD;&#xA;    TRY_CAST(PAYMENT_DISCOUNT__ AS NUMBER(38,20))              AS PAYMENT_DISCOUNT_,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(PMT__DISCOUNT_DATE)                   AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                                       AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                                              AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                                  AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                                  AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                                     AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                                              AS CURRENCY_CODE,&#xD;&#xA;    TRY_CAST(CURRENCY_FACTOR AS NUMBER(38,20))                 AS CURRENCY_FACTOR,&#xD;&#xA;    CUSTOMER_PRICE_GROUP                                       AS PRICE_GROUP_CODE,&#xD;&#xA;    TRY_CAST(PRICES_INCLUDING_VAT AS NUMBER(3,0))              AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC__CODE                                         AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                                           AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                                AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO_                                               AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO_                                       AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN__BUS__POSTING_GROUP                                    AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                                    AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                                      AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                                    AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                                            AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                                          AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                                               AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                                            AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                                          AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                                             AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                                AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                                          AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                                             AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                                AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                                          AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                                             AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                                AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DOCUMENT_DATE)                        AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO_                                      AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS__POSTING_GROUP                                     AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                                    AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                                    AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    TRY_CAST(IC_DIRECTION AS NUMBER(10,0))                     AS IC_DIRECTION,&#xD;&#xA;    CAMPAIGN_NO_                                               AS CAMPAIGN_NO_,&#xD;&#xA;    SELL_TO_CONTACT_NO_                                        AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    BILL_TO_CONTACT_NO_                                        AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    REQUESTED_DELIVERY_DATE                                    AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    PROMISED_DELIVERY_DATE                                     AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    TRANSPORT_VENDOR_NO_                                       AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    DATE_CHARGEMENT                                            AS DATE_CHARGEMENT,&#xD;&#xA;    DATE_LIVRAISON                                             AS DATE_LIVRAISON,&#xD;&#xA;    MONTANT_DOUANES                                            AS MONTANT_DOUANES,&#xD;&#xA;    MONTANT_TRANSPORT                                          AS MONTANT_TRANSPORT,&#xD;&#xA;    MONTANT_TIMBRE                                             AS MONTANT_TIMBRE,&#xD;&#xA;    FACTURER_MONTANT_DOUANES                                   AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    FACTURER_MONTANT_TRANSPORT                                 AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    FACTURER_MONTANT_TIMBRE                                    AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    PURCHASE_ORDER_NO_                                         AS PURCHASE_ORDER_NO_,&#xD;&#xA;    DATE_FACTURATION                                           AS DATE_FACTURATION,&#xD;&#xA;    CODE_PREPARATEUR                                           AS CODE_PREPARATEUR,&#xD;&#xA;    POIDS_CONDITIONNEMENT                                      AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NOM_DU_GROUPE                                              AS NOM_DU_GROUPE,&#xD;&#xA;    PURCHASING_CODE                                            AS PURCHASING_CODE,&#xD;&#xA;    LOCATION_NO_                                               AS LOCATION_NO_,&#xD;&#xA;    LOCATION_CITY                                              AS LOCATION_CITY,&#xD;&#xA;    LOGISTIC_TYPE                                              AS LOGISTIC_TYPE,&#xD;&#xA;    MONTANT_TOTAL_TRANSPORT                                    AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    CROSS_DOCK_NO_                                             AS CROSS_DOCK_NO_,&#xD;&#xA;    STAND                                                      AS STAND,&#xD;&#xA;    GEN__BUS__POSTING_GROUP_ECC                                AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NULL                                                  AS NO_SERIES,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO_, '')   AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(NO_, '')                    AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(LOCATION_CODE, '')          AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_SAS' || ' ' || COALESCE(SALESPERSON_CODE, '')       AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_SAS+&quot;.SALES_HEADER_SEMIN_S_A&#xD;&#xA; &#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_PROFILS'                            AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE                              AS DOCUMENT_TYPE,&#xD;&#xA;    NO                                         AS NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO,&#xD;&#xA;    SELL_TO_CUSTOMER_NO                        AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO                        AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                               AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                             AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                            AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                          AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                               AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                            AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                             AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                               AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                               AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                             AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                            AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                          AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                               AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                            AS SHIP_TO_CONTACT,&#xD;&#xA;    ORDER_DATE                                 AS ORDER_DATE,&#xD;&#xA;    POSTING_DATE                               AS POSTING_DATE,&#xD;&#xA;    SHIPMENT_DATE                              AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                        AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                         AS PAYMENT_TERMS_CODE,&#xD;&#xA;    DUE_DATE                                   AS DUE_DATE,&#xD;&#xA;    PAYMENT_DISCOUNT                           AS PAYMENT_DISCOUNT_,&#xD;&#xA;    PMT_DISCOUNT_DATE                          AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                       AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                              AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                  AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                  AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                     AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                              AS CURRENCY_CODE,&#xD;&#xA;    CURRENCY_FACTOR                            AS CURRENCY_FACTOR,&#xD;&#xA;    PRICE_GROUP_CODE                           AS PRICE_GROUP_CODE,&#xD;&#xA;    PRICES_INCLUDING_VAT                       AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC_CODE                          AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                           AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO                                AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO                        AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN_BUS_POSTING_GROUP                      AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                    AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                      AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                    AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                            AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                          AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                               AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                            AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                          AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                             AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                          AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                             AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                          AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                             AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    DOCUMENT_DATE                              AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO                       AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS_POSTING_GROUP                      AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                    AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                    AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    IC_DIRECTION                               AS IC_DIRECTION,&#xD;&#xA;    NULL                                       AS CAMPAIGN_NO_,&#xD;&#xA;    NULL                                       AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                       AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                       AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    NULL                                       AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    NULL                                       AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    NULL                                       AS DATE_CHARGEMENT,&#xD;&#xA;    NULL                                       AS DATE_LIVRAISON,&#xD;&#xA;    NULL                                       AS MONTANT_DOUANES,&#xD;&#xA;    NULL                                       AS MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                       AS MONTANT_TIMBRE,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    NULL                                       AS PURCHASE_ORDER_NO_,&#xD;&#xA;    NULL                                       AS DATE_FACTURATION,&#xD;&#xA;    NULL                                       AS CODE_PREPARATEUR,&#xD;&#xA;    NULL                                       AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NULL                                       AS NOM_DU_GROUPE,&#xD;&#xA;    NULL                                       AS PURCHASING_CODE,&#xD;&#xA;    NULL                                       AS LOCATION_NO_,&#xD;&#xA;    NULL                                       AS LOCATION_CITY,&#xD;&#xA;    NULL                                       AS LOGISTIC_TYPE,&#xD;&#xA;    NULL                                       AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    NULL                                       AS CROSS_DOCK_NO_,&#xD;&#xA;    NULL                                       AS STAND,&#xD;&#xA;    NULL                                       AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NO_SERIES                                  AS NO_SERIES,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO, '') AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(NO, '')                  AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(LOCATION_CODE, '')       AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(SALESPERSON_CODE, '')    AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_PROFILS+&quot;.SALES_HEADER_ARCHIVE_SEMIN_PROFIL&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_PROFILS'                                            AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0))                    AS DOCUMENT_TYPE,&#xD;&#xA;    NO_                                                        AS NO_,&#xD;&#xA;    --TRY_CAST(DOC__NO__OCCURRENCE AS NUMBER(10,0)),&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)),&#xD;&#xA;    SELL_TO_CUSTOMER_NO_                                       AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO_                                       AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                                               AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                                             AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                                            AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                                          AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                                               AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                                            AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                                             AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                                               AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                                               AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                                             AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                                            AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                                          AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                                               AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                                            AS SHIP_TO_CONTACT,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(ORDER_DATE)                           AS ORDER_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(POSTING_DATE)                         AS POSTING_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(SHIPMENT_DATE)                        AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                                        AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                                         AS PAYMENT_TERMS_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DUE_DATE)                             AS DUE_DATE,&#xD;&#xA;    TRY_CAST(PAYMENT_DISCOUNT__ AS NUMBER(38,20))              AS PAYMENT_DISCOUNT_,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(PMT__DISCOUNT_DATE)                   AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                                       AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                                              AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                                  AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                                  AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                                     AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                                              AS CURRENCY_CODE,&#xD;&#xA;    TRY_CAST(CURRENCY_FACTOR AS NUMBER(38,20))                 AS CURRENCY_FACTOR,&#xD;&#xA;    CUSTOMER_PRICE_GROUP                                       AS PRICE_GROUP_CODE,&#xD;&#xA;    TRY_CAST(PRICES_INCLUDING_VAT AS NUMBER(3,0))              AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC__CODE                                         AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                                           AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                                AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO_                                               AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO_                                       AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN__BUS__POSTING_GROUP                                    AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                                    AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                                      AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                                    AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                                            AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                                          AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                                               AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                                            AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                                          AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                                             AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                                AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                                          AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                                             AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                                AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                                          AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                                             AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                                AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DOCUMENT_DATE)                        AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO_                                      AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS__POSTING_GROUP                                     AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                                    AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                                    AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    TRY_CAST(IC_DIRECTION AS NUMBER(10,0))                     AS IC_DIRECTION,&#xD;&#xA;    CAMPAIGN_NO_                                               AS CAMPAIGN_NO_,&#xD;&#xA;    SELL_TO_CONTACT_NO_                                        AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    BILL_TO_CONTACT_NO_                                        AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    REQUESTED_DELIVERY_DATE                                    AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    PROMISED_DELIVERY_DATE                                     AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    TRANSPORT_VENDOR_NO_                                       AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    DATE_CHARGEMENT                                            AS DATE_CHARGEMENT,&#xD;&#xA;    DATE_LIVRAISON                                             AS DATE_LIVRAISON,&#xD;&#xA;    MONTANT_DOUANES                                            AS MONTANT_DOUANES,&#xD;&#xA;    MONTANT_TRANSPORT                                          AS MONTANT_TRANSPORT,&#xD;&#xA;    MONTANT_TIMBRE                                             AS MONTANT_TIMBRE,&#xD;&#xA;    FACTURER_MONTANT_DOUANES                                   AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    FACTURER_MONTANT_TRANSPORT                                 AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    FACTURER_MONTANT_TIMBRE                                    AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    PURCHASE_ORDER_NO_                                         AS PURCHASE_ORDER_NO_,&#xD;&#xA;    DATE_FACTURATION                                           AS DATE_FACTURATION,&#xD;&#xA;    CODE_PREPARATEUR                                           AS CODE_PREPARATEUR,&#xD;&#xA;    POIDS_CONDITIONNEMENT                                      AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NOM_DU_GROUPE                                              AS NOM_DU_GROUPE,&#xD;&#xA;    PURCHASING_CODE                                            AS PURCHASING_CODE,&#xD;&#xA;    LOCATION_NO_                                               AS LOCATION_NO_,&#xD;&#xA;    LOCATION_CITY                                              AS LOCATION_CITY,&#xD;&#xA;    LOGISTIC_TYPE                                              AS LOGISTIC_TYPE,&#xD;&#xA;    MONTANT_TOTAL_TRANSPORT                                    AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    CROSS_DOCK_NO_                                             AS CROSS_DOCK_NO_,&#xD;&#xA;    STAND                                                      AS STAND,&#xD;&#xA;    GEN__BUS__POSTING_GROUP_ECC                                AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NULL                                                  AS NO_SERIES,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO_, '') AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(NO_, '')                  AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(LOCATION_CODE, '')       AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_PROFILS' || ' ' || COALESCE(SALESPERSON_CODE, '')    AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_PROFILS+&quot;.SALES_HEADER_SEMIN_PROFIL&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_ESP'                                AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE                              AS DOCUMENT_TYPE,&#xD;&#xA;    NO                                         AS NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO,&#xD;&#xA;    SELL_TO_CUSTOMER_NO                        AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO                        AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                               AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                             AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                            AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                          AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                               AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                            AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                             AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                               AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                               AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                             AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                            AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                          AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                               AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                            AS SHIP_TO_CONTACT,&#xD;&#xA;    ORDER_DATE                                 AS ORDER_DATE,&#xD;&#xA;    POSTING_DATE                               AS POSTING_DATE,&#xD;&#xA;    SHIPMENT_DATE                              AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                        AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                         AS PAYMENT_TERMS_CODE,&#xD;&#xA;    DUE_DATE                                   AS DUE_DATE,&#xD;&#xA;    PAYMENT_DISCOUNT                           AS PAYMENT_DISCOUNT_,&#xD;&#xA;    PMT_DISCOUNT_DATE                          AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                       AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                              AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                  AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                  AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                     AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                              AS CURRENCY_CODE,&#xD;&#xA;    CURRENCY_FACTOR                            AS CURRENCY_FACTOR,&#xD;&#xA;    PRICE_GROUP_CODE                           AS PRICE_GROUP_CODE,&#xD;&#xA;    PRICES_INCLUDING_VAT                       AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC_CODE                          AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                           AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO                                AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO                        AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN_BUS_POSTING_GROUP                      AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                    AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                      AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                    AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                            AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                          AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                               AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                            AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                          AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                             AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                          AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                             AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                          AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                             AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    DOCUMENT_DATE                              AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO                       AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS_POSTING_GROUP                      AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                    AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                    AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    IC_DIRECTION                               AS IC_DIRECTION,&#xD;&#xA;    NULL                                       AS CAMPAIGN_NO_,&#xD;&#xA;    NULL                                       AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                       AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    NULL                                       AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    NULL                                       AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    NULL                                       AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    NULL                                       AS DATE_CHARGEMENT,&#xD;&#xA;    NULL                                       AS DATE_LIVRAISON,&#xD;&#xA;    NULL                                       AS MONTANT_DOUANES,&#xD;&#xA;    NULL                                       AS MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                       AS MONTANT_TIMBRE,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    NULL                                       AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    NULL                                       AS PURCHASE_ORDER_NO_,&#xD;&#xA;    NULL                                       AS DATE_FACTURATION,&#xD;&#xA;    NULL                                       AS CODE_PREPARATEUR,&#xD;&#xA;    NULL                                       AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NULL                                       AS NOM_DU_GROUPE,&#xD;&#xA;    NULL                                       AS PURCHASING_CODE,&#xD;&#xA;    NULL                                       AS LOCATION_NO_,&#xD;&#xA;    NULL                                       AS LOCATION_CITY,&#xD;&#xA;    NULL                                       AS LOGISTIC_TYPE,&#xD;&#xA;    NULL                                       AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    NULL                                       AS CROSS_DOCK_NO_,&#xD;&#xA;    NULL                                       AS STAND,&#xD;&#xA;    NULL                                       AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NO_SERIES                                  AS NO_SERIES,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO, '') AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(NO, '')                  AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(LOCATION_CODE, '')       AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(SALESPERSON_CODE, '')    AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_ESP+&quot;.SALES_HEADER_ARCHIVE_SEMIN_ESPAGNE&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_ESP'                                                AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0))                    AS DOCUMENT_TYPE,&#xD;&#xA;    NO_                                                        AS NO_,&#xD;&#xA;    --TRY_CAST(DOC__NO__OCCURRENCE AS NUMBER(10,0)),&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)),&#xD;&#xA;    SELL_TO_CUSTOMER_NO_                                       AS SELL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_CUSTOMER_NO_                                       AS BILL_TO_CUSTOMER_NO_,&#xD;&#xA;    BILL_TO_NAME                                               AS BILL_TO_NAME,&#xD;&#xA;    BILL_TO_NAME_2                                             AS BILL_TO_NAME_2,&#xD;&#xA;    BILL_TO_ADDRESS                                            AS BILL_TO_ADDRESS,&#xD;&#xA;    BILL_TO_ADDRESS_2                                          AS BILL_TO_ADDRESS_2,&#xD;&#xA;    BILL_TO_CITY                                               AS BILL_TO_CITY,&#xD;&#xA;    BILL_TO_CONTACT                                            AS BILL_TO_CONTACT,&#xD;&#xA;    YOUR_REFERENCE                                             AS YOUR_REFERENCE,&#xD;&#xA;    SHIP_TO_CODE                                               AS SHIP_TO_CODE,&#xD;&#xA;    SHIP_TO_NAME                                               AS SHIP_TO_NAME,&#xD;&#xA;    SHIP_TO_NAME_2                                             AS SHIP_TO_NAME_2,&#xD;&#xA;    SHIP_TO_ADDRESS                                            AS SHIP_TO_ADDRESS,&#xD;&#xA;    SHIP_TO_ADDRESS_2                                          AS SHIP_TO_ADDRESS_2,&#xD;&#xA;    SHIP_TO_CITY                                               AS SHIP_TO_CITY,&#xD;&#xA;    SHIP_TO_CONTACT                                            AS SHIP_TO_CONTACT,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(ORDER_DATE)                           AS ORDER_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(POSTING_DATE)                         AS POSTING_DATE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(SHIPMENT_DATE)                        AS SHIPMENT_DATE,&#xD;&#xA;    POSTING_DESCRIPTION                                        AS POSTING_DESCRIPTION,&#xD;&#xA;    PAYMENT_TERMS_CODE                                         AS PAYMENT_TERMS_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DUE_DATE)                             AS DUE_DATE,&#xD;&#xA;    TRY_CAST(PAYMENT_DISCOUNT__ AS NUMBER(38,20))              AS PAYMENT_DISCOUNT_,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(PMT__DISCOUNT_DATE)                   AS PMT_DISCOUNT_DATE,&#xD;&#xA;    SHIPMENT_METHOD_CODE                                       AS SHIPMENT_METHOD_CODE,&#xD;&#xA;    LOCATION_CODE                                              AS LOCATION_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_1_CODE                                  AS SHORTCUT_DIMENSION_1_CODE,&#xD;&#xA;    SHORTCUT_DIMENSION_2_CODE                                  AS SHORTCUT_DIMENSION_2_CODE,&#xD;&#xA;    CUSTOMER_POSTING_GROUP                                     AS CUSTOMER_POSTING_GROUP,&#xD;&#xA;    CURRENCY_CODE                                              AS CURRENCY_CODE,&#xD;&#xA;    TRY_CAST(CURRENCY_FACTOR AS NUMBER(38,20))                 AS CURRENCY_FACTOR,&#xD;&#xA;    CUSTOMER_PRICE_GROUP                                       AS PRICE_GROUP_CODE,&#xD;&#xA;    TRY_CAST(PRICES_INCLUDING_VAT AS NUMBER(3,0))              AS PRICES_INCLUDING_VAT,&#xD;&#xA;    INVOICE_DISC__CODE                                         AS INVOICE_DISC_CODE,&#xD;&#xA;    SALESPERSON_CODE                                           AS SALESPERSON_CODE,&#xD;&#xA;    ORDER_CLASS                                                AS ORDER_CLASS,&#xD;&#xA;    SHIPPING_NO_                                               AS SHIPPING_NO_,&#xD;&#xA;    VAT_REGISTRATION_NO_                                       AS VAT_REGISTRATION_NO_,&#xD;&#xA;    GEN__BUS__POSTING_GROUP                                    AS GEN_BUS_POSTING_GROUP,&#xD;&#xA;    VAT_COUNTRY_REGION_CODE                                    AS VAT_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME                                      AS SELL_TO_CUSTOMER_NAME,&#xD;&#xA;    SELL_TO_CUSTOMER_NAME_2                                    AS SELL_TO_CUSTOMER_NAME_2,&#xD;&#xA;    SELL_TO_ADDRESS                                            AS SELL_TO_ADDRESS,&#xD;&#xA;    SELL_TO_ADDRESS_2                                          AS SELL_TO_ADDRESS_2,&#xD;&#xA;    SELL_TO_CITY                                               AS SELL_TO_CITY,&#xD;&#xA;    SELL_TO_CONTACT                                            AS SELL_TO_CONTACT,&#xD;&#xA;    BILL_TO_POST_CODE                                          AS BILL_TO_POST_CODE,&#xD;&#xA;    BILL_TO_COUNTY                                             AS BILL_TO_COUNTY,&#xD;&#xA;    BILL_TO_COUNTRY_REGION_CODE                                AS BILL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SELL_TO_POST_CODE                                          AS SELL_TO_POST_CODE,&#xD;&#xA;    SELL_TO_COUNTY                                             AS SELL_TO_COUNTY,&#xD;&#xA;    SELL_TO_COUNTRY_REGION_CODE                                AS SELL_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    SHIP_TO_POST_CODE                                          AS SHIP_TO_POST_CODE,&#xD;&#xA;    SHIP_TO_COUNTY                                             AS SHIP_TO_COUNTY,&#xD;&#xA;    SHIP_TO_COUNTRY_REGION_CODE                                AS SHIP_TO_COUNTRY_REGION_CODE,&#xD;&#xA;    TRY_TO_TIMESTAMP_NTZ(DOCUMENT_DATE)                        AS DOCUMENT_DATE,&#xD;&#xA;    EXTERNAL_DOCUMENT_NO_                                      AS EXTERNAL_DOCUMENT_NO_,&#xD;&#xA;    VAT_BUS__POSTING_GROUP                                     AS VAT_BUS_POSTING_GROUP,&#xD;&#xA;    SELL_TO_IC_PARTNER_CODE                                    AS SELL_TO_IC_PARTNER_CODE,&#xD;&#xA;    BILL_TO_IC_PARTNER_CODE                                    AS BILL_TO_IC_PARTNER_CODE,&#xD;&#xA;    TRY_CAST(IC_DIRECTION AS NUMBER(10,0))                     AS IC_DIRECTION,&#xD;&#xA;    CAMPAIGN_NO_                                               AS CAMPAIGN_NO_,&#xD;&#xA;    SELL_TO_CONTACT_NO_                                        AS SELL_TO_CONTACT_NO_,&#xD;&#xA;    BILL_TO_CONTACT_NO_                                        AS BILL_TO_CONTACT_NO_,&#xD;&#xA;    REQUESTED_DELIVERY_DATE                                    AS REQUESTED_DELIVERY_DATE,&#xD;&#xA;    PROMISED_DELIVERY_DATE                                     AS PROMISED_DELIVERY_DATE,&#xD;&#xA;    TRANSPORT_VENDOR_NO_                                       AS TRANSPORT_VENDOR_NO_,&#xD;&#xA;    DATE_CHARGEMENT                                            AS DATE_CHARGEMENT,&#xD;&#xA;    DATE_LIVRAISON                                             AS DATE_LIVRAISON,&#xD;&#xA;    MONTANT_DOUANES                                            AS MONTANT_DOUANES,&#xD;&#xA;    MONTANT_TRANSPORT                                          AS MONTANT_TRANSPORT,&#xD;&#xA;    MONTANT_TIMBRE                                             AS MONTANT_TIMBRE,&#xD;&#xA;    FACTURER_MONTANT_DOUANES                                   AS FACTURER_MONTANT_DOUANES,&#xD;&#xA;    FACTURER_MONTANT_TRANSPORT                                 AS FACTURER_MONTANT_TRANSPORT,&#xD;&#xA;    FACTURER_MONTANT_TIMBRE                                    AS FACTURER_MONTANT_TIMBRE,&#xD;&#xA;    PURCHASE_ORDER_NO_                                         AS PURCHASE_ORDER_NO_,&#xD;&#xA;    DATE_FACTURATION                                           AS DATE_FACTURATION,&#xD;&#xA;    CODE_PREPARATEUR                                           AS CODE_PREPARATEUR,&#xD;&#xA;    POIDS_CONDITIONNEMENT                                      AS POIDS_CONDITIONNEMENT,&#xD;&#xA;    NOM_DU_GROUPE                                              AS NOM_DU_GROUPE,&#xD;&#xA;    PURCHASING_CODE                                            AS PURCHASING_CODE,&#xD;&#xA;    LOCATION_NO_                                               AS LOCATION_NO_,&#xD;&#xA;    LOCATION_CITY                                              AS LOCATION_CITY,&#xD;&#xA;    LOGISTIC_TYPE                                              AS LOGISTIC_TYPE,&#xD;&#xA;    MONTANT_TOTAL_TRANSPORT                                    AS MONTANT_TOTAL_TRANSPORT,&#xD;&#xA;    CROSS_DOCK_NO_                                             AS CROSS_DOCK_NO_,&#xD;&#xA;    STAND                                                      AS STAND,&#xD;&#xA;    GEN__BUS__POSTING_GROUP_ECC                                AS GEN_BUS_POSTING_GROUP_ECC,&#xD;&#xA;    NULL                                                  AS NO_SERIES,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(SELL_TO_CUSTOMER_NO_, '')   AS CLIENT_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(NO_, '')                    AS COMMANDE_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(LOCATION_CODE, '')          AS MAGASIN_KEY,&#xD;&#xA;    'SEMIN_ESP' || ' ' || COALESCE(SALESPERSON_CODE, '')       AS VENDEUR_KEY&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_ESP+&quot;.SALES_HEADER_SEMIN_ESPAGNE&#xD;&#xA;;&#xD;&#xA;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useSessionTimezone" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" label="COMMANDES_SEMIN" name="tSnowflakeInput_3">
+      <column comment="" key="false" length="20" name="DATABASE_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DOCUMENT_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CUSTOMER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="YOUR_REFERENCE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="ORDER_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="POSTING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="SHIPMENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POSTING_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PAYMENT_TERMS_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="DUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PAYMENT_DISCOUNT_" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="PMT_DISCOUNT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIPMENT_METHOD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHORTCUT_DIMENSION_1_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHORTCUT_DIMENSION_2_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CUSTOMER_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CURRENCY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CURRENCY_FACTOR" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PRICE_GROUP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="PRICES_INCLUDING_VAT" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="INVOICE_DISC_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SALESPERSON_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="ORDER_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIPPING_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_REGISTRATION_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_BUS_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="DOCUMENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="EXTERNAL_DOCUMENT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_BUS_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_IC_PARTNER_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_IC_PARTNER_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="IC_DIRECTION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CAMPAIGN_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CONTACT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CONTACT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="REQUESTED_DELIVERY_DATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PROMISED_DELIVERY_DATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="TRANSPORT_VENDOR_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_CHARGEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_LIVRAISON" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_DOUANES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TIMBRE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_DOUANES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_TIMBRE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PURCHASE_ORDER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_FACTURATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CODE_PREPARATEUR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POIDS_CONDITIONNEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NOM_DU_GROUPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PURCHASING_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOGISTIC_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TOTAL_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_DOCK_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="STAND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_BUS_POSTING_GROUP_ECC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="NO_SERIES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="CLIENT_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="COMMANDE_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="MAGASIN_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="VENDEUR_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="SnowflakeOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1800" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeOutput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNPdXRwdXQ" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>Envoie données"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="&quot;AELEMMP-TELENCO&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="&quot;SACHA&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:mCgHE4LJOTRAz/ARwKCx6SJAaaRO1l1QHkE0/e+2s2Rt/TlSuqWCXkQFQdAkRFdGTYGb" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.keyAlias" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:w72wG3Wp31DExuIGOw4haxxZI6ipKqf/e3fVLXLs" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:sgcNCIJPxgNtRCKyiI9EEa2/DXK9FXEjyCowdFvI" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.warehouse" value="&quot;COMPUTE_TELENCO&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="&quot;BRONZE&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;TELENCO_DATA&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;COMMANDES_SEMIN&quot;"/>
+    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_p02sMCqiEfG37agPLczUig - COMMANDES_SEMIN" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="INSERT"/>
+    <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="DATABASE_ORIGIN" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.convertColumnsAndTableToUppercase" value="true"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useSchemaKeysForUpsert" value="true" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.enforceDatabaseSchema" value="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false" show="false"/>
+    <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.columnAndDBTypes" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dateMapping" value="DATE" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useVectors" value="false"/>
+    <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.vectorConfigs" show="false"/>
+    <elementParameter field="CHECK" name="configuration.convertEmptyStringsToNull" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useSchemaDatePattern" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" label="COMMANDES_SEMIN" name="tSnowflakeOutput_1">
+      <column comment="" key="false" length="20" name="DATABASE_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DOCUMENT_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CUSTOMER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="YOUR_REFERENCE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="ORDER_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="POSTING_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="SHIPMENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POSTING_DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PAYMENT_TERMS_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="DUE_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PAYMENT_DISCOUNT_" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="PMT_DISCOUNT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIPMENT_METHOD_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHORTCUT_DIMENSION_1_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHORTCUT_DIMENSION_2_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CUSTOMER_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CURRENCY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="CURRENCY_FACTOR" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PRICE_GROUP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="PRICES_INCLUDING_VAT" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="INVOICE_DISC_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SALESPERSON_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="ORDER_CLASS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIPPING_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_REGISTRATION_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_BUS_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CUSTOMER_NAME_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_ADDRESS" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_ADDRESS_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CONTACT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_POST_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_COUNTY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_TO_COUNTRY_REGION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="DOCUMENT_DATE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="9" sourceType="TIMESTAMP_NTZ" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="EXTERNAL_DOCUMENT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_BUS_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_IC_PARTNER_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_IC_PARTNER_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="IC_DIRECTION" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CAMPAIGN_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SELL_TO_CONTACT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="BILL_TO_CONTACT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="REQUESTED_DELIVERY_DATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PROMISED_DELIVERY_DATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="TRANSPORT_VENDOR_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_CHARGEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_LIVRAISON" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_DOUANES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TIMBRE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_DOUANES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="FACTURER_MONTANT_TIMBRE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PURCHASE_ORDER_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DATE_FACTURATION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CODE_PREPARATEUR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POIDS_CONDITIONNEMENT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NOM_DU_GROUPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PURCHASING_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOGISTIC_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="MONTANT_TOTAL_TRANSPORT" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_DOCK_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="STAND" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_BUS_POSTING_GROUP_ECC" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="NO_SERIES" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="CLIENT_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="COMMANDE_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="MAGASIN_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="VENDEUR_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="reject" name="reject">
+      <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="columnName"/>
+      </column>
+      <column comment="" key="false" length="255" name="rowNumber" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="rowNumber"/>
+      </column>
+      <column comment="" key="false" length="255" name="category" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="category"/>
+      </column>
+      <column comment="" key="false" length="255" name="character" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="character"/>
+      </column>
+      <column comment="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="errorMessage"/>
+      </column>
+      <column comment="" key="false" length="255" name="byteOffset" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="byteOffset"/>
+      </column>
+      <column comment="" key="false" length="255" name="line" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="line"/>
+      </column>
+      <column comment="" key="false" length="255" name="sqlState" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="sqlState"/>
+      </column>
+      <column comment="" key="false" length="255" name="code" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="code"/>
+      </column>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
@@ -4761,14 +5486,17 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="569"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row7" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="copyOfout11" lineStyle="10" mergeOrder="1" metaname="copyOfout11" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout11" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
@@ -5414,13 +6142,16 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="638"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDie_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="10" mergeOrder="2" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
@@ -5997,10 +6728,12 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="569"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out11" lineStyle="10" mergeOrder="4" metaname="out11" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tSnowflakeInput_2" offsetLabelX="0" offsetLabelY="0" source="tSnowflakeInput_2" target="tMap_4">
@@ -6646,11 +7379,17 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="638"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="copyOfout1" lineStyle="10" mergeOrder="3" metaname="copyOfout1" offsetLabelX="0" offsetLabelY="0" source="tMap_4" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout1" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tSnowflakeInput_3" offsetLabelX="0" offsetLabelY="0" source="tSnowflakeInput_3" target="tSnowflakeOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row4" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -6724,6 +7463,26 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_3" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>

@@ -316,6 +316,7 @@
   </node>
   <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot; Erreur d'extraction depuis la table &quot; + (String)globalMap.get(&quot;dir_table&quot;) + &quot; Message d'erreur : &quot; + (String)globalMap.get(&quot;tDBInput_1_ERROR_MESSAGE&quot;)"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
     <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
@@ -370,6 +371,7 @@
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="240" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -615,6 +617,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -907,6 +910,7 @@
   </node>
   <node componentName="tUnite" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tUnite_1" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tUnite_1">
       <column comment="" key="false" length="265" name="Document_No_" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -946,6 +950,7 @@
   <node componentName="SnowflakeOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="840" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNPdXRwdXQ" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -1122,9 +1127,112 @@
     <metadata connector="LOOKUP" name="LOOKUP"/>
     <metadata connector="MERGE" name="MERGE"/>
   </node>
+  <node componentName="tSetKeystore" componentVersion="0.102" offsetLabelX="50" offsetLabelY="0" posX="920" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetKeystore_1" show="false"/>
+    <elementParameter field="RADIO" name="SET_TRUSTSTORE" value="false"/>
+    <elementParameter field="RADIO" name="NEED_CLIENT_AUTH" value="false"/>
+    <elementParameter field="RADIO" name="SET_TRUSTSTORE_KEYSTORE" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TRUSTSTORE_TYPE" value="JKS"/>
+    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:krRlinQyN2BoEhHIvplaT9sKO2HknZDdXjISxaGy"/>
+    <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" value="PKCS12"/>
+    <elementParameter field="FILE" name="SSL_KEYSTORE" value="context.Keystore_path"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="context.Keystore_password"/>
+    <elementParameter field="CHECK" name="VERIFY_NAME" value="false"/>
+    <elementParameter field="CHECK" name="USE_SSLCONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="SnowflakeConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dAConnection" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="configuration.account" value="context.Snowflake_Account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="KEY_PAIR"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.userId" value="context.Snowflake_User"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.password" value="context.Snowflake_Password" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.keyAlias" value="&quot;snowflake_key&quot;"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:ATJwTcns6a6iYGsWSYkqxgkCAxDSQKi0b/Ydgu5B" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:gtJyzx66Pg5Q81+yL+zxB8DGl6qyRQj+MvUsaEqC" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.warehouse" value="context.Snowflake_Warehouse_Silver"/>
+    <elementParameter field="TEXT" name="configuration.dbSchema" value="context.Snowflake_Schema_Silver"/>
+    <elementParameter field="TEXT" name="configuration.database" value="context.Snowflake_BDD_Silver"/>
+    <elementParameter field="CHECK" name="configuration.shareConnection" value="false"/>
+    <elementParameter field="TEXT" name="configuration.sharedConnectionName" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
+    <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
+    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" name="tDBConnection_1"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="SnowflakeConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dAConnection" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="configuration.account" value="context.Snowflake_Account"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="KEY_PAIR"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.userId" value="context.Snowflake_User"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.password" value="context.Snowflake_Password" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.keyAlias" value="&quot;snowflake_key&quot;"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:MKYZyxP1LjUAb4Fq5ZMaCjdQc2WQs5WU7U4zd7mq" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:rFa8MJSac7VtkQUN6tvGFXfKcvkxwYe9RD4kXTtP" show="false"/>
+    <elementParameter field="TEXT" name="configuration.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.warehouse" value="context.Snowflake_Warehouse_Bronze"/>
+    <elementParameter field="TEXT" name="configuration.dbSchema" value=""/>
+    <elementParameter field="TEXT" name="configuration.database" value="context.Snowflake_BDD"/>
+    <elementParameter field="CHECK" name="configuration.shareConnection" value="false"/>
+    <elementParameter field="TEXT" name="configuration.sharedConnectionName" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
+    <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
+    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
+    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" name="tDBConnection_2"/>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1640" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Extraction Full de la table &quot; + (String)globalMap.get(&quot;SQLServer_Table&quot;)"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1800" posY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Date = &quot; + globalMap.get(&quot;Date&quot;));&#xD;&#xA;System.out.println(&quot;Navision_Host = &quot; + context.Navision_Host);&#xD;&#xA;System.out.println(&quot;Navision_BDD = &quot; + context.Navision_BDD);&#xD;&#xA;System.out.println(&quot;Navision_Schema = &quot; + context.Navision_Schema);&#xD;&#xA;System.out.println(&quot;Navision_User = &quot; + context.Navision_User);&#xD;&#xA;System.out.println(&quot;Navision_JDBC = &quot; + context.Navision_JDBC);"/>
+    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>Affichages"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="240" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -1776,6 +1884,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="520">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -2066,107 +2175,527 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tSetKeystore" componentVersion="0.102" offsetLabelX="50" offsetLabelY="0" posX="920" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSetKeystore_1" show="false"/>
-    <elementParameter field="RADIO" name="SET_TRUSTSTORE" value="false"/>
-    <elementParameter field="RADIO" name="NEED_CLIENT_AUTH" value="false"/>
-    <elementParameter field="RADIO" name="SET_TRUSTSTORE_KEYSTORE" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="TRUSTSTORE_TYPE" value="JKS"/>
-    <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" value="enc:system.encryption.key.v1:krRlinQyN2BoEhHIvplaT9sKO2HknZDdXjISxaGy"/>
-    <elementParameter field="CLOSED_LIST" name="KEYSTORE_TYPE" value="PKCS12"/>
-    <elementParameter field="FILE" name="SSL_KEYSTORE" value="context.Keystore_path"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" value="context.Keystore_password"/>
-    <elementParameter field="CHECK" name="VERIFY_NAME" value="false"/>
-    <elementParameter field="CHECK" name="USE_SSLCONTEXT" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
-  <node componentName="SnowflakeConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1200" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dAConnection" show="false"/>
+  <node componentName="SnowflakeInput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="360">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dA" show="false"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.account" value="context.Snowflake_Account"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="KEY_PAIR"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.userId" value="context.Snowflake_User"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.password" value="context.Snowflake_Password" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.keyAlias" value="&quot;snowflake_key&quot;"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:ATJwTcns6a6iYGsWSYkqxgkCAxDSQKi0b/Ydgu5B" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:gtJyzx66Pg5Q81+yL+zxB8DGl6qyRQj+MvUsaEqC" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.warehouse" value="context.Snowflake_Warehouse_Silver"/>
-    <elementParameter field="TEXT" name="configuration.dbSchema" value="context.Snowflake_Schema_Silver"/>
-    <elementParameter field="TEXT" name="configuration.database" value="context.Snowflake_BDD_Silver"/>
-    <elementParameter field="CHECK" name="configuration.shareConnection" value="false"/>
-    <elementParameter field="TEXT" name="configuration.sharedConnectionName" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
-    <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
-    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
-    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tDBConnection_1"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
-  <node componentName="SnowflakeConnection" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNJbnB1dAConnection" show="false"/>
-    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="configuration.account" value="context.Snowflake_Account"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.authenticationType" value="KEY_PAIR"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.userId" value="context.Snowflake_User"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.password" value="context.Snowflake_Password" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.keyAlias" value="&quot;snowflake_key&quot;"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:MKYZyxP1LjUAb4Fq5ZMaCjdQc2WQs5WU7U4zd7mq" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="configuration.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:rFa8MJSac7VtkQUN6tvGFXfKcvkxwYe9RD4kXTtP" show="false"/>
-    <elementParameter field="TEXT" name="configuration.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="configuration.warehouse" value="context.Snowflake_Warehouse_Bronze"/>
-    <elementParameter field="TEXT" name="configuration.dbSchema" value=""/>
-    <elementParameter field="TEXT" name="configuration.database" value="context.Snowflake_BDD"/>
-    <elementParameter field="CHECK" name="configuration.shareConnection" value="false"/>
-    <elementParameter field="TEXT" name="configuration.sharedConnectionName" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
-    <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
-    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
-    <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" name="tDBConnection_2"/>
-    <metadata connector="LOOKUP" name="LOOKUP"/>
-    <metadata connector="MERGE" name="MERGE"/>
-    <metadata connector="REJECT" name="REJECT"/>
-  </node>
-  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1640" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
-    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Extraction Full de la table &quot; + (String)globalMap.get(&quot;SQLServer_Table&quot;)"/>
-    <elementParameter field="TEXT" name="CODE" value="42"/>
-    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tWarn_2"/>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1800" posY="40">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="System.out.println(&quot;Date = &quot; + globalMap.get(&quot;Date&quot;));&#xD;&#xA;System.out.println(&quot;Navision_Host = &quot; + context.Navision_Host);&#xD;&#xA;System.out.println(&quot;Navision_BDD = &quot; + context.Navision_BDD);&#xD;&#xA;System.out.println(&quot;Navision_Schema = &quot; + context.Navision_Schema);&#xD;&#xA;System.out.println(&quot;Navision_User = &quot; + context.Navision_User);&#xD;&#xA;System.out.println(&quot;Navision_JDBC = &quot; + context.Navision_JDBC);"/>
-    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>Affichages"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1">
-      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:67TfMWWu6KzUPvUINCA/fs3ttHDRpKhZXDrqoMZ8" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.keyAlias" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:Qgy3JIMW5YskW8FNsisK9WMxjA8cLUsplTIShAay" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:lNtro/agQSu/bIUCA7NPyZDYX07imKe1mNmQA69J" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.warehouse" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;COMMANDES_LIGNES_SEMIN&quot;"/>
+    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_p02sMCqiEfG37agPLczUig - COMMANDES_LIGNES_SEMIN" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_SAS' AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO AS DOCUMENT_NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO AS VERSION_NO,&#xD;&#xA;    LINE_NO AS LINE_NO_,&#xD;&#xA;    TYPE AS TYPE,&#xD;&#xA;    NO AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    QUANTITY AS QUANTITY,&#xD;&#xA;    OUTSTANDING_QUANTITY AS OUTSTANDING_QUANTITY,&#xD;&#xA;    QTY_TO_INVOICE AS QTY_TO_INVOICE,&#xD;&#xA;    QTY_TO_SHIP AS QTY_TO_SHIP,&#xD;&#xA;    UNIT_PRICE AS UNIT_PRICE,&#xD;&#xA;    UNIT_COST_LCY AS UNIT_COST_LCY,&#xD;&#xA;    VAT AS VAT,&#xD;&#xA;    QUANTITY_DISC AS QUANTITY_DISC,&#xD;&#xA;    LINE_DISCOUNT AS LINE_DISCOUNT,&#xD;&#xA;    LINE_DISCOUNT_AMOUNT AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    AMOUNT AS AMOUNT,&#xD;&#xA;    AMOUNT_INCLUDING_VAT AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    GROSS_WEIGHT AS GROSS_WEIGHT,&#xD;&#xA;    NET_WEIGHT AS NET_WEIGHT,&#xD;&#xA;    UNITS_PER_PARCEL AS UNITS_PER_PARCEL,&#xD;&#xA;    UNIT_VOLUME AS UNIT_VOLUME,&#xD;&#xA;    OUTSTANDING_AMOUNT AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN_PROD_POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    VAT_CALCULATION_TYPE AS VAT_CALCULATION_TYPE,&#xD;&#xA;    ATTACHED_TO_LINE_NO AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD_POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    OUTSTANDING_AMOUNT_LCY AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    VAT_BASE_AMOUNT AS VAT_BASE_AMOUNT,&#xD;&#xA;    UNIT_COST AS UNIT_COST,&#xD;&#xA;    LINE_AMOUNT AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    QTY_PER_UNIT_OF_MEASURE AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    PLANNED AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    QUANTITY_BASE AS QUANTITY_BASE,&#xD;&#xA;    OUTSTANDING_QTY_BASE AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    QTY_TO_INVOICE_BASE AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    QTY_TO_SHIP_BASE AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE_CROSS_REF AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    CROSS_REFERENCE_TYPE AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT_MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    POIDS_BRUT_ART_ACHETE AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    POIDS_NET_ART_ACHETE AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    POIDS_BRUT_ART_FABRIQUE AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    POIDS_NET_ART_FABRIQUE AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    PRIX_UNITAIRE_BASE AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    COUT_SEMIN_DEV_SOC AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    GRATUIT AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRANSFERT_MAGASIN AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP_UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART_PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;&#x9;&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_SAS+&quot;.SALES_LINE_ARCHIVE_SEMIN_S_A&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_SAS' AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0)) AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO_ AS DOCUMENT_NO_,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS VERSION_NO,&#xD;&#xA;    TRY_CAST(LINE_NO_ AS NUMBER(10,0)) AS LINE_NO_,&#xD;&#xA;    TRY_CAST(TYPE AS NUMBER(10,0)) AS TYPE,&#xD;&#xA;    NO_ AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(QUANTITY AS NUMBER(38,20)) AS QUANTITY,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QUANTITY AS NUMBER(38,20)) AS OUTSTANDING_QUANTITY,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE AS NUMBER(38,20)) AS QTY_TO_INVOICE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP AS NUMBER(38,20)) AS QTY_TO_SHIP,&#xD;&#xA;    TRY_CAST(UNIT_PRICE AS NUMBER(38,20)) AS UNIT_PRICE,&#xD;&#xA;    TRY_CAST(UNIT_COST__LCY AS NUMBER(38,20)) AS UNIT_COST_LCY,&#xD;&#xA;    TRY_CAST(VAT__ AS NUMBER(38,20)) AS VAT,&#xD;&#xA;    CAST(NULL AS NUMBER(38,20)) AS QUANTITY_DISC,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT__ AS NUMBER(38,20)) AS LINE_DISCOUNT,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT_AMOUNT AS NUMBER(38,20)) AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT AS NUMBER(38,20)) AS AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT_INCLUDING_VAT AS NUMBER(38,20)) AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    TRY_CAST(GROSS_WEIGHT AS NUMBER(38,20)) AS GROSS_WEIGHT,&#xD;&#xA;    TRY_CAST(NET_WEIGHT AS NUMBER(38,20)) AS NET_WEIGHT,&#xD;&#xA;    TRY_CAST(UNITS_PER_PARCEL AS NUMBER(38,20)) AS UNITS_PER_PARCEL,&#xD;&#xA;    TRY_CAST(UNIT_VOLUME AS NUMBER(38,20)) AS UNIT_VOLUME,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN__PROD__POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(VAT_CALCULATION_TYPE AS NUMBER(10,0)) AS VAT_CALCULATION_TYPE,&#xD;&#xA;    TRY_CAST(ATTACHED_TO_LINE_NO_ AS NUMBER(10,0)) AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD__POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT__LCY AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    TRY_CAST(VAT_BASE_AMOUNT AS NUMBER(38,20)) AS VAT_BASE_AMOUNT,&#xD;&#xA;    TRY_CAST(UNIT_COST AS NUMBER(38,20)) AS UNIT_COST,&#xD;&#xA;    TRY_CAST(LINE_AMOUNT AS NUMBER(38,20)) AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    TRY_CAST(QTY__PER_UNIT_OF_MEASURE AS NUMBER(38,20)) AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(PLANNED AS NUMBER(3,0)) AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    TRY_CAST(QUANTITY__BASE AS NUMBER(38,20)) AS QUANTITY_BASE,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QTY___BASE AS NUMBER(38,20)) AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE__BASE AS NUMBER(38,20)) AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP__BASE AS NUMBER(38,20)) AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO_ AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE__CROSS_REF_ AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    TRY_CAST(CROSS_REFERENCE_TYPE AS NUMBER(10,0)) AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO_ AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT__MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__ACHETE AS NUMBER(38,20)) AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__ACHETE AS NUMBER(38,20)) AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(PRIX_UNITAIRE__SAISIE AS NUMBER(38,20)) AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    TRY_CAST(COUT_SEMIN__DEV_SOC AS NUMBER(38,20)) AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    TRY_CAST(GRATUIT AS NUMBER(3,0)) AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRY_CAST(TRANSFERT_MAGASIN AS NUMBER(3,0)) AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP__UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART__PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_SAS+&quot;.SALES_LINE_SEMIN_S_A&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_PROFILS' AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO AS DOCUMENT_NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO AS VERSION_NO,&#xD;&#xA;    LINE_NO AS LINE_NO_,&#xD;&#xA;    TYPE AS TYPE,&#xD;&#xA;    NO AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    QUANTITY AS QUANTITY,&#xD;&#xA;    OUTSTANDING_QUANTITY AS OUTSTANDING_QUANTITY,&#xD;&#xA;    QTY_TO_INVOICE AS QTY_TO_INVOICE,&#xD;&#xA;    QTY_TO_SHIP AS QTY_TO_SHIP,&#xD;&#xA;    UNIT_PRICE AS UNIT_PRICE,&#xD;&#xA;    UNIT_COST_LCY AS UNIT_COST_LCY,&#xD;&#xA;    VAT AS VAT,&#xD;&#xA;    QUANTITY_DISC AS QUANTITY_DISC,&#xD;&#xA;    LINE_DISCOUNT AS LINE_DISCOUNT,&#xD;&#xA;    LINE_DISCOUNT_AMOUNT AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    AMOUNT AS AMOUNT,&#xD;&#xA;    AMOUNT_INCLUDING_VAT AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    GROSS_WEIGHT AS GROSS_WEIGHT,&#xD;&#xA;    NET_WEIGHT AS NET_WEIGHT,&#xD;&#xA;    UNITS_PER_PARCEL AS UNITS_PER_PARCEL,&#xD;&#xA;    UNIT_VOLUME AS UNIT_VOLUME,&#xD;&#xA;    OUTSTANDING_AMOUNT AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN_PROD_POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    VAT_CALCULATION_TYPE AS VAT_CALCULATION_TYPE,&#xD;&#xA;    ATTACHED_TO_LINE_NO AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD_POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    OUTSTANDING_AMOUNT_LCY AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    VAT_BASE_AMOUNT AS VAT_BASE_AMOUNT,&#xD;&#xA;    UNIT_COST AS UNIT_COST,&#xD;&#xA;    LINE_AMOUNT AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    QTY_PER_UNIT_OF_MEASURE AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    PLANNED AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    QUANTITY_BASE AS QUANTITY_BASE,&#xD;&#xA;    OUTSTANDING_QTY_BASE AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    QTY_TO_INVOICE_BASE AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    QTY_TO_SHIP_BASE AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE_CROSS_REF AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    CROSS_REFERENCE_TYPE AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT_MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    POIDS_BRUT_ART_ACHETE AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    POIDS_NET_ART_ACHETE AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    POIDS_BRUT_ART_FABRIQUE AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    POIDS_NET_ART_FABRIQUE AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    PRIX_UNITAIRE_BASE AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    COUT_SEMIN_DEV_SOC AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    GRATUIT AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRANSFERT_MAGASIN AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP_UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART_PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_PROFILS+&quot;.SALES_LINE_ARCHIVE_SEMIN_PROFIL&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_PROFILS' AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0)) AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO_ AS DOCUMENT_NO_,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS VERSION_NO,&#xD;&#xA;    TRY_CAST(LINE_NO_ AS NUMBER(10,0)) AS LINE_NO_,&#xD;&#xA;    TRY_CAST(TYPE AS NUMBER(10,0)) AS TYPE,&#xD;&#xA;    NO_ AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(QUANTITY AS NUMBER(38,20)) AS QUANTITY,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QUANTITY AS NUMBER(38,20)) AS OUTSTANDING_QUANTITY,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE AS NUMBER(38,20)) AS QTY_TO_INVOICE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP AS NUMBER(38,20)) AS QTY_TO_SHIP,&#xD;&#xA;    TRY_CAST(UNIT_PRICE AS NUMBER(38,20)) AS UNIT_PRICE,&#xD;&#xA;    TRY_CAST(UNIT_COST__LCY AS NUMBER(38,20)) AS UNIT_COST_LCY,&#xD;&#xA;    TRY_CAST(VAT__ AS NUMBER(38,20)) AS VAT,&#xD;&#xA;    CAST(NULL AS NUMBER(38,20)) AS QUANTITY_DISC,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT__ AS NUMBER(38,20)) AS LINE_DISCOUNT,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT_AMOUNT AS NUMBER(38,20)) AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT AS NUMBER(38,20)) AS AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT_INCLUDING_VAT AS NUMBER(38,20)) AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    TRY_CAST(GROSS_WEIGHT AS NUMBER(38,20)) AS GROSS_WEIGHT,&#xD;&#xA;    TRY_CAST(NET_WEIGHT AS NUMBER(38,20)) AS NET_WEIGHT,&#xD;&#xA;    TRY_CAST(UNITS_PER_PARCEL AS NUMBER(38,20)) AS UNITS_PER_PARCEL,&#xD;&#xA;    TRY_CAST(UNIT_VOLUME AS NUMBER(38,20)) AS UNIT_VOLUME,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN__PROD__POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(VAT_CALCULATION_TYPE AS NUMBER(10,0)) AS VAT_CALCULATION_TYPE,&#xD;&#xA;    TRY_CAST(ATTACHED_TO_LINE_NO_ AS NUMBER(10,0)) AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD__POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT__LCY AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    TRY_CAST(VAT_BASE_AMOUNT AS NUMBER(38,20)) AS VAT_BASE_AMOUNT,&#xD;&#xA;    TRY_CAST(UNIT_COST AS NUMBER(38,20)) AS UNIT_COST,&#xD;&#xA;    TRY_CAST(LINE_AMOUNT AS NUMBER(38,20)) AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    TRY_CAST(QTY__PER_UNIT_OF_MEASURE AS NUMBER(38,20)) AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(PLANNED AS NUMBER(3,0)) AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    TRY_CAST(QUANTITY__BASE AS NUMBER(38,20)) AS QUANTITY_BASE,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QTY___BASE AS NUMBER(38,20)) AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE__BASE AS NUMBER(38,20)) AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP__BASE AS NUMBER(38,20)) AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO_ AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE__CROSS_REF_ AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    TRY_CAST(CROSS_REFERENCE_TYPE AS NUMBER(10,0)) AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO_ AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT__MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__ACHETE AS NUMBER(38,20)) AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__ACHETE AS NUMBER(38,20)) AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(PRIX_UNITAIRE__SAISIE AS NUMBER(38,20)) AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    TRY_CAST(COUT_SEMIN__DEV_SOC AS NUMBER(38,20)) AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    TRY_CAST(GRATUIT AS NUMBER(3,0)) AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRY_CAST(TRANSFERT_MAGASIN AS NUMBER(3,0)) AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP__UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART__PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_PROFILS+&quot;.SALES_LINE_SEMIN_PROFIL&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_ESP' AS DATABASE_ORIGIN,&#xD;&#xA;    DOCUMENT_TYPE AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO AS DOCUMENT_NO_,&#xD;&#xA;    --DOC_NO_OCCURRENCE AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --VERSION_NO AS VERSION_NO,&#xD;&#xA;    LINE_NO AS LINE_NO_,&#xD;&#xA;    TYPE AS TYPE,&#xD;&#xA;    NO AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    QUANTITY AS QUANTITY,&#xD;&#xA;    OUTSTANDING_QUANTITY AS OUTSTANDING_QUANTITY,&#xD;&#xA;    QTY_TO_INVOICE AS QTY_TO_INVOICE,&#xD;&#xA;    QTY_TO_SHIP AS QTY_TO_SHIP,&#xD;&#xA;    UNIT_PRICE AS UNIT_PRICE,&#xD;&#xA;    UNIT_COST_LCY AS UNIT_COST_LCY,&#xD;&#xA;    VAT AS VAT,&#xD;&#xA;    QUANTITY_DISC AS QUANTITY_DISC,&#xD;&#xA;    LINE_DISCOUNT AS LINE_DISCOUNT,&#xD;&#xA;    LINE_DISCOUNT_AMOUNT AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    AMOUNT AS AMOUNT,&#xD;&#xA;    AMOUNT_INCLUDING_VAT AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    GROSS_WEIGHT AS GROSS_WEIGHT,&#xD;&#xA;    NET_WEIGHT AS NET_WEIGHT,&#xD;&#xA;    UNITS_PER_PARCEL AS UNITS_PER_PARCEL,&#xD;&#xA;    UNIT_VOLUME AS UNIT_VOLUME,&#xD;&#xA;    OUTSTANDING_AMOUNT AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN_PROD_POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    VAT_CALCULATION_TYPE AS VAT_CALCULATION_TYPE,&#xD;&#xA;    ATTACHED_TO_LINE_NO AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD_POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    OUTSTANDING_AMOUNT_LCY AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    VAT_BASE_AMOUNT AS VAT_BASE_AMOUNT,&#xD;&#xA;    UNIT_COST AS UNIT_COST,&#xD;&#xA;    LINE_AMOUNT AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    QTY_PER_UNIT_OF_MEASURE AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    PLANNED AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    QUANTITY_BASE AS QUANTITY_BASE,&#xD;&#xA;    OUTSTANDING_QTY_BASE AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    QTY_TO_INVOICE_BASE AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    QTY_TO_SHIP_BASE AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE_CROSS_REF AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    CROSS_REFERENCE_TYPE AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT_MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    POIDS_BRUT_ART_ACHETE AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    POIDS_NET_ART_ACHETE AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    POIDS_BRUT_ART_FABRIQUE AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    POIDS_NET_ART_FABRIQUE AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    PRIX_UNITAIRE_BASE AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    COUT_SEMIN_DEV_SOC AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    GRATUIT AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRANSFERT_MAGASIN AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP_UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART_PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_ESP+&quot;.SALES_LINE_ARCHIVE_SEMIN_ESPAGNE&#xD;&#xA;&#xD;&#xA;UNION ALL&#xD;&#xA;&#xD;&#xA;SELECT&#xD;&#xA;    'SEMIN_ESP' AS DATABASE_ORIGIN,&#xD;&#xA;    TRY_CAST(DOCUMENT_TYPE AS NUMBER(10,0)) AS DOCUMENT_TYPE,&#xD;&#xA;    DOCUMENT_NO_ AS DOCUMENT_NO_,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS DOC_NO_OCCURRENCE,&#xD;&#xA;    --CAST(NULL AS NUMBER(10,0)) AS VERSION_NO,&#xD;&#xA;    TRY_CAST(LINE_NO_ AS NUMBER(10,0)) AS LINE_NO_,&#xD;&#xA;    TRY_CAST(TYPE AS NUMBER(10,0)) AS TYPE,&#xD;&#xA;    NO_ AS NO_,&#xD;&#xA;    LOCATION_CODE AS LOCATION_CODE,&#xD;&#xA;    POSTING_GROUP AS POSTING_GROUP,&#xD;&#xA;    DESCRIPTION AS DESCRIPTION,&#xD;&#xA;    DESCRIPTION_2 AS DESCRIPTION_2,&#xD;&#xA;    UNIT_OF_MEASURE AS UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(QUANTITY AS NUMBER(38,20)) AS QUANTITY,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QUANTITY AS NUMBER(38,20)) AS OUTSTANDING_QUANTITY,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE AS NUMBER(38,20)) AS QTY_TO_INVOICE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP AS NUMBER(38,20)) AS QTY_TO_SHIP,&#xD;&#xA;    TRY_CAST(UNIT_PRICE AS NUMBER(38,20)) AS UNIT_PRICE,&#xD;&#xA;    TRY_CAST(UNIT_COST__LCY AS NUMBER(38,20)) AS UNIT_COST_LCY,&#xD;&#xA;    TRY_CAST(VAT__ AS NUMBER(38,20)) AS VAT,&#xD;&#xA;    CAST(NULL AS NUMBER(38,20)) AS QUANTITY_DISC,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT__ AS NUMBER(38,20)) AS LINE_DISCOUNT,&#xD;&#xA;    TRY_CAST(LINE_DISCOUNT_AMOUNT AS NUMBER(38,20)) AS LINE_DISCOUNT_AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT AS NUMBER(38,20)) AS AMOUNT,&#xD;&#xA;    TRY_CAST(AMOUNT_INCLUDING_VAT AS NUMBER(38,20)) AS AMOUNT_INCLUDING_VAT,&#xD;&#xA;    TRY_CAST(GROSS_WEIGHT AS NUMBER(38,20)) AS GROSS_WEIGHT,&#xD;&#xA;    TRY_CAST(NET_WEIGHT AS NUMBER(38,20)) AS NET_WEIGHT,&#xD;&#xA;    TRY_CAST(UNITS_PER_PARCEL AS NUMBER(38,20)) AS UNITS_PER_PARCEL,&#xD;&#xA;    TRY_CAST(UNIT_VOLUME AS NUMBER(38,20)) AS UNIT_VOLUME,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT,&#xD;&#xA;    GEN__PROD__POSTING_GROUP AS GEN_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(VAT_CALCULATION_TYPE AS NUMBER(10,0)) AS VAT_CALCULATION_TYPE,&#xD;&#xA;    TRY_CAST(ATTACHED_TO_LINE_NO_ AS NUMBER(10,0)) AS ATTACHED_TO_LINE_NO,&#xD;&#xA;    VAT_PROD__POSTING_GROUP AS VAT_PROD_POSTING_GROUP,&#xD;&#xA;    TRY_CAST(OUTSTANDING_AMOUNT__LCY AS NUMBER(38,20)) AS OUTSTANDING_AMOUNT_LCY,&#xD;&#xA;    TRY_CAST(VAT_BASE_AMOUNT AS NUMBER(38,20)) AS VAT_BASE_AMOUNT,&#xD;&#xA;    TRY_CAST(UNIT_COST AS NUMBER(38,20)) AS UNIT_COST,&#xD;&#xA;    TRY_CAST(LINE_AMOUNT AS NUMBER(38,20)) AS LINE_AMOUNT,&#xD;&#xA;    VAT_IDENTIFIER AS VAT_IDENTIFIER,&#xD;&#xA;    TRY_CAST(QTY__PER_UNIT_OF_MEASURE AS NUMBER(38,20)) AS QTY_PER_UNIT_OF_MEASURE,&#xD;&#xA;    TRY_CAST(PLANNED AS NUMBER(3,0)) AS PLANNED,&#xD;&#xA;    UNIT_OF_MEASURE_CODE AS UNIT_OF_MEASURE_CODE,&#xD;&#xA;    TRY_CAST(QUANTITY__BASE AS NUMBER(38,20)) AS QUANTITY_BASE,&#xD;&#xA;    TRY_CAST(OUTSTANDING_QTY___BASE AS NUMBER(38,20)) AS OUTSTANDING_QTY_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_INVOICE__BASE AS NUMBER(38,20)) AS QTY_TO_INVOICE_BASE,&#xD;&#xA;    TRY_CAST(QTY__TO_SHIP__BASE AS NUMBER(38,20)) AS QTY_TO_SHIP_BASE,&#xD;&#xA;    CROSS_REFERENCE_NO_ AS CROSS_REFERENCE_NO,&#xD;&#xA;    UNIT_OF_MEASURE__CROSS_REF_ AS UNIT_OF_MEASURE_CROSS_REF,&#xD;&#xA;    TRY_CAST(CROSS_REFERENCE_TYPE AS NUMBER(10,0)) AS CROSS_REFERENCE_TYPE,&#xD;&#xA;    CROSS_REFERENCE_TYPE_NO_ AS CROSS_REFERENCE_TYPE_NO,&#xD;&#xA;    ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE,&#xD;&#xA;    PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE,&#xD;&#xA;    UNITE_CONDMNT__MULTIPLE AS UNITE_CONDMNT_MULTIPLE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__ACHETE AS NUMBER(38,20)) AS POIDS_BRUT_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__ACHETE AS NUMBER(38,20)) AS POIDS_NET_ART_ACHETE,&#xD;&#xA;    TRY_CAST(POIDS_BRUT_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_BRUT_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(POIDS_NET_ART__FABRIQUE AS NUMBER(38,20)) AS POIDS_NET_ART_FABRIQUE,&#xD;&#xA;    TRY_CAST(PRIX_UNITAIRE__SAISIE AS NUMBER(38,20)) AS PRIX_UNITAIRE_BASE,&#xD;&#xA;    CODE_VENDEUR AS CODE_VENDEUR,&#xD;&#xA;    TRY_CAST(COUT_SEMIN__DEV_SOC AS NUMBER(38,20)) AS COUT_SEMIN_DEV_SOC,&#xD;&#xA;    TRY_CAST(GRATUIT AS NUMBER(3,0)) AS GRATUIT,&#xD;&#xA;    NOUVEAU_CODE_MAGASIN AS NOUVEAU_CODE_MAGASIN,&#xD;&#xA;    TRY_CAST(TRANSFERT_MAGASIN AS NUMBER(3,0)) AS TRANSFERT_MAGASIN,&#xD;&#xA;    SHIP__UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| NO_  as ITEM_KEY,&#xD;&#xA;&#x9;'SEMIN_SAS' || ' '|| DOCUMENT_NO_   as COMMANDE_KEY,&#xD;&#xA;&#x9;TRY_CAST(POIDS_NET_ART__PROFILES AS NUMBER(38,20)) AS POIDS_NET_ART__PROFILES&#xD;&#xA;FROM &quot;+context.Snowflake_BDD+&quot;.&quot;+context.Snowflake_Schema_SEMIN_ESP+&quot;.SALES_LINE_SEMIN_ESPAGNE&#xD;&#xA;;&#xD;&#xA;&#xD;&#xA;&quot;"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useSessionTimezone" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" label="COMMANDES_LIGNES_SEMIN" name="tSnowflakeInput_1">
+      <column comment="" key="false" length="20" name="DATABASE_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DOCUMENT_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DOCUMENT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="LINE_NO_" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DESCRIPTION_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_QUANTITY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_INVOICE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY__TO_SHIP" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_PRICE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_COST__LCY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="VAT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY_DISC" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_DISCOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_DISCOUNT_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="AMOUNT_INCLUDING_VAT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="GROSS_WEIGHT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="NET_WEIGHT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNITS_PER_PARCEL" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_VOLUME" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_PROD_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="VAT_CALCULATION_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="ATTACHED_TO_LINE_NO" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_PROD_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_AMOUNT_LCY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="VAT_BASE_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_COST" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_IDENTIFIER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_PER_UNIT_OF_MEASURE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="PLANNED" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_QTY_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_INVOICE_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_SHIP_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_REFERENCE_NO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE_CROSS_REF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CROSS_REFERENCE_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_REFERENCE_TYPE_NO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="ITEM_CATEGORY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PRODUCT_GROUP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNITE_CONDMNT_MULTIPLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_BRUT_ART_ACHETE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__ACHETE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_BRUT_ART_FABRIQUE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__FABRIQUE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PRIX_UNITAIRE_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CODE_VENDEUR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="COUT_SEMIN__DEV_SOC" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="GRATUIT" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NOUVEAU_CODE_MAGASIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="TRANSFERT_MAGASIN" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="ITEM_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="COMMANDE_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__PROFILES" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
     </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
+    <metadata connector="REJECT" name="REJECT"/>
+  </node>
+  <node componentName="SnowflakeOutput" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="1520" posY="360">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeOutput_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNPdXRwdXQ" show="false"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br>Envoie données"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="&quot;AELEMMP-TELENCO&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="BASIC" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="&quot;SACHA&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.password" value="enc:system.encryption.key.v1:YnsCgPj/dyIsZ4ffDYI/7d0LtTGrtj359Xl/1XKDtRx9z0mONhZ50cnLYy6zNW26vFKe" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.keyAlias" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthTokenEndpoint" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.clientId" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.clientSecret" value="enc:system.encryption.key.v1:ISH6ZLNaxDrOT28N/ybkIix2b4BK6jqdz3e5gS5W" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.grantType" value="CLIENT_CREDENTIALS" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.oauthUsername" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="configuration.dataSet.dataStore.snowflakeAuth.oauthPassword" value="enc:system.encryption.key.v1:QPSOmQcsAanXMFQDEWaU++yv0kz1NGwtpWbbKwjU" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.scope" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.warehouse" value="&quot;COMPUTE_TELENCO&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="&quot;BRONZE&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;TELENCO_DATA&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;COMMANDES_LIGNES_SEMIN&quot;"/>
+    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_p02sMCqiEfG37agPLczUig - COMMANDES_LIGNES_SEMIN" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="INSERT"/>
+    <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="DATABASE_ORIGIN" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.convertColumnsAndTableToUppercase" value="true"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useSchemaKeysForUpsert" value="true" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.enforceDatabaseSchema" value="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false" show="false"/>
+    <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.columnAndDBTypes" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dateMapping" value="DATE" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false" show="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useVectors" value="false"/>
+    <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.vectorConfigs" show="false"/>
+    <elementParameter field="CHECK" name="configuration.convertEmptyStringsToNull" value="false"/>
+    <elementParameter field="CHECK" name="configuration.useSchemaDatePattern" value="false"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
+    <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
+    <metadata connector="FLOW" label="COMMANDES_LIGNES_SEMIN" name="tSnowflakeOutput_1">
+      <column comment="" key="false" length="20" name="DATABASE_ORIGIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="DOCUMENT_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DOCUMENT_NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="LINE_NO_" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NO_" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="LOCATION_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DESCRIPTION" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="DESCRIPTION_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_QUANTITY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_INVOICE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY__TO_SHIP" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_PRICE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_COST__LCY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="VAT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY_DISC" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_DISCOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_DISCOUNT_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="AMOUNT_INCLUDING_VAT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="GROSS_WEIGHT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="NET_WEIGHT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNITS_PER_PARCEL" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_VOLUME" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="GEN_PROD_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="VAT_CALCULATION_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="ATTACHED_TO_LINE_NO" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_PROD_POSTING_GROUP" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_AMOUNT_LCY" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="VAT_BASE_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="UNIT_COST" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="LINE_AMOUNT" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="VAT_IDENTIFIER" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_PER_UNIT_OF_MEASURE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="PLANNED" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QUANTITY_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="OUTSTANDING_QTY_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_INVOICE_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="QTY_TO_SHIP_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_REFERENCE_NO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNIT_OF_MEASURE_CROSS_REF" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="CROSS_REFERENCE_TYPE" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CROSS_REFERENCE_TYPE_NO" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="ITEM_CATEGORY_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="PRODUCT_GROUP_CODE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="UNITE_CONDMNT_MULTIPLE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_BRUT_ART_ACHETE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__ACHETE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_BRUT_ART_FABRIQUE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__FABRIQUE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="PRIX_UNITAIRE_BASE" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="CODE_VENDEUR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="COUT_SEMIN__DEV_SOC" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="GRATUIT" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="NOUVEAU_CODE_MAGASIN" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="TRANSFERT_MAGASIN" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="265" name="SHIP_UNIT_OF_MEASURE" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="ITEM_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="COMMANDE_KEY" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="38" name="POIDS_NET_ART__PROFILES" nullable="true" pattern="" precision="20" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="reject" name="reject">
+      <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="columnName"/>
+      </column>
+      <column comment="" key="false" length="255" name="rowNumber" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="rowNumber"/>
+      </column>
+      <column comment="" key="false" length="255" name="category" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="category"/>
+      </column>
+      <column comment="" key="false" length="255" name="character" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="character"/>
+      </column>
+      <column comment="" key="false" length="255" name="errorMessage" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="errorMessage"/>
+      </column>
+      <column comment="" key="false" length="255" name="byteOffset" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="byteOffset"/>
+      </column>
+      <column comment="" key="false" length="255" name="line" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="line"/>
+      </column>
+      <column comment="" key="false" length="255" name="sqlState" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="sqlState"/>
+      </column>
+      <column comment="" key="false" length="255" name="code" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="code"/>
+      </column>
+    </metadata>
+    <metadata connector="LOOKUP" name="LOOKUP"/>
+    <metadata connector="MERGE" name="MERGE"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
@@ -2196,28 +2725,24 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDie_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDie_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="10" mergeOrder="1" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="out11" lineStyle="10" mergeOrder="2" metaname="out11" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUnite_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetKeystore_1" offsetLabelX="0" offsetLabelY="0" source="tSetKeystore_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
@@ -2231,6 +2756,20 @@
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tWarn_2" offsetLabelX="0" offsetLabelY="0" source="tWarn_2" target="tJava_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.Param_Display_G &amp;&amp; context.Param_Display_L"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If2" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="out11" lineStyle="10" mergeOrder="2" metaname="out11" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUnite_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSnowflakeInput_1" offsetLabelX="0" offsetLabelY="0" source="tSnowflakeInput_1" target="tSnowflakeOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -2309,6 +2848,16 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tSnowflakeInput_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>

@@ -322,9 +322,9 @@
       <elementValue elementRef="KEY" value="&quot;SQLServer_Table2&quot;" id="4"/>
       <elementValue elementRef="VALUE" value="&quot;[SEMIN].[dbo].[SEMIN PROFIL$Sales Header Archive]&quot;" id="5"/>
       <elementValue elementRef="KEY" value="&quot;Snowflake_Table&quot;" id="6"/>
-      <elementValue elementRef="VALUE" value="&quot;COMMANDES_SEMIN_PROFIL&quot;" id="7"/>
+      <elementValue elementRef="VALUE" value="&quot;SALES_HEADER_SEMIN_PROFIL&quot;" id="7"/>
       <elementValue elementRef="KEY" value="&quot;Snowflake_Table2&quot;" id="8"/>
-      <elementValue elementRef="VALUE" value="&quot;COMMANDES_ARCHIVE_SEMIN_PROFIL&quot;" id="9"/>
+      <elementValue elementRef="VALUE" value="&quot;SALES_HEADER_ARCHIVE_SEMIN_PROFIL&quot;" id="9"/>
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1"/>
