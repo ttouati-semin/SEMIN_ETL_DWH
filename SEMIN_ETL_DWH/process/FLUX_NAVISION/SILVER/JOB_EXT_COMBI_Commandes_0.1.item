@@ -407,7 +407,7 @@
     <elementParameter field="CHECK" name="configuration.autoCommit" value="true"/>
     <elementParameter field="TEXT" name="configuration.jdbcParameters" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="configuration.loginTimeout" value="15"/>
-    <elementParameter field="TEXT" name="configuration.role" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="configuration.role" value="context.Snowflake_Role"/>
     <elementParameter field="TEXT" name="configuration.jdbcUrlSuffix" value="&quot;.snowflakecomputing.com&quot;"/>
     <elementParameter field="TECHNICAL" name="configuration.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tDBConnection_1"/>
@@ -4524,7 +4524,7 @@
     <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_p02sMCqiEfG37agPLczUig - COMMANDES_SEMIN" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="TRUNCATE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="INSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="DATABASE_ORIGIN" show="false"/>
     <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
@@ -5499,6 +5499,10 @@
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOfout11" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDie_2">
+    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
+  </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tMap_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="Bal__Account_Type" id="0"/>
@@ -6144,10 +6148,6 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
-  </connection>
-  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBInput_2" offsetLabelX="0" offsetLabelY="0" source="tDBInput_2" target="tDie_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="out1" lineStyle="10" mergeOrder="2" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tUnite_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
