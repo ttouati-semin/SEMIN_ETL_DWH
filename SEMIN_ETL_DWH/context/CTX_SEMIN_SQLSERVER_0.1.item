@@ -7,4 +7,5 @@
   <contextParameter xmi:id="_hq9SwG16EfChkvInqLRHZA" comment="" name="Navision_JDBC" prompt="Navision_JDBC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="instanceName=NAVISION;encrypt=false;trustServerCertificate=true"/>
   <contextParameter xmi:id="_hq9SwW16EfChkvInqLRHZA" comment="" name="Navision_Port" prompt="Navision_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_YVVuYOKCEfCBWawNnQ4E_w" comment="" name="Navision_Password" prompt="Navision_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mqiCmNP3IpbGQLiNfOFWJHcP07PfdvHxK0vZXQpi2up4/kJN3JYsVw=="/>
+  <contextParameter xmi:id="_OiEWAGpUEfGP8Li11xLG1A" comment="" name="FORCE_FULL_LOAD" prompt="FORCE_FULL_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;0&quot;"/>
 </talendfile:ContextType>

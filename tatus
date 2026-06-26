@@ -1,0 +1,54 @@
+[33mcommit 13bf82c612fc78c2c84a4fb2b7d5d3ef4daad9a7[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Wed Apr 1 09:56:42 2026 +0200
+
+    Devs Buitex Bronze
+
+[33mcommit f03e6b061bc22b38d9c2774aeef29db52c62ba60[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Sun Mar 15 07:56:33 2026 +0100
+
+    Bascule des traitements vers les nouvelles bases de données
+
+[33mcommit eb10d8ba4b13452d12600ecad47689a138ea8c6e[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Sun Mar 1 10:51:44 2026 +0100
+
+    Déploiement en PROD de la nouvelle version des traitements DWH
+
+[33mcommit 82e971a2e41873dc7edb3c1d8d0d21f80914f9db[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Mon Feb 2 08:10:08 2026 +0100
+
+    Alimentation des données Territoires
+
+[33mcommit edbefd628867dd9b23214feb134046f8202aa385[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Tue Jan 6 17:04:40 2026 +0100
+
+    Correctif requête SEMIN PROFIL / Factures
+
+[33mcommit c9e672508ed8b16345805586286cfba6894cba91[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Tue Jan 6 16:34:28 2026 +0100
+
+    Ajout de group produit pour Semin SA
+
+[33mcommit 877054c01a7396bd884c903d531eed29b64052c0[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Sat Dec 27 08:31:07 2025 +0100
+
+    Développement des elements : - [SEMIN S_A_$Sales Header]
+    - [SEMIN S_A_$Sales Line]
+    - [SEMIN S_A_$Sales Header Archive]
+    - [SEMIN S_A_$Sales Line Archive]
+    - [SEMIN S_A_$Contact]
+    - [SEMIN S_A_$Contact Business Relation] - [SEMIN].[dbo].[SEMIN
+    S_A_$Sales Header Archive]
+    [SEMIN].[dbo].[SEMIN S_A_$Sales Invoice Header]
+
+[33mcommit 71cc99cf78dcd0e0a61fd93479ff62ae7004a4a9[m
+Author: Taha Touati <taha.touati@semin.com>
+Date:   Tue Dec 23 10:19:45 2025 +0100
+
+    Init repo
