@@ -318,7 +318,7 @@
       <elementValue elementRef="KEY" value="&quot;Date&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="TalendDate.getDate(&quot;yyyyMMdd_HHmmssSSS&quot;)" id="1"/>
       <elementValue elementRef="KEY" value="&quot;SQLServer_Table&quot;" id="2"/>
-      <elementValue elementRef="VALUE" value="&quot;[SEMIN].[dbo].[SEMIN PROFIL$Item Cross Reference]&quot;" id="3"/>
+      <elementValue elementRef="VALUE" value="&quot;[dbo].[SEMIN PROFIL$Item Cross Reference]&quot;" id="3"/>
       <elementValue elementRef="KEY" value="&quot;Snowflake_Table&quot;" id="4"/>
       <elementValue elementRef="VALUE" value="&quot;ITEM_CROSS_REFERENCE_SEMIN_PROFIL&quot;" id="5"/>
     </elementParameter>

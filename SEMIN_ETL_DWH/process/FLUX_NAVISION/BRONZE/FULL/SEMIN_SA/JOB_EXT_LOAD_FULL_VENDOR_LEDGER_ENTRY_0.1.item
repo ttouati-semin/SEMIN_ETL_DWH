@@ -319,7 +319,7 @@
       <elementValue elementRef="KEY" value="&quot;Date&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="TalendDate.getDate(&quot;yyyyMMdd_HHmmssSSS&quot;)" id="1"/>
       <elementValue elementRef="KEY" value="&quot;SQLServer_Table&quot;" id="2"/>
-      <elementValue elementRef="VALUE" value="&quot;[SEMIN].[dbo].[SEMIN S_A_$Vendor Ledger Entry]&quot;" id="3"/>
+      <elementValue elementRef="VALUE" value="&quot;[dbo].[SEMIN S_A_$Vendor Ledger Entry]&quot;" id="3"/>
       <elementValue elementRef="KEY" value="&quot;Snowflake_Table&quot;" id="4"/>
       <elementValue elementRef="VALUE" value="&quot;VENDOR_LEDGER_ENTRY_SEMIN_S_A_&quot;" id="5"/>
     </elementParameter>

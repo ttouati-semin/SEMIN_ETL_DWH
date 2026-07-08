@@ -401,7 +401,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JOB_EXT_LOAD_FULL_COMMANDES"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JOB_EXT_LOAD_FULL_SALES_HEADER_AND_ARCHIVE"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="PROD"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_TEST_STUDIO:_8bDCwG3KEfChkvInqLRHZA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -433,7 +433,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JOB_EXT_LOAD_FULL_COMMANDES_LIGNES"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JOB_EXT_LOAD_FULL_SALES_LINES_HEADER_AND_ARCHIVE"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_TEST_STUDIO:_RegD4G3KEfChkvInqLRHZA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -777,7 +777,7 @@
       <elementValue elementRef="KEY" value="&quot;Date&quot;" id="0"/>
       <elementValue elementRef="VALUE" value="TalendDate.getDate(&quot;yyyyMMdd_HHmmSSS&quot;)" id="1"/>
       <elementValue elementRef="KEY" value="&quot;SQLServer_Table&quot;" id="2"/>
-      <elementValue elementRef="VALUE" value="&quot;[SEMIN].[dbo].[SEMIN S_A_$Sales Header]&quot;" id="3"/>
+      <elementValue elementRef="VALUE" value="&quot;[dbo].[SEMIN S_A_$Sales Header]&quot;" id="3"/>
       <elementValue elementRef="KEY" value="&quot;Snowflake_Table&quot;" id="4"/>
       <elementValue elementRef="VALUE" value="&quot;COMMANDES&quot;" id="5"/>
       <elementValue elementRef="KEY" value="&quot;Type_Operation&quot;" id="6"/>
@@ -867,7 +867,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -968,7 +968,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
