@@ -314,7 +314,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSetGlobalVar_1"/>
   </node>
-  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="360">
+  <node componentName="tDie" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="40" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_2" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot; Erreur d'extraction depuis la table &quot; + (String)globalMap.get(&quot;dir_table&quot;) + &quot; Message d'erreur : &quot; + (String)globalMap.get(&quot;tDBInput_1_ERROR_MESSAGE&quot;)"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -392,7 +392,7 @@
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
     <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; +context.Snowflake_Schema_SEMIN_SAS+&quot;.&quot;+(String)globalMap.get(&quot;Snowflake_Table&quot;)"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select &#xD;&#xA;&#x9;*&#xD;&#xA; from &quot; +context.Snowflake_Schema_SEMIN_SAS+&quot;.&quot;+(String)globalMap.get(&quot;Snowflake_Table&quot;)"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
@@ -405,6 +405,7 @@
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" name="tDBInput_2">
+      <column comment="" key="false" length="256" name="timestamp" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="256" usefulColumn="true"/>
       <column comment="" key="false" length="265" name="Code_Marque" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Code_Marque"/>
       </column>
@@ -466,6 +467,7 @@
         <mapperTableEntries name="Marque_Key" expression="&quot;SEMIN_SAS&quot;+ &quot; &quot;+  row1.Code_Marque " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="timestamp" type="id_String" nullable="true"/>
         <mapperTableEntries name="Code_Marque" type="id_String" nullable="true"/>
         <mapperTableEntries name="Brand_Type" type="id_String" nullable="true"/>
         <mapperTableEntries name="SEMIN_Brand" type="id_String" nullable="true"/>
@@ -522,7 +524,7 @@
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
     <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select * from &quot; +context.Snowflake_Schema_SEMIN_PROFILS+&quot;.&quot;+(String)globalMap.get(&quot;Snowflake_Table2&quot;)"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select &#xD;&#xA;&#x9;*&#xD;&#xA; from &quot; +context.Snowflake_Schema_SEMIN_PROFILS+&quot;.&quot;+(String)globalMap.get(&quot;Snowflake_Table2&quot;)"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="15" show="false"/>
@@ -535,6 +537,7 @@
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" label="metadata" name="tDBInput_1">
+      <column comment="" key="false" length="256" name="timestamp" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="256" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="Code_Marque" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="Code_Marque"/>
       </column>
@@ -596,6 +599,7 @@
         <mapperTableEntries name="Marque_Key" expression="&quot;SEMIN_PROFILS&quot;+ &quot; &quot;+  row6.Code_Marque " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row6" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="timestamp" type="id_String" nullable="true"/>
         <mapperTableEntries name="Code_Marque" type="id_String" nullable="true"/>
         <mapperTableEntries name="Brand_Type" type="id_String" nullable="true"/>
         <mapperTableEntries name="SEMIN_Brand" type="id_String" nullable="true"/>
@@ -686,31 +690,15 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
-    <metadata connector="FLOW" label="metadata" name="tDBOutput_2">
-      <column comment="" key="false" length="265" name="Code_Marque" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Code_Marque"/>
-      </column>
-      <column comment="" key="false" length="265" name="Brand_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Brand_Type"/>
-      </column>
-      <column comment="" key="false" length="265" name="SEMIN_Brand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="SEMIN_Brand"/>
-      </column>
-      <column comment="" key="false" length="265" name="Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Type"/>
-      </column>
-      <column comment="" key="false" length="265" name="Brand_Owner" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Brand_Owner"/>
-      </column>
-      <column comment="" key="false" length="265" name="Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Code"/>
-      </column>
-      <column comment="" key="false" length="-1" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Database_Origin"/>
-      </column>
-      <column comment="" key="false" length="-1" name="Marque_Key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="Marque_Key"/>
-      </column>
+    <metadata connector="FLOW" name="tDBOutput_2">
+      <column comment="" key="false" length="265" name="Code_Marque" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="265" name="Brand_Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="265" name="SEMIN_Brand" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="265" name="Type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="265" name="Brand_Owner" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="265" name="Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Database_Origin" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Marque_Key" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="reject" name="reject">
       <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
@@ -3591,6 +3579,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="SEMIN_Brand" id="624"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="625"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="626"/>
+      <elementValue elementRef="TRACE_COLUMN" value="timestamp" id="627"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="628"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="629"/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row6" show="false"/>
@@ -3769,9 +3760,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="out11" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tDBOutput_2">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tUnite_1" offsetLabelX="0" offsetLabelY="0" source="tUnite_1" target="tDBOutput_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row8" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="10" mergeOrder="2" metaname="tHashInput_3" offsetLabelX="0" offsetLabelY="0" source="tHashInput_3" target="tUnite_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
