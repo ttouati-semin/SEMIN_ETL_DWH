@@ -1,0 +1,32 @@
+{
+  "itemId" : "_12dLUKxTEfGpjonidsgSow",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_LOII8KxTEfGpjonidsgSow",
+    "parameterList" : [ {
+      "id" : "_qjCM4G1dEfChkvInqLRHZA",
+      "name" : "Wapro_Host"
+    }, {
+      "id" : "_qjCM4W1dEfChkvInqLRHZA",
+      "name" : "Wapro_User"
+    }, {
+      "id" : "_qjCM4m1dEfChkvInqLRHZA",
+      "name" : "Wapro_Schema"
+    }, {
+      "id" : "_qjCM421dEfChkvInqLRHZA",
+      "name" : "Wapro_BDD"
+    }, {
+      "id" : "_hq9SwG16EfChkvInqLRHZA",
+      "name" : "Wapro_JDBC"
+    }, {
+      "id" : "_hq9SwW16EfChkvInqLRHZA",
+      "name" : "Wapro_Port"
+    }, {
+      "id" : "_YVVuYOKCEfCBWawNnQ4E_w",
+      "name" : "Wapro_Password"
+    }, {
+      "id" : "_OiEWAGpUEfGP8Li11xLG1A",
+      "name" : "FORCE_FULL_LOAD"
+    } ]
+  } ]
+}

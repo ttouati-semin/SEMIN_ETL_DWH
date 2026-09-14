@@ -18,4 +18,5 @@
   <contextParameter xmi:id="_erFCcB1cEfGoauYJ5eghPA" comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_HqEyMC1FEfGqx9YHxNUT1Q" comment="" name="Snowflake_Role" prompt="Snowflake_Role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_5yo9IC2YEfGqx9YHxNUT1Q" comment="" name="Snowflake_Schema_Buitex" prompt="Snowflake_Schema_Buitex?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_5FINIKxbEfGpjonidsgSow" comment="" name="Snowflake_Schema_SEMIN_POLOGNE" prompt="Snowflake_Schema_SEMIN_POLOGNE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;SEMIN_POLOGNE&quot;"/>
 </talendfile:ContextType>
