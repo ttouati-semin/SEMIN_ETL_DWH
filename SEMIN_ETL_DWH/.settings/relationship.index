@@ -4084,6 +4084,10 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "SEMIN_ETL_DWH:_SPwkUK0yEfGmQ6AJbKslzQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "SEMIN_ETL_DWH:_ShSa8K27EfGipsFFe8Qm8Q",
     "version" : "Latest",
     "type" : "job"
