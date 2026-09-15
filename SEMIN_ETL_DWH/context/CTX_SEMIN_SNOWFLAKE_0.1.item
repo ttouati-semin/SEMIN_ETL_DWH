@@ -18,4 +18,7 @@
   <contextParameter xmi:id="_erFCcB1cEfGoauYJ5eghPA" comment="" name="Snowflake_BDD_Silver" prompt="Snowflake_BDD_Silver?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_HqEyMC1FEfGqx9YHxNUT1Q" comment="" name="Snowflake_Role" prompt="Snowflake_Role?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   <contextParameter xmi:id="_5yo9IC2YEfGqx9YHxNUT1Q" comment="" name="Snowflake_Schema_Buitex" prompt="Snowflake_Schema_Buitex?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_qHuOsIqmEfGfpdOtXHvI6w" comment="" name="Snowflake_BDD_OLD" prompt="Snowflake_BDD_OLD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_rfF_YIqoEfGfpdOtXHvI6w" comment="" name="Snowflake_Schema_SEMIN_SAS_OLD" prompt="Snowflake_Schema_SEMIN_SAS_OLD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="__FqEYIqqEfGfpdOtXHvI6w" comment="" name="Snowflake_Schema_SEMIN_PROFILS_OLD" prompt="Snowflake_Schema_SEMIN_PROFILS_OLD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
 </talendfile:ContextType>
