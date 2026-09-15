@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_c_8bUG1dEfChkvInqLRHZA" confirmationNeeded="false" hide="false" name="Default">
+  <contextParameter xmi:id="_qjCM4G1dEfChkvInqLRHZA" comment="" name="Wapro_Host" prompt="Wapro_Host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="172.31.0.12"/>
+  <contextParameter xmi:id="_qjCM4W1dEfChkvInqLRHZA" comment="" name="Wapro_User" prompt="Wapro_User?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="pdieudonne_seminfr"/>
+  <contextParameter xmi:id="_qjCM4m1dEfChkvInqLRHZA" comment="" name="Wapro_Schema" prompt="Wapro_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_qjCM421dEfChkvInqLRHZA" comment="" name="Wapro_BDD" prompt="Wapro_BDD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SEMIN"/>
+  <contextParameter xmi:id="_hq9SwG16EfChkvInqLRHZA" comment="" name="Wapro_JDBC" prompt="Wapro_JDBC?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="encrypt=false;trustServerCertificate=false"/>
+  <contextParameter xmi:id="_hq9SwW16EfChkvInqLRHZA" comment="" name="Wapro_Port" prompt="Wapro_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_YVVuYOKCEfCBWawNnQ4E_w" comment="" name="Wapro_Password" prompt="Wapro_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:sPLeBIS871nLjtoB8SY/N5/gqZdkd+UCqQ/2V6y7Ft/Dtj4F3a1L9huivQX9Uvk4"/>
+  <contextParameter xmi:id="_OiEWAGpUEfGP8Li11xLG1A" comment="" name="FORCE_FULL_LOAD" prompt="FORCE_FULL_LOAD?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;0&quot;"/>
+</talendfile:ContextType>
