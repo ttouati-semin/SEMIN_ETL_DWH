@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_tcUYIMSGEfC6XOWLsAg4QA" confirmationNeeded="false" hide="false" name="Developpement">
+  <contextParameter xmi:id="_tcUYIcSGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Server" prompt="connection_NAVISION_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ulysse"/>
+  <contextParameter xmi:id="_tcUYIsSGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Database" prompt="connection_NAVISION_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SEMIN"/>
+  <contextParameter xmi:id="_tcUYI8SGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_AdditionalParams" prompt="connection_NAVISION_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="instance=NAVISION;domain=SEMIN"/>
+  <contextParameter xmi:id="_tcUYJMSGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Port" prompt="connection_NAVISION_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1433"/>
+  <contextParameter xmi:id="_tcUYJcSGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Schema" prompt="connection_NAVISION_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dbo"/>
+  <contextParameter xmi:id="_tcUYJsSGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Login" prompt="connection_NAVISION_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="zzzETLTalend"/>
+  <contextParameter xmi:id="_tcUYJ8SGEfC6XOWLsAg4QA" comment="" name="connection_NAVISION_Password" prompt="connection_NAVISION_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:wu+aiCqs16DwRBFIPVuRQZp0Rh98q+ZSDLfrmyya8kA5EFBJ4MZwzQ=="/>
+</talendfile:ContextType>

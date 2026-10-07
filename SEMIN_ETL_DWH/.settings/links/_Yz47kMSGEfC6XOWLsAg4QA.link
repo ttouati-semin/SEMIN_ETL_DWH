@@ -1,0 +1,29 @@
+{
+  "itemId" : "_Yz47kMSGEfC6XOWLsAg4QA",
+  "contextList" : [ {
+    "contextName" : "Developpement",
+    "repoId" : "_tcGVsMSGEfC6XOWLsAg4QA",
+    "parameterList" : [ {
+      "id" : "_tcUYIcSGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Server"
+    }, {
+      "id" : "_tcUYIsSGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Database"
+    }, {
+      "id" : "_tcUYI8SGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_AdditionalParams"
+    }, {
+      "id" : "_tcUYJMSGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Port"
+    }, {
+      "id" : "_tcUYJcSGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Schema"
+    }, {
+      "id" : "_tcUYJsSGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Login"
+    }, {
+      "id" : "_tcUYJ8SGEfC6XOWLsAg4QA",
+      "name" : "connection_NAVISION_Password"
+    } ]
+  } ]
+}

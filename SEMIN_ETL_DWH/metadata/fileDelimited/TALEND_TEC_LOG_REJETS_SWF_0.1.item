@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_cFL9cdROEfCKNPll5ukq-g" name="TALEND_TEC_LOG_REJETS_SWF" dataPackage="_cFL9ctROEfCKNPll5ukq-g" Server="Localhost 127.0.0.1" FilePath="D:/Talend_Local_Files/Technique/TALEND_TEC_LOG_REJETS_SWF.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cFL9ctROEfCKNPll5ukq-g" name="default" dataManager="_cFL9cdROEfCKNPll5ukq-g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cFL9c9ROEfCKNPll5ukq-g" id="_TvuuYNROEfCKNPll5ukq-g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9dNROEfCKNPll5ukq-g" name="MOMENT" label="MOMENT" length="-1" precision="-1" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy HH:mm:ss&quot;">
+        <initialValue xmi:id="_cFL9ddROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9dtROEfCKNPll5ukq-g" name="PID" label="PID" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cFL9d9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9eNROEfCKNPll5ukq-g" name="PROJECT_NAME" label="PROJECT_NAME" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cFL9edROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9etROEfCKNPll5ukq-g" name="JOB_NAME" label="JOB_NAME" length="-1" precision="-1" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_cFL9e9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9fNROEfCKNPll5ukq-g" name="columnName" label="columnName" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9fdROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9ftROEfCKNPll5ukq-g" name="rowNumber" label="rowNumber" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9f9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9gNROEfCKNPll5ukq-g" name="category" label="category" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9gdROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9gtROEfCKNPll5ukq-g" name="character" label="character" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9g9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9hNROEfCKNPll5ukq-g" name="errorMessage" label="errorMessage" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9hdROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9htROEfCKNPll5ukq-g" name="byteOffset" label="byteOffset" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9h9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9iNROEfCKNPll5ukq-g" name="line" label="line" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9idROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9itROEfCKNPll5ukq-g" name="sqlState" label="sqlState" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9i9ROEfCKNPll5ukq-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cFL9jNROEfCKNPll5ukq-g" name="code" label="code" length="255" precision="-1" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_cFL9jdROEfCKNPll5ukq-g"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
