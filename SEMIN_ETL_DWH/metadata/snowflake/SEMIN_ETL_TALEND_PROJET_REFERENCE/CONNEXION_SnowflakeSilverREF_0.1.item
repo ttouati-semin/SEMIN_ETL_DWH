@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:TacokitSnowflakeConnection xmi:id="_T2slAC3SEfG0B4MSPsq-Qw" name="CONNEXION_SnowflakeSilverREF" properties="configuration.snowflakeAuth.password&#xA;&#xA;context.connection_SnowflakeSilverREF_userPassword&#xA;&#xA;configuration.snowflakeAuth.userId&#xA;&#xA;context.connection_SnowflakeSilverREF_UserId&#xA;&#xA;configuration.snowflakeAuth.scope&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthScope&#xA;&#xA;configuration.database&#xA;&#xA;context.connection_SnowflakeSilverREF_db&#xA;&#xA;configuration.loginTimeout&#xA;&#xA;context.connection_SnowflakeSilverREF_loginTimeout&#xA;&#xA;configuration.snowflakeAuth.oauthUsername&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthUserName&#xA;&#xA;configuration.jdbcUrlSuffix&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcUrlSuffix&#xA;&#xA;configuration.snowflakeAuth.authenticationType&#xA;&#xA;KEY_PAIR&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZSNkYXRhc3RvcmUjU25vd2ZsYWtlRGF0YVN0b3Jl&#xA;&#xA;configuration.snowflakeAuth.oauthPassword&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthPassword&#xA;&#xA;configuration.snowflakeAuth.keyAlias&#xA;&#xA;context.connection_SnowflakeSilverREF_keyAlias&#xA;&#xA;configuration.snowflakeAuth.clientId&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthClientId&#xA;&#xA;configuration.snowflakeAuth.clientSecret&#xA;&#xA;context.connection_SnowflakeSilverREF_clientSecret&#xA;&#xA;configuration.jdbcParameters&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcParameters&#xA;&#xA;configuration.role&#xA;&#xA;context.connection_SnowflakeSilverREF_role&#xA;&#xA;configuration.snowflakeAuth.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.snowflakeAuth.oauthTokenEndpoint&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthTokenEndpoint&#xA;&#xA;configuration.dbSchema&#xA;&#xA;context.connection_SnowflakeSilverREF_schemaName&#xA;&#xA;configuration.warehouse&#xA;&#xA;context.connection_SnowflakeSilverREF_warehouse&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZQ&#xA;&#xA;configuration.autoCommit&#xA;&#xA;true&#xA;&#xA;configuration.account&#xA;&#xA;context.connection_SnowflakeSilverREF_account&#xA;&#xA;" label="CONNEXION_SnowflakeSilverREF" dataPackage="_H5jqoZfrEfGiwelzCseADg" ContextMode="true" ContextId="_PWFkYDJjEfGUl6FMmiGQMw" contextName="Developpement" DatabaseType="Snowflake" ProductId="SNOWFLAKE" supportNLS="false"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_H5jqoZfrEfGiwelzCseADg" name="context.connection_SnowflakeSilverREF_db" dataManager="_T2slAC3SEfG0B4MSPsq-Qw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_H5jqopfrEfGiwelzCseADg" name="context.connection_SnowflakeSilverREF_schemaName">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_hfrusC6MEfGiV6Vf_4ljpw" name="ENR_ARTICLES" id="_hfC1gC6MEfGiV6Vf_4ljpw" label="ENR_ARTICLES">
+        <feature xsi:type="relational:TdColumn" xmi:id="_hfrusy6MEfGiV6Vf_4ljpw" name="FILIALE" label="FILIALE" length="20" precision="-1" talendType="id_String" key="true" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_hfrutC6MEfGiV6Vf_4ljpw" tag="AVRO_TECHNICAL_KEY" value="FILIALE"/>
+          <initialValue xmi:id="_hfrutS6MEfGiV6Vf_4ljpw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_hfruti6MEfGiV6Vf_4ljpw" name="ID_ARTICLE" label="ID_ARTICLE" length="50" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_hfruty6MEfGiV6Vf_4ljpw" tag="AVRO_TECHNICAL_KEY" value="ID_ARTICLE"/>
+          <initialValue xmi:id="_hfruuC6MEfGiV6Vf_4ljpw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_hfruuS6MEfGiV6Vf_4ljpw" name="HIERARCHIE" label="HIERARCHIE" length="20" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_hfruui6MEfGiV6Vf_4ljpw" tag="AVRO_TECHNICAL_KEY" value="HIERARCHIE"/>
+          <initialValue xmi:id="_hfruuy6MEfGiV6Vf_4ljpw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_hfruvC6MEfGiV6Vf_4ljpw" name="CODE_MARQUE" label="CODE_MARQUE" length="50" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_hfruvS6MEfGiV6Vf_4ljpw" tag="AVRO_TECHNICAL_KEY" value="CODE_MARQUE"/>
+          <initialValue xmi:id="_hfruvi6MEfGiV6Vf_4ljpw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_hfruvy6MEfGiV6Vf_4ljpw" name="TYPE_MARQUE" label="TYPE_MARQUE" length="50" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_hfruwC6MEfGiV6Vf_4ljpw" tag="AVRO_TECHNICAL_KEY" value="TYPE_MARQUE"/>
+          <initialValue xmi:id="_hfruwS6MEfGiV6Vf_4ljpw"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_YJrzoD8qEfGdN9YExp7Nug" name="MAPPING_INTERCO" id="_YIIUcD8qEfGdN9YExp7Nug" label="MAPPING_INTERCO">
+        <feature xsi:type="relational:TdColumn" xmi:id="_YJrzoz8qEfGdN9YExp7Nug" name="FILIALE" label="FILIALE" length="20" precision="-1" talendType="id_String" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_YJrzpD8qEfGdN9YExp7Nug" tag="AVRO_TECHNICAL_KEY" value="FILIALE"/>
+          <initialValue xmi:id="_YJrzpT8qEfGdN9YExp7Nug"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_YJrzpj8qEfGdN9YExp7Nug" name="CODE_DO" label="CODE_DO" length="20" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_YJrzpz8qEfGdN9YExp7Nug" tag="AVRO_TECHNICAL_KEY" value="CODE_DO"/>
+          <initialValue xmi:id="_YJrzqD8qEfGdN9YExp7Nug"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_YJrzqT8qEfGdN9YExp7Nug" name="NOM_DO" label="NOM_DO" length="20" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_YJrzqj8qEfGdN9YExp7Nug" tag="AVRO_TECHNICAL_KEY" value="NOM_DO"/>
+          <initialValue xmi:id="_YJrzqz8qEfGdN9YExp7Nug"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_YJrzrD8qEfGdN9YExp7Nug" name="INTERCOMPANY_THIRD_PARTY" label="INTERCOMPANY_THIRD_PARTY" length="20" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_YJrzrT8qEfGdN9YExp7Nug" tag="AVRO_TECHNICAL_KEY" value="INTERCOMPANY_THIRD_PARTY"/>
+          <initialValue xmi:id="_YJrzrj8qEfGdN9YExp7Nug"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_dgUsEGQUEfG1YeIBx4vmLQ" name="MAPPING_PAYS" id="_dfu2MGQUEfG1YeIBx4vmLQ" label="MAPPING_PAYS">
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsE2QUEfG1YeIBx4vmLQ" name="CODE" label="CODE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_dgUsFGQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="CODE"/>
+          <initialValue xmi:id="_dgUsFWQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsFmQUEfG1YeIBx4vmLQ" name="NOM" label="NOM" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_dgUsF2QUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="NOM"/>
+          <initialValue xmi:id="_dgUsGGQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsGWQUEfG1YeIBx4vmLQ" name="AUTRES EXPORTS" label="AUTRES_EXPORTS" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_dgUsGmQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="AUTRES_EXPORTS"/>
+          <initialValue xmi:id="_dgUsG2QUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsHGQUEfG1YeIBx4vmLQ" name="TOTAL EXPORT" label="TOTAL_EXPORT" length="38" talendType="id_BigDecimal" originalLength="-1">
+          <taggedValue xmi:id="_dgUsHWQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="TOTAL_EXPORT"/>
+          <initialValue xmi:id="_dgUsHmQUEfG1YeIBx4vmLQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_1RUdIDTiEfGsRKKkyVZSsw" name="TRANSCO_CLASSIFICATION_TIERS" id="_1PB-IDTiEfGsRKKkyVZSsw" label="TRANSCO_CLASSIFICATION_TIERS">
+        <feature xsi:type="relational:TdColumn" xmi:id="_1RUdIzTiEfGsRKKkyVZSsw" name="DATABASE_ORIGIN" label="DATABASE_ORIGIN" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_1RUdJDTiEfGsRKKkyVZSsw" tag="AVRO_TECHNICAL_KEY" value="DATABASE_ORIGIN"/>
+          <initialValue xmi:id="_1RUdJTTiEfGsRKKkyVZSsw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1RUdJjTiEfGsRKKkyVZSsw" name="CLASSIFICATION_TIERS_SOURCE" label="CLASSIFICATION_TIERS_SOURCE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_1RUdJzTiEfGsRKKkyVZSsw" tag="AVRO_TECHNICAL_KEY" value="CLASSIFICATION_TIERS_SOURCE"/>
+          <initialValue xmi:id="_1RUdKDTiEfGsRKKkyVZSsw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1RUdKTTiEfGsRKKkyVZSsw" name="CLASSIFICATION_TIERS" label="CLASSIFICATION_TIERS" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_1RUdKjTiEfGsRKKkyVZSsw" tag="AVRO_TECHNICAL_KEY" value="CLASSIFICATION_TIERS"/>
+          <initialValue xmi:id="_1RUdKzTiEfGsRKKkyVZSsw"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_dqNA0GQUEfG1YeIBx4vmLQ" name="MAPPING_UNITE" id="_dqLLoGQUEfG1YeIBx4vmLQ" label="MAPPING_UNITE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_dqNA02QUEfG1YeIBx4vmLQ" name="ACTIVITE" label="ACTIVITE" length="100" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_dqNA1GQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="ACTIVITE"/>
+          <initialValue xmi:id="_dqNA1WQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dqNA1mQUEfG1YeIBx4vmLQ" name="UNITE_ANALYSE_VOLUMES" label="UNITE_ANALYSE_VOLUMES" length="100" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_dqNA12QUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="UNITE_ANALYSE_VOLUMES"/>
+          <initialValue xmi:id="_dqNA2GQUEfG1YeIBx4vmLQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_kujcgD71EfG2xdJFUwQ1GA" name="MAPPING_F_ARTICLE_BUITEX" id="_kt-0wD71EfG2xdJFUwQ1GA" label="MAPPING_F_ARTICLE_BUITEX">
+        <feature xsi:type="relational:TdColumn" xmi:id="_kujcgz71EfG2xdJFUwQ1GA" name="FA_CODEFAMILLE" label="FA_CODEFAMILLE" length="20" precision="-1" talendType="id_String" nullable="false" originalLength="-1">
+          <taggedValue xmi:id="_kujchD71EfG2xdJFUwQ1GA" tag="AVRO_TECHNICAL_KEY" value="FA_CODEFAMILLE"/>
+          <initialValue xmi:id="_kujchT71EfG2xdJFUwQ1GA"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_IuCDIFKgEfG0M9L2gB58ZQ" name="HIERARCHIE" id="HIERARCHIE" label="HIERARCHIE" length="20" precision="-1" scale="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_IuCDIVKgEfG0M9L2gB58ZQ" tag="AVRO_TECHNICAL_KEY" value="HIERARCHIE"/>
+          <initialValue xmi:id="_H5jq5JfrEfGiwelzCseADg"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_d2fwYGQUEfG1YeIBx4vmLQ" name="MAPPING_REGROUPEMENTS_PAYS" id="_d2d7MGQUEfG1YeIBx4vmLQ" label="MAPPING_REGROUPEMENTS_PAYS">
+        <feature xsi:type="relational:TdColumn" xmi:id="_d2fwY2QUEfG1YeIBx4vmLQ" name="PAYS_DO" label="PAYS_DO" length="150" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d2fwZGQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="PAYS_DO"/>
+          <initialValue xmi:id="_d2fwZWQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_d2fwZmQUEfG1YeIBx4vmLQ" name="MAPPING_N3" label="MAPPING_N3" length="100" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d2fwZ2QUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="MAPPING_N3"/>
+          <initialValue xmi:id="_d2fwaGQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_d2fwaWQUEfG1YeIBx4vmLQ" name="MAPPING_N2" label="MAPPING_N2" length="100" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d2fwamQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="MAPPING_N2"/>
+          <initialValue xmi:id="_d2fwa2QUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_d2fwbGQUEfG1YeIBx4vmLQ" name="MAPPING_N1" label="MAPPING_N1" length="100" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d2fwbWQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="MAPPING_N1"/>
+          <initialValue xmi:id="_d2fwbmQUEfG1YeIBx4vmLQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_d8BJkGQUEfG1YeIBx4vmLQ" name="MAPPING_DOMTOM" id="_d7_UYGQUEfG1YeIBx4vmLQ" label="MAPPING_DOMTOM">
+        <feature xsi:type="relational:TdColumn" xmi:id="_d8BwoGQUEfG1YeIBx4vmLQ" name="CODE" label="CODE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d8BwoWQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="CODE"/>
+          <initialValue xmi:id="_d8BwomQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_d8Bwo2QUEfG1YeIBx4vmLQ" name="NOM" label="NOM" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_d8BwpGQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="NOM"/>
+          <initialValue xmi:id="_d8BwpWQUEfG1YeIBx4vmLQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_eCBD4GQUEfG1YeIBx4vmLQ" name="MAPPING_ARTICLESRFA" id="_eB_OsGQUEfG1YeIBx4vmLQ" label="MAPPING_ARTICLESRFA">
+        <feature xsi:type="relational:TdColumn" xmi:id="_eCBD42QUEfG1YeIBx4vmLQ" name="NO_ARTICLE" label="NO_ARTICLE" length="20" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_eCBD5GQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="NO_ARTICLE"/>
+          <initialValue xmi:id="_eCBD5WQUEfG1YeIBx4vmLQ"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_eCBD5mQUEfG1YeIBx4vmLQ" name="DESIGNATION_ARTICLE" label="DESIGNATION_ARTICLE" length="150" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_eCBD52QUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="DESIGNATION_ARTICLE"/>
+          <initialValue xmi:id="_eCBD6GQUEfG1YeIBx4vmLQ"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_OfGQUG4fEfGEVJtDTj6cKw" name="RFA" id="_OevrAG4fEfGEVJtDTj6cKw" label="RFA">
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQU24fEfGEVJtDTj6cKw" name="SOCIETE" label="SOCIETE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQVG4fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="SOCIETE"/>
+          <initialValue xmi:id="_OfGQVW4fEfGEVJtDTj6cKw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQVm4fEfGEVJtDTj6cKw" name="INTERCO_HORSINTERCO" label="INTERCO_HORSINTERCO" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQV24fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="INTERCO_HORSINTERCO"/>
+          <initialValue xmi:id="_OfGQWG4fEfGEVJtDTj6cKw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQWW4fEfGEVJtDTj6cKw" name="ACTIVITE" label="ACTIVITE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQWm4fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="ACTIVITE"/>
+          <initialValue xmi:id="_OfGQW24fEfGEVJtDTj6cKw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQXG4fEfGEVJtDTj6cKw" name="TYPE_MARQUE" label="TYPE_MARQUE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQXW4fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="TYPE_MARQUE"/>
+          <initialValue xmi:id="_OfGQXm4fEfGEVJtDTj6cKw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQX24fEfGEVJtDTj6cKw" name="PERIODE" label="PERIODE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQYG4fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="PERIODE"/>
+          <initialValue xmi:id="_OfGQYW4fEfGEVJtDTj6cKw"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_OfGQYm4fEfGEVJtDTj6cKw" name="TAUX" label="TAUX" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
+          <taggedValue xmi:id="_OfGQY24fEfGEVJtDTj6cKw" tag="AVRO_TECHNICAL_KEY" value="TAUX"/>
+          <initialValue xmi:id="_OfGQZG4fEfGEVJtDTj6cKw"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
