@@ -2,6 +2,7 @@
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/FLUX_NAVISION/FLUX_WAPRO</deletedFolders>
   <deletedItems id="_Vua6AOKDEfCBWawNnQ4E_w" path="" type="METADATA_CONNECTIONS"/>
+  <deletedItems id="_wkph0MbeEfGVT976ri37bA" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_42KAkIyTEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_CYQ8EIysEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_QNm4EIyoEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
@@ -31,6 +32,8 @@
   <deletedItems id="_duo8QOKsEfCWnpb6bzMU2g" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
   <deletedItems id="_mmiYIG3LEfChkvInqLRHZA" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
   <deletedItems id="_xZ2ZINz6EfCCxeKF1CC12Q" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
+  <deletedItems id="_KULtAMbdEfGVT976ri37bA" path="FLUX_BUITEX/BRONZE/FULL" type="PROCESS"/>
+  <deletedItems id="_c6uR8MY7EfGDasN5h3YboQ" path="FLUX_BUITEX/BRONZE/FULL" type="PROCESS"/>
   <deletedItems id="_Q7FAQN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
   <deletedItems id="_UlNvsN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
   <deletedItems id="_YJOpAN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>

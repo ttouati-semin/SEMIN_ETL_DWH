@@ -68,7 +68,7 @@
     <contextParameter comment="" name="Azure_Container_Name" prompt="Azure_Container_Name?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6HC1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_Local_Folder" prompt="Azure_Local_Folder?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6HS1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_SAS" prompt="Azure_SAS?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6Hi1FEfGqx9YHxNUT1Q"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_gtl6Hy1FEfGqx9YHxNUT1Q"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6Hy1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6IC1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_gtl6IS1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_gtl6Ii1FEfGqx9YHxNUT1Q"/>
@@ -127,7 +127,7 @@
     <contextParameter comment="" name="Azure_Container_Name" prompt="Azure_Container_Name?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6US1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_Local_Folder" prompt="Azure_Local_Folder?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6Ui1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_SAS" prompt="Azure_SAS?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6Uy1FEfGqx9YHxNUT1Q"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_gtl6VC1FEfGqx9YHxNUT1Q"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6VC1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6VS1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_gtl6Vi1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_gtl6Vy1FEfGqx9YHxNUT1Q"/>
@@ -186,7 +186,7 @@
     <contextParameter comment="" name="Azure_Container_Name" prompt="Azure_Container_Name?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6hi1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_Local_Folder" prompt="Azure_Local_Folder?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6hy1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="Azure_SAS" prompt="Azure_SAS?" promptNeeded="false" repositoryContextId="_ToX1gLiTEe-W-dL5fDhv3g" type="id_String" value="" internalId="_gtl6iC1FEfGqx9YHxNUT1Q"/>
-    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes.properties" internalId="_gtl6iS1FEfGqx9YHxNUT1Q"/>
+    <contextParameter comment="" name="File_Context" prompt="File_Context?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6iS1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Context_VF" prompt="File_Context_VF?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="C:/Talend/Projet_BI/Configurations/Contextes_DWH.properties" internalId="_gtl6ii1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Bronze" prompt="File_Logs_Bronze?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Operations_Bronze.log" internalId="_gtl6iy1FEfGqx9YHxNUT1Q"/>
     <contextParameter comment="" name="File_Logs_Exec" prompt="File_Logs_Exec?" promptNeeded="false" repositoryContextId="_1jaCgLiREe-W-dL5fDhv3g" type="id_String" value="/Logs/Suivi_Exec.log" internalId="_gtl6jC1FEfGqx9YHxNUT1Q"/>
@@ -562,7 +562,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -583,7 +583,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
