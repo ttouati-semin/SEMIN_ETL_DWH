@@ -21,7 +21,7 @@
     <contextParameter xmi:id="_J3Ve8sSVEfCYP5oP3Pvz1w" comment="" name="connection_SnowflakeRawSeminESP_jdbcParameters" prompt="connection_SnowflakeRawSeminESP_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_pVkEUPBbEfCf0tuMnsWqtA" confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter xmi:id="_pVkEUfBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Talend_PROD"/>
+    <contextParameter xmi:id="_pVkEUfBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="snowflake_key"/>
     <contextParameter xmi:id="_pVkEUvBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeRawSeminESP_oauthScope" prompt="connection_SnowflakeRawSeminESP_oauthScope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_pVkEU_BbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeRawSeminESP_oauthClientId" prompt="connection_SnowflakeRawSeminESP_oauthClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_pVkEVPBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeRawSeminESP_schemaName" prompt="connection_SnowflakeRawSeminESP_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SEMIN_ESP"/>

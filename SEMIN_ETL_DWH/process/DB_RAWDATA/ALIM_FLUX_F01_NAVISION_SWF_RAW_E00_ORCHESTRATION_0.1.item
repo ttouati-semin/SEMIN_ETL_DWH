@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Test" jobType="Standard">
+  <context confirmationNeeded="false" hide="false" name="Developpement">
+    <contextParameter comment="" name="connection_NAVISION_AdditionalParams" prompt="connection_NAVISION_AdditionalParams?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="instance=NAVISION;domain=SEMIN" internalId="_NEbpsO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Database" prompt="connection_NAVISION_Database?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="SEMIN" internalId="_NEbpse-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Login" prompt="connection_NAVISION_Login?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="zzzETLTalend" internalId="_NEbpsu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Password" prompt="connection_NAVISION_Password?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_Password" value="enc:system.encryption.key.v1:tbf4MTQZQEQgGuT3mxw/jrC0uZ5eOaBC5VloL/xsByRcbew0Lhtcxg==" internalId="_NEbps--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Port" prompt="connection_NAVISION_Port?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="1433" internalId="_NEbptO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Schema" prompt="connection_NAVISION_Schema?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="dbo" internalId="_NEbpte-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Server" prompt="connection_NAVISION_Server?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="ulysse" internalId="_NEbptu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_account" prompt="connection_SnowflakeRawSeminESP_account?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbpt--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_clientSecret" prompt="connection_SnowflakeRawSeminESP_clientSecret?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpuO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_db" prompt="connection_SnowflakeRawSeminESP_db?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_DEV" internalId="_NEbpue-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcParameters" prompt="connection_SnowflakeRawSeminESP_jdbcParameters?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpuu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminESP_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEbpu--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_NEbpvO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_loginTimeout" prompt="connection_SnowflakeRawSeminESP_loginTimeout?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEbpve-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthClientId" prompt="connection_SnowflakeRawSeminESP_oauthClientId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpvu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthPassword" prompt="connection_SnowflakeRawSeminESP_oauthPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpv--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthScope" prompt="connection_SnowflakeRawSeminESP_oauthScope?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminESP_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthUserName" prompt="connection_SnowflakeRawSeminESP_oauthUserName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_regionID" prompt="connection_SnowflakeRawSeminESP_regionID?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpw--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_role" prompt="connection_SnowflakeRawSeminESP_role?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_DEV_OW" internalId="_NEbpxO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_schemaName" prompt="connection_SnowflakeRawSeminESP_schemaName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_ESP" internalId="_NEbpxe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_UserId" prompt="connection_SnowflakeRawSeminESP_UserId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_DEV" internalId="_NEbpxu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_userPassword" prompt="connection_SnowflakeRawSeminESP_userPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:8xAyPRAFPrfXsf6TY59+03BmXN19NZOCf+P3LKBaizjnSoZ0Yrregr/jpDc=" internalId="_NEbpx--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_warehouse" prompt="connection_SnowflakeRawSeminESP_warehouse?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_DEV" internalId="_NEbpyO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_account" prompt="connection_SnowflakeRawSeminProfils_account?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbpye-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_clientSecret" prompt="connection_SnowflakeRawSeminProfils_clientSecret?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpyu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_db" prompt="connection_SnowflakeRawSeminProfils_db?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_DEV" internalId="_NEbpy--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcParameters" prompt="connection_SnowflakeRawSeminProfils_jdbcParameters?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpzO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEbpze-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_keyAlias" prompt="connection_SnowflakeRawSeminProfils_keyAlias?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_NEbpzu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_loginTimeout" prompt="connection_SnowflakeRawSeminProfils_loginTimeout?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEbpz--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthClientId" prompt="connection_SnowflakeRawSeminProfils_oauthClientId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthPassword" prompt="connection_SnowflakeRawSeminProfils_oauthPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbp0e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthScope" prompt="connection_SnowflakeRawSeminProfils_oauthScope?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthUserName" prompt="connection_SnowflakeRawSeminProfils_oauthUserName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp1O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_regionID" prompt="connection_SnowflakeRawSeminProfils_regionID?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp1e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_role" prompt="connection_SnowflakeRawSeminProfils_role?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_DEV_OW" internalId="_NEbp1u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_schemaName" prompt="connection_SnowflakeRawSeminProfils_schemaName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_PROFILS" internalId="_NEbp1--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_UserId" prompt="connection_SnowflakeRawSeminProfils_UserId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_DEV" internalId="_NEbp2O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_userPassword" prompt="connection_SnowflakeRawSeminProfils_userPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:l8en5FMjtVSXR5ACyNd5Nx+f+xH+V+crQa2j5RhNfpHnmz+cn+di2iwnFBE=" internalId="_NEbp2e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_warehouse" prompt="connection_SnowflakeRawSeminProfils_warehouse?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_DEV" internalId="_NEbp2u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_account" prompt="connection_SnowflakeRawSeminSAS_account?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbp2--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_clientSecret" prompt="connection_SnowflakeRawSeminSAS_clientSecret?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEbp3O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_db" prompt="connection_SnowflakeRawSeminSAS_db?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="DB_RAW_DATA_DEV" internalId="_NEbp3e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcParameters" prompt="connection_SnowflakeRawSeminSAS_jdbcParameters?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp3u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value=".snowflakecomputing.com" internalId="_NEbp3--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_keyAlias" prompt="connection_SnowflakeRawSeminSAS_keyAlias?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="Talend_DEV" internalId="_NEbp4O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_loginTimeout" prompt="connection_SnowflakeRawSeminSAS_loginTimeout?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Integer" value="15" internalId="_NEbp4e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthClientId" prompt="connection_SnowflakeRawSeminSAS_oauthClientId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp4u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthPassword" prompt="connection_SnowflakeRawSeminSAS_oauthPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEbp4--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthScope" prompt="connection_SnowflakeRawSeminSAS_oauthScope?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthUserName" prompt="connection_SnowflakeRawSeminSAS_oauthUserName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_regionID" prompt="connection_SnowflakeRawSeminSAS_regionID?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_role" prompt="connection_SnowflakeRawSeminSAS_role?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="R_DB_RAW_DATA_DEV_OW" internalId="_NEbp6O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_schemaName" prompt="connection_SnowflakeRawSeminSAS_schemaName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="SEMIN_SAS" internalId="_NEbp6e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_UserId" prompt="connection_SnowflakeRawSeminSAS_UserId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="S_TALEND_DEV" internalId="_NEbp6u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_userPassword" prompt="connection_SnowflakeRawSeminSAS_userPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:NVXKhvXlYE9Cv7yp44zuUsjVanLcT0VGIF5cjr1t3YHnyWc7Gg8olmIOfrA=" internalId="_NEbp6--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_warehouse" prompt="connection_SnowflakeRawSeminSAS_warehouse?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="COMPUTE_ETL_DEV" internalId="_NEbp7O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="Talend_DEV" internalId="_NEbp7e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="D:/Talend_Local_Files/KeyStore/keystoredev.p12" internalId="_NEbp7u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:ArJm4X7ZqbXyj+ahxPLwrnUY5CEA6zsUnjN31+okS84li48=" internalId="_NEcQwO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalLogs" prompt="talendLocalLogs?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Logs/" internalId="_NEcQwe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_NEcQwu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_NEcQw--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalTech" prompt="talendLocalTech?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Technique/" internalId="_NEcQxO-aEfCGaO-RJG5T7Q"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Test">
+    <contextParameter comment="" name="connection_NAVISION_AdditionalParams" prompt="connection_NAVISION_AdditionalParams?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="instance=NAVISION;domain=SEMIN" internalId="_NEcQxe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Database" prompt="connection_NAVISION_Database?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="SEMIN" internalId="_NEcQxu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Login" prompt="connection_NAVISION_Login?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="zzzETLTalend" internalId="_NEcQx--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Password" prompt="connection_NAVISION_Password?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_Password" value="enc:system.encryption.key.v1:HgnsdD5dl0VurFVbAAE1A2a+sXhZt7CDkkiy1ymdK46xO2zj29UuUA==" internalId="_NEcQyO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Port" prompt="connection_NAVISION_Port?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="1433" internalId="_NEcQye-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Schema" prompt="connection_NAVISION_Schema?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="dbo" internalId="_NEcQyu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Server" prompt="connection_NAVISION_Server?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="ulysse" internalId="_NEcQy--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_account" prompt="connection_SnowflakeRawSeminESP_account?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEcQzO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_clientSecret" prompt="connection_SnowflakeRawSeminESP_clientSecret?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEcQze-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_db" prompt="connection_SnowflakeRawSeminESP_db?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_QAT" internalId="_NEcQzu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcParameters" prompt="connection_SnowflakeRawSeminESP_jdbcParameters?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQz--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminESP_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEcQ0O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_QAT" internalId="_NEcQ0e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_loginTimeout" prompt="connection_SnowflakeRawSeminESP_loginTimeout?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEcQ0u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthClientId" prompt="connection_SnowflakeRawSeminESP_oauthClientId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ0--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthPassword" prompt="connection_SnowflakeRawSeminESP_oauthPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEcQ1O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthScope" prompt="connection_SnowflakeRawSeminESP_oauthScope?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ1e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminESP_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ1u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthUserName" prompt="connection_SnowflakeRawSeminESP_oauthUserName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ1--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_regionID" prompt="connection_SnowflakeRawSeminESP_regionID?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ2O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_role" prompt="connection_SnowflakeRawSeminESP_role?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_QAT_OW" internalId="_NEcQ2e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_schemaName" prompt="connection_SnowflakeRawSeminESP_schemaName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_ESP" internalId="_NEcQ2u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_UserId" prompt="connection_SnowflakeRawSeminESP_UserId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_QAT" internalId="_NEcQ2--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_userPassword" prompt="connection_SnowflakeRawSeminESP_userPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:ulPX7SaCiNqBPUimmFyWR247IBwQ49xAujd95INDUkQ5sXjIheeBgHFtR/s=" internalId="_NEcQ3O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_warehouse" prompt="connection_SnowflakeRawSeminESP_warehouse?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_QAT" internalId="_NEcQ3e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_account" prompt="connection_SnowflakeRawSeminProfils_account?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEcQ3u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_clientSecret" prompt="connection_SnowflakeRawSeminProfils_clientSecret?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEcQ3--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_db" prompt="connection_SnowflakeRawSeminProfils_db?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_QAT" internalId="_NEcQ4O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcParameters" prompt="connection_SnowflakeRawSeminProfils_jdbcParameters?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ4e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEcQ4u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_keyAlias" prompt="connection_SnowflakeRawSeminProfils_keyAlias?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_QAT" internalId="_NEcQ4--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_loginTimeout" prompt="connection_SnowflakeRawSeminProfils_loginTimeout?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEcQ5O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthClientId" prompt="connection_SnowflakeRawSeminProfils_oauthClientId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ5e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthPassword" prompt="connection_SnowflakeRawSeminProfils_oauthPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEcQ5u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthScope" prompt="connection_SnowflakeRawSeminProfils_oauthScope?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ5--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ6O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthUserName" prompt="connection_SnowflakeRawSeminProfils_oauthUserName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ6e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_regionID" prompt="connection_SnowflakeRawSeminProfils_regionID?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEcQ6u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_role" prompt="connection_SnowflakeRawSeminProfils_role?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_QAT_OW" internalId="_NEcQ6--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_schemaName" prompt="connection_SnowflakeRawSeminProfils_schemaName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_PROFILS" internalId="_NEcQ7O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_UserId" prompt="connection_SnowflakeRawSeminProfils_UserId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_QAT" internalId="_NEcQ7e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_userPassword" prompt="connection_SnowflakeRawSeminProfils_userPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:CpTcDuFz2eLjSY6ODhNr+MUJXOsxmuZl1f6K8IE2hTFcWp5nYqfNsXojg2A=" internalId="_NEcQ7u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_warehouse" prompt="connection_SnowflakeRawSeminProfils_warehouse?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_QAT" internalId="_NEcQ7--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_account" prompt="connection_SnowflakeRawSeminSAS_account?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEcQ8O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_clientSecret" prompt="connection_SnowflakeRawSeminSAS_clientSecret?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEcQ8e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_db" prompt="connection_SnowflakeRawSeminSAS_db?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="DB_RAW_DATA_QAT" internalId="_NEcQ8u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcParameters" prompt="connection_SnowflakeRawSeminSAS_jdbcParameters?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ8--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value=".snowflakecomputing.com" internalId="_NEcQ9O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_keyAlias" prompt="connection_SnowflakeRawSeminSAS_keyAlias?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="Talend_QAT" internalId="_NEcQ9e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_loginTimeout" prompt="connection_SnowflakeRawSeminSAS_loginTimeout?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Integer" value="15" internalId="_NEcQ9u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthClientId" prompt="connection_SnowflakeRawSeminSAS_oauthClientId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ9--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthPassword" prompt="connection_SnowflakeRawSeminSAS_oauthPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEcQ-O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthScope" prompt="connection_SnowflakeRawSeminSAS_oauthScope?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ-e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ-u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthUserName" prompt="connection_SnowflakeRawSeminSAS_oauthUserName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ---aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_regionID" prompt="connection_SnowflakeRawSeminSAS_regionID?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEcQ_O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_role" prompt="connection_SnowflakeRawSeminSAS_role?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="R_DB_RAW_DATA_QAT_OW" internalId="_NEcQ_e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_schemaName" prompt="connection_SnowflakeRawSeminSAS_schemaName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="SEMIN_SAS" internalId="_NEcQ_u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_UserId" prompt="connection_SnowflakeRawSeminSAS_UserId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="S_TALEND_QAT" internalId="_NEcQ_--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_userPassword" prompt="connection_SnowflakeRawSeminSAS_userPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:I5o6Wmf7vjrPwLi4HIu5aajPazEiDaRQ69Kfs+HyzwOzhSLW6lNUceydSHc=" internalId="_NEcRAO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_warehouse" prompt="connection_SnowflakeRawSeminSAS_warehouse?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="COMPUTE_ETL_QAT" internalId="_NEcRAe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="Talend_QAT" internalId="_NEcRAu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="D:/Talend_Local_Files/KeyStore/keystoreqat.p12" internalId="_NEcRA--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:3stkfQn/zVxzlzqCCY4nE4+5f9GB0cmXKMCeRMf5b5D9gF4=" internalId="_NEcRBO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalLogs" prompt="talendLocalLogs?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Logs/" internalId="_NEcRBe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_NEcRBu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_NEcRB--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalTech" prompt="talendLocalTech?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Technique/" internalId="_NEcRCO-aEfCGaO-RJG5T7Q"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Production">
+    <contextParameter comment="" name="connection_NAVISION_AdditionalParams" prompt="connection_NAVISION_AdditionalParams?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="instance=NAVISION;domain=SEMIN" internalId="_NEbpsO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Database" prompt="connection_NAVISION_Database?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="SEMIN" internalId="_NEbpse-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Login" prompt="connection_NAVISION_Login?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="zzzETLTalend" internalId="_NEbpsu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Password" prompt="connection_NAVISION_Password?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_Password" value="enc:system.encryption.key.v1:KmsjU0XYzIV0aC5m2xxRe1SS3JaVCmDL6h9h/38WLyeaxjojaNHtaA==" internalId="_NEbps--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Port" prompt="connection_NAVISION_Port?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="1433" internalId="_NEbptO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Schema" prompt="connection_NAVISION_Schema?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="dbo" internalId="_NEbpte-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_NAVISION_Server" prompt="connection_NAVISION_Server?" promptNeeded="false" repositoryContextId="_tcGVsMSGEfC6XOWLsAg4QA" type="id_String" value="ulysse" internalId="_NEbptu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_account" prompt="connection_SnowflakeRawSeminESP_account?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbpt--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_clientSecret" prompt="connection_SnowflakeRawSeminESP_clientSecret?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpuO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_db" prompt="connection_SnowflakeRawSeminESP_db?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_PROD" internalId="_NEbpue-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcParameters" prompt="connection_SnowflakeRawSeminESP_jdbcParameters?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpuu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminESP_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEbpu--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_NEbpvO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_loginTimeout" prompt="connection_SnowflakeRawSeminESP_loginTimeout?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEbpve-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthClientId" prompt="connection_SnowflakeRawSeminESP_oauthClientId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpvu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthPassword" prompt="connection_SnowflakeRawSeminESP_oauthPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpv--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthScope" prompt="connection_SnowflakeRawSeminESP_oauthScope?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminESP_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthUserName" prompt="connection_SnowflakeRawSeminESP_oauthUserName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpwu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_regionID" prompt="connection_SnowflakeRawSeminESP_regionID?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpw--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_role" prompt="connection_SnowflakeRawSeminESP_role?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_PROD_OW" internalId="_NEbpxO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_schemaName" prompt="connection_SnowflakeRawSeminESP_schemaName?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_ESP" internalId="_NEbpxe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_UserId" prompt="connection_SnowflakeRawSeminESP_UserId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_PROD" internalId="_NEbpxu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_userPassword" prompt="connection_SnowflakeRawSeminESP_userPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:zU3i+PB87lBVx0bxR0I4iTTY8XCRybdSp1n4zjE6V+4ym/V4jvUpd1sHonM=" internalId="_NEbpx--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_warehouse" prompt="connection_SnowflakeRawSeminESP_warehouse?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_PROD" internalId="_NEbpyO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_account" prompt="connection_SnowflakeRawSeminProfils_account?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbpye-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_clientSecret" prompt="connection_SnowflakeRawSeminProfils_clientSecret?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbpyu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_db" prompt="connection_SnowflakeRawSeminProfils_db?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_PROD" internalId="_NEbpy--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcParameters" prompt="connection_SnowflakeRawSeminProfils_jdbcParameters?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbpzO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_NEbpze-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_keyAlias" prompt="connection_SnowflakeRawSeminProfils_keyAlias?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_NEbpzu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_loginTimeout" prompt="connection_SnowflakeRawSeminProfils_loginTimeout?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_NEbpz--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthClientId" prompt="connection_SnowflakeRawSeminProfils_oauthClientId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthPassword" prompt="connection_SnowflakeRawSeminProfils_oauthPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_NEbp0e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthScope" prompt="connection_SnowflakeRawSeminProfils_oauthScope?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminProfils_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp0--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthUserName" prompt="connection_SnowflakeRawSeminProfils_oauthUserName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp1O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_regionID" prompt="connection_SnowflakeRawSeminProfils_regionID?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_NEbp1e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_role" prompt="connection_SnowflakeRawSeminProfils_role?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="R_DB_RAW_DATA_PROD_OW" internalId="_NEbp1u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_schemaName" prompt="connection_SnowflakeRawSeminProfils_schemaName?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="SEMIN_PROFILS" internalId="_NEbp1--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_UserId" prompt="connection_SnowflakeRawSeminProfils_UserId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_PROD" internalId="_NEbp2O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_userPassword" prompt="connection_SnowflakeRawSeminProfils_userPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:OE8cELUyknoz1+Ar6w/nrkp6A4vewz1StdR331FQRDeCkXBGxU1cTFPaWL0=" internalId="_NEbp2e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_warehouse" prompt="connection_SnowflakeRawSeminProfils_warehouse?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_PROD" internalId="_NEbp2u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_account" prompt="connection_SnowflakeRawSeminSAS_account?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="https://QMKZKFX-HG22197" internalId="_NEbp2--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_clientSecret" prompt="connection_SnowflakeRawSeminSAS_clientSecret?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEbp3O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_db" prompt="connection_SnowflakeRawSeminSAS_db?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="DB_RAW_DATA_PROD" internalId="_NEbp3e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcParameters" prompt="connection_SnowflakeRawSeminSAS_jdbcParameters?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp3u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value=".snowflakecomputing.com" internalId="_NEbp3--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_keyAlias" prompt="connection_SnowflakeRawSeminSAS_keyAlias?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="snowflake_key" internalId="_NEbp4O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_loginTimeout" prompt="connection_SnowflakeRawSeminSAS_loginTimeout?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Integer" value="15" internalId="_NEbp4e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthClientId" prompt="connection_SnowflakeRawSeminSAS_oauthClientId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp4u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthPassword" prompt="connection_SnowflakeRawSeminSAS_oauthPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_NEbp4--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthScope" prompt="connection_SnowflakeRawSeminSAS_oauthScope?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminSAS_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthUserName" prompt="connection_SnowflakeRawSeminSAS_oauthUserName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_regionID" prompt="connection_SnowflakeRawSeminSAS_regionID?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_NEbp5--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_role" prompt="connection_SnowflakeRawSeminSAS_role?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="R_DB_RAW_DATA_PROD_OW" internalId="_NEbp6O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_schemaName" prompt="connection_SnowflakeRawSeminSAS_schemaName?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="SEMIN_SAS" internalId="_NEbp6e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_UserId" prompt="connection_SnowflakeRawSeminSAS_UserId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="S_TALEND_PROD" internalId="_NEbp6u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_userPassword" prompt="connection_SnowflakeRawSeminSAS_userPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:DN40ja2Pvx8belroDgjxbIrZ8In1wNw6KAaRpSYXu3WPe+yZoeYLypRz54w=" internalId="_NEbp6--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_warehouse" prompt="connection_SnowflakeRawSeminSAS_warehouse?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="COMPUTE_ETL_PROD" internalId="_NEbp7O-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="snowflake_key" internalId="_NEbp7e-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="C:/Talend/keys/snowflake_keystore.p12" internalId="_NEbp7u-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:FHdqr0bhEoiU7wSfkpGEER9JYHOmgE3ryLP1/B+rNU9+FHg=" internalId="_NEcQwO-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalLogs" prompt="talendLocalLogs?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Logs/" internalId="_NEcQwe-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_NEcQwu-aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_NEcQw--aEfCGaO-RJG5T7Q"/>
+    <contextParameter comment="" name="talendLocalTech" prompt="talendLocalTech?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Technique/" internalId="_NEcQxO-aEfCGaO-RJG5T7Q"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0" show="false"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" value="" show="false"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" value="" show="false"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" show="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" value="false" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" show="false"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:tAlmpGEBGEm7Zof5ImNTovgYXXZ+58HMqq3OGE7k" show="false"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Talend/Studio/Talend-Studio-20250226_1030-V8.0.1/workspace_AOM/.metadata&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="JDBCOutput" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18" show="false"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QXQdeZYE64DiKm2YyVVvKzPxssZ8WSfLePBMzexp" show="false"/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value="" show="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value="" show="false"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value="" show="false"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value="" show="false"/>
+  </parameters>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="360">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F01_NAVISION_SWF_RAW_E01_SEMIN_SA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Test"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_TALEND_NAVISION_SNOWFLAKE_RAW:_Ts8t4NRTEfCnSKMGWaC17g"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="80" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Démarrage du chargement&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="3"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="400" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="560" posY="80">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Fin du chargement&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="3"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="4"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F01_NAVISION_SWF_RAW_E02_SEMIN_ESP"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Test"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_TALEND_NAVISION_SNOWFLAKE_RAW:_GJ_-0NUaEfCB0fqDvQaBmA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F01_NAVISION_SWF_RAW_E03_SEMIN_PROFIL"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Test"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_TALEND_NAVISION_SNOWFLAKE_RAW:_KYbHENUaEfCB0fqDvQaBmA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tWarn_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tWarn_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="If2" show="false"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;0"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;0"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
+  </subjob>
+</talendfile:ProcessType>

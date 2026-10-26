@@ -21,7 +21,7 @@
     <contextParameter xmi:id="_J3Ve8sSVEfCYP5oP3Pvz1w" comment="" name="connection_SnowflakeAnalytics_jdbcParameters" prompt="connection_SnowflakeAnalytics_jdbcParameters?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_Vh0NAPBbEfCf0tuMnsWqtA" confirmationNeeded="false" hide="false" name="Production">
-    <contextParameter xmi:id="_Vh0NAfBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeAnalytics_keyAlias" prompt="connection_SnowflakeAnalytics_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Talend_PROD"/>
+    <contextParameter xmi:id="_Vh0NAfBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeAnalytics_keyAlias" prompt="connection_SnowflakeAnalytics_keyAlias?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="snowflake_key"/>
     <contextParameter xmi:id="_Vh0NAvBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeAnalytics_oauthScope" prompt="connection_SnowflakeAnalytics_oauthScope?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Vh0NA_BbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeAnalytics_oauthClientId" prompt="connection_SnowflakeAnalytics_oauthClientId?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter xmi:id="_Vh0NBPBbEfCf0tuMnsWqtA" comment="" name="connection_SnowflakeAnalytics_schemaName" prompt="connection_SnowflakeAnalytics_schemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ANALYTICS"/>

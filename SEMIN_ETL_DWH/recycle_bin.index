@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/FLUX_NAVISION/FLUX_WAPRO</deletedFolders>
+  <deletedFolders>process/OLD</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/ESP</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX</deletedFolders>
   <deletedItems id="_Vua6AOKDEfCBWawNnQ4E_w" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_42KAkIyTEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_CYQ8EIysEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
@@ -50,4 +57,19 @@
   <deletedItems id="_Cp2zsD4nEfGBqt_EKD4o4A" path="FLUX_NAVISION/XX_ORCHESTRATION" type="PROCESS"/>
   <deletedItems id="_IOQvIK2_EfGwxLFVXoQvKw" path="FLUX_WAPRO/SEMIN_POLOGNE" type="PROCESS"/>
   <deletedItems id="_yyrGsKxSEfGpjonidsgSow" path="FLUX_WAPRO/SEMIN_POLOGNE" type="PROCESS"/>
+  <deletedItems id="_gdxT4NXmEfCXRa0-j-SNbA" path="OLD/SNOWFLAKE_RAW_TO_SILVER" type="PROCESS"/>
+  <deletedItems id="_PwfHQD1tEfG-CKuz1Thu0Q" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_V6AN4D5XEfG_JZn4CWW4cQ" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_ZjkVkD5XEfG_JZn4CWW4cQ" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_Wurd4IaqEfGld-N6gtN7zA" path="OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_mqD8gIaqEfGld-N6gtN7zA" path="OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_pCvrIIaqEfGld-N6gtN7zA" path="OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_-QyJANTbEfCW6LlzY0X6gg" path="OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS" type="PROCESS"/>
+  <deletedItems id="_OCYrEMZDEfGCIbskaWcuRg" path="OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS" type="PROCESS"/>
+  <deletedItems id="_Q3dT8NUCEfCW6LlzY0X6gg" path="OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS" type="PROCESS"/>
+  <deletedItems id="_ZO17ENRREfCnzq0eWrnCXw" path="OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS" type="PROCESS"/>
+  <deletedItems id="_bTfd4NUWEfCU0JLJIpvF-Q" path="OLD/SNOWFLAKE_RAW_TO_SILVER/SAS_ESP_PROFILS" type="PROCESS"/>
+  <deletedItems id="_29f-8DMdEfGje5_gE3ir5g" path="OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_5Cr5IDTmEfGVy4WJF40xVw" path="OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_vMZqQDNWEfGNq8x7z6MjAg" path="OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
 </recyclebin:RecycleBin>
