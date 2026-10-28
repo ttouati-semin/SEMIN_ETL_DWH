@@ -80,7 +80,7 @@
     <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_CUMCnNUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_CUMCndUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_loginTimeout" prompt="connection_SnowflakeSilverREF_loginTimeout?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_Integer" value="15" internalId="_hASeoI8QEfGGMNYqUz5S3w"/>
-    <contextParameter comment="" name="filialeSchemaName" prompt="filialeSchemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SEMIN_PROFILS" internalId="_OdlogNaBEfCuu_G1Q2Lsrw"/>
+    <contextParameter comment="" name="filialeSchemaName" prompt="filialeSchemaName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SEMIN_SAS" internalId="_OdlogNaBEfCuu_G1Q2Lsrw"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_UserId" prompt="connection_SnowflakeSilverREF_UserId?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="S_TALEND_DEV" internalId="_hASeoY8QEfGGMNYqUz5S3w"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_oauthUserName" prompt="connection_SnowflakeSilverREF_oauthUserName?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="" internalId="_hASeoo8QEfGGMNYqUz5S3w"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_db" prompt="connection_SnowflakeSilverREF_db?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="DB_ANALYTICS_DEV" internalId="_hASeo48QEfGGMNYqUz5S3w"/>
@@ -204,7 +204,7 @@
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_db" prompt="connection_SnowflakeRawSeminESP_db?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_PROD" internalId="_CUMCUtUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcParameters" prompt="connection_SnowflakeRawSeminESP_jdbcParameters?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCU9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminESP_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_CUMCVNUDEfCW6LlzY0X6gg"/>
-    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_PROD" internalId="_CUMCVdUDEfCW6LlzY0X6gg"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_CUMCVdUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_loginTimeout" prompt="connection_SnowflakeRawSeminESP_loginTimeout?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_CUMCVtUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthClientId" prompt="connection_SnowflakeRawSeminESP_oauthClientId?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCV9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthPassword" prompt="connection_SnowflakeRawSeminESP_oauthPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_CUMCWNUDEfCW6LlzY0X6gg"/>
@@ -222,7 +222,7 @@
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_db" prompt="connection_SnowflakeRawSeminProfils_db?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="DB_RAW_DATA_PROD" internalId="_CUMCZNUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcParameters" prompt="connection_SnowflakeRawSeminProfils_jdbcParameters?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCZdUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminProfils_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_CUMCZtUDEfCW6LlzY0X6gg"/>
-    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_keyAlias" prompt="connection_SnowflakeRawSeminProfils_keyAlias?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_PROD" internalId="_CUMCZ9UDEfCW6LlzY0X6gg"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_keyAlias" prompt="connection_SnowflakeRawSeminProfils_keyAlias?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_CUMCZ9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_loginTimeout" prompt="connection_SnowflakeRawSeminProfils_loginTimeout?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_CUMCaNUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthClientId" prompt="connection_SnowflakeRawSeminProfils_oauthClientId?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCadUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminProfils_oauthPassword" prompt="connection_SnowflakeRawSeminProfils_oauthPassword?" promptNeeded="false" repositoryContextId="_VMFbQMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_CUMCatUDEfCW6LlzY0X6gg"/>
@@ -240,7 +240,7 @@
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_db" prompt="connection_SnowflakeRawSeminSAS_db?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="DB_RAW_DATA_PROD" internalId="_CUMCdtUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcParameters" prompt="connection_SnowflakeRawSeminSAS_jdbcParameters?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_CUMCd9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix" prompt="connection_SnowflakeRawSeminSAS_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value=".snowflakecomputing.com" internalId="_CUMCeNUDEfCW6LlzY0X6gg"/>
-    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_keyAlias" prompt="connection_SnowflakeRawSeminSAS_keyAlias?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="Talend_PROD" internalId="_CUMCedUDEfCW6LlzY0X6gg"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_keyAlias" prompt="connection_SnowflakeRawSeminSAS_keyAlias?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="snowflake_key" internalId="_CUMCedUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_loginTimeout" prompt="connection_SnowflakeRawSeminSAS_loginTimeout?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Integer" value="15" internalId="_CUMCetUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthClientId" prompt="connection_SnowflakeRawSeminSAS_oauthClientId?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_String" value="" internalId="_CUMCe9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminSAS_oauthPassword" prompt="connection_SnowflakeRawSeminSAS_oauthPassword?" promptNeeded="false" repositoryContextId="_J3G1YMSVEfCYP5oP3Pvz1w" type="id_Password" value="" internalId="_CUMCfNUDEfCW6LlzY0X6gg"/>
@@ -258,7 +258,7 @@
     <contextParameter comment="" name="connection_SnowflakeSilver_db" prompt="connection_SnowflakeSilver_db?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="DB_ANALYTICS_PROD" internalId="_CUMCiNUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcParameters" prompt="connection_SnowflakeSilver_jdbcParameters?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCidUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcUrlSuffix" prompt="connection_SnowflakeSilver_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_CUMCitUDEfCW6LlzY0X6gg"/>
-    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="Talend_PROD" internalId="_CUMCi9UDEfCW6LlzY0X6gg"/>
+    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_CUMCi9UDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_loginTimeout" prompt="connection_SnowflakeSilver_loginTimeout?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_CUMCjNUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthClientId" prompt="connection_SnowflakeSilver_oauthClientId?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_CUMCjdUDEfCW6LlzY0X6gg"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthPassword" prompt="connection_SnowflakeSilver_oauthPassword?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_CUMCjtUDEfCW6LlzY0X6gg"/>
@@ -593,8 +593,6 @@
   <node componentName="SnowflakeCommit" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="4600" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNDb21taXQ" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_PY6nVtQbEfCcfuqgqGrVaA"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -609,8 +607,6 @@
   <node componentName="SnowflakeRollback" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="4600" posY="1000">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRollback_1" show="false"/>
     <elementParameter field="TECHNICAL" name="TACOKIT_COMPONENT_ID" value="c25vd2ZsYWtlI1Nub3dmbGFrZSNSb2xsYmFjaw" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_PY6nVtQbEfCcfuqgqGrVaA"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
@@ -3632,6 +3628,7 @@
       <column comment="" key="false" length="-1" name="ITEM_LEDGER_ENTRY_QUANTITY" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SURFACE_M2" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SURFACE_M3" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="QUANTITY_ML" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
     <metadata connector="FLOW" name="rejets_jointureitem">
@@ -3642,7 +3639,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="ve_with_item" columnNameFilter="" id="_uR7B0MUzEfC2io2mzEp-Bg - SALES">
+      <outputTables sizeState="INTERMEDIATE" name="ve_with_item" activateCondensedTool="true" columnNameFilter="">
         <mapperTableEntries name="ENTRY_NO_" expression="ve.ENTRY_NO_ " type="id_BigDecimal"/>
         <mapperTableEntries name="ITEM_NO_" expression="ve.ITEM_NO_ " type="id_String"/>
         <mapperTableEntries name="POSTING_DATE" expression="ve.POSTING_DATE " type="id_Date" nullable="true"/>
@@ -3660,7 +3657,8 @@
         <mapperTableEntries name="FILIALE" expression="context.filialeSchemaName" type="id_String"/>
         <mapperTableEntries name="ITEM_LEDGER_ENTRY_QUANTITY" expression="ve.ITEM_LEDGER_ENTRY_QUANTITY " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M2" type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SURFACE_M3" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SURFACE_M3" expression="" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="DOCUMENT_NO_" expression="ve.DOCUMENT_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="QUANTITY_ML" type="id_BigDecimal" nullable="true"/>
       </outputTables>
       <outputTables sizeState="INTERMEDIATE" name="rejets_jointureitem" activateCondensedTool="true" rejectInnerJoin="true">
@@ -4608,6 +4606,7 @@
       <column comment="" key="false" length="-1" name="SURFACE_M2" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SURFACE_M3" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="QUANTITY_ML" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
@@ -4632,6 +4631,7 @@
         <mapperTableEntries name="SURFACE_M2" expression="" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M3" expression="" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="QUANTITY_ML" expression="" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="DOCUMENT_NO_" expression="ve_with_item.DOCUMENT_NO_ " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="ve_with_item" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ENTRY_NO_" type="id_BigDecimal"/>
@@ -4652,6 +4652,7 @@
         <mapperTableEntries name="ITEM_LEDGER_ENTRY_QUANTITY" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M2" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M3" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="DOCUMENT_NO_" type="id_String" nullable="true"/>
         <mapperTableEntries name="QUANTITY_ML" type="id_BigDecimal" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="lkp_interco" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
@@ -4681,6 +4682,7 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
@@ -4729,10 +4731,11 @@
       <column comment="" key="false" length="-1" name="SURFACE_M2" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="ve_enriched_m2">
         <mapperTableEntries name="ENTRY_NO_" expression="ve_with_interco.ENTRY_NO_ " type="id_BigDecimal"/>
+        <mapperTableEntries name="DOCUMENT_NO_" expression="ve_with_interco.DOCUMENT_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="ITEM_NO_" expression="ve_with_interco.ITEM_NO_ " type="id_String"/>
         <mapperTableEntries name="POSTING_DATE" expression="ve_with_interco.POSTING_DATE " type="id_Date" nullable="true"/>
         <mapperTableEntries name="SOURCE_NO_" expression="ve_with_interco.SOURCE_NO_ " type="id_String" nullable="true"/>
@@ -4748,7 +4751,7 @@
         <mapperTableEntries name="INTERCOMPANY_THIRD_PARTY" expression="ve_with_interco.INTERCOMPANY_THIRD_PARTY " type="id_String" nullable="true"/>
         <mapperTableEntries name="FILIALE" expression="ve_with_interco.FILIALE " type="id_String"/>
         <mapperTableEntries name="ITEM_LEDGER_ENTRY_QUANTITY" expression="ve_with_interco.ITEM_LEDGER_ENTRY_QUANTITY " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SURFACE_M2" expression="(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    item_merged_ium.Code != null &amp;&amp; &quot;M2&quot;.equals(item_merged_ium.Code) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        (&quot;5010&quot;.equals(item_merged_ium.Lev_2___Routing) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010110&quot;.equals(item_merged_ium.Lev_3___Family)) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010150&quot;.equals(item_merged_ium.Lev_3___Family)))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        || &quot;5020&quot;.equals(item_merged_ium.Lev_2___Routing)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    )&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;? (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (item_merged_ium.Qty__per_Unit_of_Measure == null || item_merged_ium.Qty__per_Unit_of_Measure.compareTo(BigDecimal.ZERO) == 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    ? BigDecimal.ZERO&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    : ve_with_interco.ITEM_LEDGER_ENTRY_QUANTITY.divide(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        item_merged_ium.Qty__per_Unit_of_Measure, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        java.math.MathContext.DECIMAL128&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;      )&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;      .negate()&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;: BigDecimal.ZERO " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SURFACE_M2" expression="(item_merged_ium.Code != null &amp;&amp; &quot;M2&quot;.equals(item_merged_ium.Code) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        (&quot;5010&quot;.equals(item_merged_ium.Lev_2___Routing) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010110&quot;.equals(item_merged_ium.Lev_3___Family)) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010150&quot;.equals(item_merged_ium.Lev_3___Family)))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        || &quot;5020&quot;.equals(item_merged_ium.Lev_2___Routing)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    )&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;? (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (item_merged_ium.Qty__per_Unit_of_Measure == null&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;     || item_merged_ium.Qty__per_Unit_of_Measure.compareTo(BigDecimal.ZERO) == 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    ? BigDecimal.ZERO&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    : ve_with_interco.INVOICED_QUANTITY.divide(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        item_merged_ium.Qty__per_Unit_of_Measure,&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        java.math.MathContext.DECIMAL128&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;      )&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    .negate()&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;: BigDecimal.ZERO " type="id_BigDecimal" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="ve_with_interco" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ENTRY_NO_" type="id_BigDecimal"/>
@@ -4770,6 +4773,7 @@
         <mapperTableEntries name="SURFACE_M2" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M3" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="QUANTITY_ML" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="DOCUMENT_NO_" type="id_String" nullable="true"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="item_merged_ium" activateCondensedTool="true" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="No_" expression="ve_with_interco.ITEM_NO_ " type="id_String" operator="="/>
@@ -5192,6 +5196,7 @@
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -5238,11 +5243,12 @@
       <column comment="" key="false" length="-1" name="SURFACE_M3" nullable="true" pattern="" precision="-1" sourceType="" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="ve_enriched_m3">
         <mapperTableEntries name="ENTRY_NO_" expression="ve_enriched_m2.ENTRY_NO_ " type="id_BigDecimal"/>
         <mapperTableEntries name="ITEM_NO_" expression="ve_enriched_m2.ITEM_NO_ " type="id_String"/>
+        <mapperTableEntries name="DOCUMENT_NO_" expression="ve_enriched_m2.DOCUMENT_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="POSTING_DATE" expression="ve_enriched_m2.POSTING_DATE " type="id_Date" nullable="true"/>
         <mapperTableEntries name="SOURCE_NO_" expression="ve_enriched_m2.SOURCE_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="DESCRIPTION" expression="ve_enriched_m2.DESCRIPTION " type="id_String" nullable="true"/>
@@ -5258,10 +5264,11 @@
         <mapperTableEntries name="FILIALE" expression="ve_enriched_m2.FILIALE " type="id_String"/>
         <mapperTableEntries name="ITEM_LEDGER_ENTRY_QUANTITY" expression="ve_enriched_m2.ITEM_LEDGER_ENTRY_QUANTITY " type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="SURFACE_M2" expression="ve_enriched_m2.SURFACE_M2 " type="id_BigDecimal" nullable="true"/>
-        <mapperTableEntries name="SURFACE_M3" expression="(&#xD;&#xA;&#x9;&#x9;item_merged_ium2.Code != null &amp;&amp; &quot;MM3&quot;.equals(item_merged_ium2.Code) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        (&quot;5010&quot;.equals(item_merged_ium2.Lev_2___Routing) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010110&quot;.equals(item_merged_ium2.Lev_3___Family)) &amp;&amp;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;         !(&quot;5010150&quot;.equals(item_merged_ium2.Lev_3___Family)))&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        || &quot;5020&quot;.equals(item_merged_ium2.Lev_2___Routing)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    )&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;? (&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    (item_merged_ium2.Qty__per_Unit_of_Measure == null || item_merged_ium2.Qty__per_Unit_of_Measure.compareTo(BigDecimal.ZERO) == 0)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    ? BigDecimal.ZERO&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    : ve_enriched_m2.ITEM_LEDGER_ENTRY_QUANTITY.divide(&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;    &#x9;&#x9;item_merged_ium2.Qty__per_Unit_of_Measure, &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;        java.math.MathContext.DECIMAL128&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;      )&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;      .negate()&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;)&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;: BigDecimal.ZERO " type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SURFACE_M3" expression="(item_merged_ium2.Code != null &amp;&amp; &quot;MM3&quot;.equals(item_merged_ium2.Code)&#xD;&#xA;    &amp;&amp; (&#xD;&#xA;        (&#xD;&#xA;            &quot;5010&quot;.equals(item_merged_ium2.Lev_2___Routing)&#xD;&#xA;            &amp;&amp; !&quot;5010110&quot;.equals(item_merged_ium2.Lev_3___Family)&#xD;&#xA;            &amp;&amp; !&quot;5010150&quot;.equals(item_merged_ium2.Lev_3___Family)&#xD;&#xA;        )&#xD;&#xA;        || &quot;5020&quot;.equals(item_merged_ium2.Lev_2___Routing)&#xD;&#xA;        || &quot;5030&quot;.equals(item_merged_ium2.Lev_2___Routing)&#xD;&#xA;    )&#xD;&#xA;)&#xD;&#xA;? (&#xD;&#xA;    (&#xD;&#xA;        item_merged_ium2.Qty__per_Unit_of_Measure == null&#xD;&#xA;        || item_merged_ium2.Qty__per_Unit_of_Measure.compareTo(BigDecimal.ZERO) == 0&#xD;&#xA;    )&#xD;&#xA;    ? BigDecimal.ZERO&#xD;&#xA;    : ve_enriched_m2.INVOICED_QUANTITY.divide(&#xD;&#xA;        item_merged_ium2.Qty__per_Unit_of_Measure,&#xD;&#xA;        java.math.MathContext.DECIMAL128&#xD;&#xA;    )&#xD;&#xA;    .negate()     &#xA;)&#xD;&#xA;: BigDecimal.ZERO " type="id_BigDecimal" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="ve_enriched_m2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ENTRY_NO_" type="id_BigDecimal"/>
+        <mapperTableEntries name="DOCUMENT_NO_" type="id_String" nullable="true"/>
         <mapperTableEntries name="ITEM_NO_" type="id_String"/>
         <mapperTableEntries name="POSTING_DATE" type="id_Date" nullable="true"/>
         <mapperTableEntries name="SOURCE_NO_" type="id_String" nullable="true"/>
@@ -5697,9 +5704,11 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO__1" nullable="true" originalDbColumnName="DOCUMENT_NO_" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -5751,7 +5760,9 @@
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="ve_enriched_ml">
         <mapperTableEntries name="ENTRY_NO_" expression="ve_enriched_m3.ENTRY_NO_ " type="id_BigDecimal"/>
-        <mapperTableEntries name="ITEM_NO_" expression="ve_enriched_m3.ITEM_NO_ " type="id_String"/>
+        <mapperTableEntries name="DOCUMENT_NO__1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ITEM_NO_" expression="ve_enriched_m3.ITEM_NO_  " type="id_String"/>
+        <mapperTableEntries name="DOCUMENT_NO_" expression="ve_enriched_m3.DOCUMENT_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="POSTING_DATE" expression="ve_enriched_m3.POSTING_DATE " type="id_Date" nullable="true"/>
         <mapperTableEntries name="SOURCE_NO_" expression="ve_enriched_m3.SOURCE_NO_ " type="id_String" nullable="true"/>
         <mapperTableEntries name="DESCRIPTION" expression="ve_enriched_m3.DESCRIPTION " type="id_String" nullable="true"/>
@@ -5773,6 +5784,7 @@
       <inputTables sizeState="INTERMEDIATE" name="ve_enriched_m3" matchingMode="ALL_ROWS" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ENTRY_NO_" type="id_BigDecimal"/>
         <mapperTableEntries name="ITEM_NO_" type="id_String"/>
+        <mapperTableEntries name="DOCUMENT_NO_" type="id_String" nullable="true"/>
         <mapperTableEntries name="POSTING_DATE" type="id_Date" nullable="true"/>
         <mapperTableEntries name="SOURCE_NO_" type="id_String" nullable="true"/>
         <mapperTableEntries name="DESCRIPTION" type="id_String" nullable="true"/>
@@ -8236,60 +8248,66 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="ENTRY_NO_" id="0"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="1"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="2"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_NO_" id="3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOCUMENT_NO__1" id="3"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="4"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSTING_DATE" id="6"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_NO_" id="6"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="7"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="8"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_NO_" id="9"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOCUMENT_NO_" id="9"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="10"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POSTING_DATE" id="12"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="13"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="14"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICED_QUANTITY" id="15"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_NO_" id="15"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="16"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_ACTUAL" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION" id="18"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="19"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="20"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_EXPECTED" id="21"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICED_QUANTITY" id="21"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="22"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NET_WEIGHT" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_ACTUAL" id="24"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="25"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="26"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POIDS_NET_R1" id="27"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_EXPECTED" id="27"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="28"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="29"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_SALES_UNITS_R2" id="30"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NET_WEIGHT" id="30"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="31"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="32"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_BASE_UNITS_R2" id="33"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POIDS_NET_R1" id="33"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="34"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_UNIT_OF_SALES_R2" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_SALES_UNITS_R2" id="36"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="37"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="38"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INTERCOMPANY_THIRD_PARTY" id="39"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_BASE_UNITS_R2" id="39"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="40"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="41"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FILIALE" id="42"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="43"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_UNIT_OF_SALES_R2" id="42"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="43"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="44"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_LEDGER_ENTRY_QUANTITY" id="45"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INTERCOMPANY_THIRD_PARTY" id="45"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="46"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="47"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M2" id="48"/>
-      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="49"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FILIALE" id="48"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true" id="49"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="50"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M3" id="51"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_LEDGER_ENTRY_QUANTITY" id="51"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="52"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="53"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_ML" id="54"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M2" id="54"/>
       <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="55"/>
       <elementValue elementRef="CASE_SENSITIVE" value="false" id="56"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M3" id="57"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="58"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="59"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_ML" id="60"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false" id="61"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false" id="62"/>
     </elementParameter>
     <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
     <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
@@ -8301,9 +8319,11 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO__1" nullable="true" originalDbColumnName="DOCUMENT_NO_" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -8354,9 +8374,11 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO__1" nullable="true" originalDbColumnName="DOCUMENT_NO_" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -8407,9 +8429,11 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO__1" nullable="true" originalDbColumnName="DOCUMENT_NO_" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -8473,42 +8497,46 @@
     <elementParameter field="TABLE" name="LENGTHS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="ENTRY_NO_" id="0"/>
       <elementValue elementRef="LENGTH" value="10" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_NO_" id="2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOCUMENT_NO__1" id="2"/>
       <elementValue elementRef="LENGTH" value="10" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSTING_DATE" id="4"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_NO_" id="4"/>
       <elementValue elementRef="LENGTH" value="10" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_NO_" id="6"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DOCUMENT_NO_" id="6"/>
       <elementValue elementRef="LENGTH" value="10" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION" id="8"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POSTING_DATE" id="8"/>
       <elementValue elementRef="LENGTH" value="10" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICED_QUANTITY" id="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SOURCE_NO_" id="10"/>
       <elementValue elementRef="LENGTH" value="10" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_ACTUAL" id="12"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPTION" id="12"/>
       <elementValue elementRef="LENGTH" value="10" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_EXPECTED" id="14"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INVOICED_QUANTITY" id="14"/>
       <elementValue elementRef="LENGTH" value="10" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NET_WEIGHT" id="16"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_ACTUAL" id="16"/>
       <elementValue elementRef="LENGTH" value="10" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POIDS_NET_R1" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALES_AMOUNT_EXPECTED" id="18"/>
       <elementValue elementRef="LENGTH" value="10" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_SALES_UNITS_R2" id="20"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NET_WEIGHT" id="20"/>
       <elementValue elementRef="LENGTH" value="10" id="21"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_BASE_UNITS_R2" id="22"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POIDS_NET_R1" id="22"/>
       <elementValue elementRef="LENGTH" value="10" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_UNIT_OF_SALES_R2" id="24"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_SALES_UNITS_R2" id="24"/>
       <elementValue elementRef="LENGTH" value="10" id="25"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INTERCOMPANY_THIRD_PARTY" id="26"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NUMBER_BASE_UNITS_R2" id="26"/>
       <elementValue elementRef="LENGTH" value="10" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FILIALE" id="28"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_UNIT_OF_SALES_R2" id="28"/>
       <elementValue elementRef="LENGTH" value="10" id="29"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_LEDGER_ENTRY_QUANTITY" id="30"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INTERCOMPANY_THIRD_PARTY" id="30"/>
       <elementValue elementRef="LENGTH" value="10" id="31"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M2" id="32"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FILIALE" id="32"/>
       <elementValue elementRef="LENGTH" value="10" id="33"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M3" id="34"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_LEDGER_ENTRY_QUANTITY" id="34"/>
       <elementValue elementRef="LENGTH" value="10" id="35"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_ML" id="36"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M2" id="36"/>
       <elementValue elementRef="LENGTH" value="10" id="37"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SURFACE_M3" id="38"/>
+      <elementValue elementRef="LENGTH" value="10" id="39"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="QUANTITY_ML" id="40"/>
+      <elementValue elementRef="LENGTH" value="10" id="41"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -8517,9 +8545,11 @@
       <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO__1" nullable="true" originalDbColumnName="DOCUMENT_NO_" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
       </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
         <additionalField key="di.date.timestamp" value="true"/>
@@ -8707,9 +8737,6 @@
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
     <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;SALES&quot;"/>
-    <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_uR7B0MUzEfC2io2mzEp-Bg - SALES" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="UPSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="ENTRY_NO_" show="false"/>
@@ -8736,11 +8763,12 @@
     <elementParameter field="TECHNICAL" name="configuration.dataSet.__version" value="-1" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.dataStore.__version" value="-1" show="false"/>
     <metadata connector="FLOW" label="SALES" name="tDBOutput_1">
-      <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
-        <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
-      </column>
       <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
+      </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
       </column>
       <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
@@ -8789,6 +8817,58 @@
       <column comment="" key="false" length="-1" name="QUANTITY_ML" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
     <metadata connector="reject" label="SALES" name="reject">
+      <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
+      </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
+      </column>
+      <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
+        <additionalField key="di.date.timestamp" value="true"/>
+        <additionalField key="di.column.logicalType" value="timestamp-millis"/>
+      </column>
+      <column comment="" key="false" length="20" name="SOURCE_NO_" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SOURCE_NO_"/>
+      </column>
+      <column comment="" key="false" length="16777216" name="DESCRIPTION" nullable="true" pattern="" precision="-1" type="id_String" originalLength="16777216" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DESCRIPTION"/>
+      </column>
+      <column comment="" key="false" length="-1" name="INVOICED_QUANTITY" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="INVOICED_QUANTITY"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SALES_AMOUNT_ACTUAL" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SALES_AMOUNT_ACTUAL"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SALES_AMOUNT_EXPECTED" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SALES_AMOUNT_EXPECTED"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NET_WEIGHT" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NET_WEIGHT"/>
+      </column>
+      <column comment="" key="false" length="-1" name="POIDS_NET_R1" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="POIDS_NET_R1"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NUMBER_SALES_UNITS_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NUMBER_SALES_UNITS_R2"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NUMBER_BASE_UNITS_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NUMBER_BASE_UNITS_R2"/>
+      </column>
+      <column comment="" key="false" length="-1" name="QUANTITY_UNIT_OF_SALES_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="QUANTITY_UNIT_OF_SALES_R2"/>
+      </column>
+      <column comment="" key="false" length="16777216" name="INTERCOMPANY_THIRD_PARTY" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="INTERCOMPANY_THIRD_PARTY"/>
+      </column>
+      <column comment="" key="true" length="16777216" name="FILIALE" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FILIALE"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ITEM_LEDGER_ENTRY_QUANTITY" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SURFACE_M2" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SURFACE_M3" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="QUANTITY_ML" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="columnName"/>
       </column>
@@ -8830,6 +8910,58 @@
     <elementParameter field="TEXT" name="LABEL" value="nbRejets"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SALES" name="tFlowMeter_10">
+      <column comment="" key="false" length="20" name="ITEM_NO_" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ITEM_NO_"/>
+      </column>
+      <column comment="" key="false" length="20" name="DOCUMENT_NO_" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="true" length="-1" name="ENTRY_NO_" nullable="false" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="ENTRY_NO_"/>
+      </column>
+      <column comment="" key="false" length="-1" name="POSTING_DATE" nullable="true" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" precision="-1" type="id_Date" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="POSTING_DATE"/>
+        <additionalField key="di.date.timestamp" value="true"/>
+        <additionalField key="di.column.logicalType" value="timestamp-millis"/>
+      </column>
+      <column comment="" key="false" length="20" name="SOURCE_NO_" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SOURCE_NO_"/>
+      </column>
+      <column comment="" key="false" length="16777216" name="DESCRIPTION" nullable="true" pattern="" precision="-1" type="id_String" originalLength="16777216" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="DESCRIPTION"/>
+      </column>
+      <column comment="" key="false" length="-1" name="INVOICED_QUANTITY" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="INVOICED_QUANTITY"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SALES_AMOUNT_ACTUAL" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SALES_AMOUNT_ACTUAL"/>
+      </column>
+      <column comment="" key="false" length="-1" name="SALES_AMOUNT_EXPECTED" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="SALES_AMOUNT_EXPECTED"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NET_WEIGHT" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NET_WEIGHT"/>
+      </column>
+      <column comment="" key="false" length="-1" name="POIDS_NET_R1" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="POIDS_NET_R1"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NUMBER_SALES_UNITS_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NUMBER_SALES_UNITS_R2"/>
+      </column>
+      <column comment="" key="false" length="-1" name="NUMBER_BASE_UNITS_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="NUMBER_BASE_UNITS_R2"/>
+      </column>
+      <column comment="" key="false" length="-1" name="QUANTITY_UNIT_OF_SALES_R2" nullable="true" pattern="" precision="-1" type="id_BigDecimal" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="QUANTITY_UNIT_OF_SALES_R2"/>
+      </column>
+      <column comment="" key="false" length="16777216" name="INTERCOMPANY_THIRD_PARTY" nullable="true" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="INTERCOMPANY_THIRD_PARTY"/>
+      </column>
+      <column comment="" key="true" length="16777216" name="FILIALE" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
+        <additionalField key="AVRO_TECHNICAL_KEY" value="FILIALE"/>
+      </column>
+      <column comment="" key="false" length="-1" name="ITEM_LEDGER_ENTRY_QUANTITY" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SURFACE_M2" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SURFACE_M3" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="QUANTITY_ML" nullable="true" pattern="" precision="0" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="columnName" nullable="false" pattern="" precision="-1" type="id_String" originalLength="-1" usefulColumn="true">
         <additionalField key="AVRO_TECHNICAL_KEY" value="columnName"/>
       </column>
@@ -8907,6 +9039,26 @@
         <mapperTableEntries name="code" expression="nb_reject.code" type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="nb_reject" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="ITEM_NO_" type="id_String"/>
+        <mapperTableEntries name="DOCUMENT_NO_" type="id_String" nullable="true"/>
+        <mapperTableEntries name="ENTRY_NO_" type="id_BigDecimal"/>
+        <mapperTableEntries name="POSTING_DATE" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="SOURCE_NO_" type="id_String" nullable="true"/>
+        <mapperTableEntries name="DESCRIPTION" type="id_String" nullable="true"/>
+        <mapperTableEntries name="INVOICED_QUANTITY" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SALES_AMOUNT_ACTUAL" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SALES_AMOUNT_EXPECTED" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="NET_WEIGHT" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="POIDS_NET_R1" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="NUMBER_SALES_UNITS_R2" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="NUMBER_BASE_UNITS_R2" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="QUANTITY_UNIT_OF_SALES_R2" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="INTERCOMPANY_THIRD_PARTY" type="id_String" nullable="true"/>
+        <mapperTableEntries name="FILIALE" type="id_String"/>
+        <mapperTableEntries name="ITEM_LEDGER_ENTRY_QUANTITY" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SURFACE_M2" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="SURFACE_M3" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="QUANTITY_ML" type="id_BigDecimal" nullable="true"/>
         <mapperTableEntries name="columnName" type="id_String"/>
         <mapperTableEntries name="rowNumber" type="id_String"/>
         <mapperTableEntries name="category" type="id_String"/>
@@ -9110,6 +9262,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ve_with_item" lineStyle="0" metaname="ve_with_item" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tMap_2" target="tMap_11">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO_" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve_with_item" show="false"/>
   </connection>
@@ -9122,10 +9279,20 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="lkp_item_silver" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ve_with_interco" lineStyle="0" metaname="ve_with_interco" offsetLabelX="0" offsetLabelY="0" source="tMap_11" target="tMap_6">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO_" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve_with_interco" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ve_enriched_m2" lineStyle="0" metaname="ve_enriched_m2" offsetLabelX="0" offsetLabelY="0" source="tMap_6" target="tMap_8">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO_" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve_enriched_m2" show="false"/>
   </connection>
@@ -9138,6 +9305,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ium_filtered" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ve_enriched_m3" lineStyle="0" metaname="ve_enriched_m3" offsetLabelX="0" offsetLabelY="0" source="tMap_8" target="tMap_10">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO_" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve_enriched_m3" show="false"/>
   </connection>
@@ -9150,6 +9322,14 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="item_merged_ium2" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="ve_enriched_ml" lineStyle="0" metaname="ve_enriched_ml" offsetLabelX="0" offsetLabelY="0" source="tMap_10" target="tUniqRow_2">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO_" id="0"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="1"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="2"/>
+      <elementValue elementRef="TRACE_COLUMN" value="DOCUMENT_NO__1" id="3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true" id="4"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value="" id="5"/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ve_enriched_ml" show="false"/>
   </connection>
@@ -9237,7 +9417,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk15" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;0"/>
@@ -9258,7 +9438,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;128;128"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;128;0"/>
