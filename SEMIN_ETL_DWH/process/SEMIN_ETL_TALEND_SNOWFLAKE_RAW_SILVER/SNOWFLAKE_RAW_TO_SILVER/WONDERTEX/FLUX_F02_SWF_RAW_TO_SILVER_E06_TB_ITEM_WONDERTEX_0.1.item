@@ -13,7 +13,7 @@
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_db" prompt="connection_SnowflakeRawWondertex_db?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value="DB_RAW_DATA_DEV" internalId="_Zeo6CTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_jdbcParameters" prompt="connection_SnowflakeRawWondertex_jdbcParameters?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value="" internalId="_Zeo6CjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_jdbcUrlSuffix" prompt="connection_SnowflakeRawWondertex_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value=".snowflakecomputing.com" internalId="_Zeo6CzJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="connection_SnowflakeRawWondertex_keyAlias" prompt="connection_SnowflakeRawWondertex_keyAlias?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value="Talend_DEV" internalId="_Zeo6DDJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="connection_SnowflakeRawWondertex_keyAlias" prompt="connection_SnowflakeRawWondertex_keyAlias?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value="snowflake_key" internalId="_Zeo6DDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_loginTimeout" prompt="connection_SnowflakeRawWondertex_loginTimeout?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_Integer" value="15" internalId="_Zeo6DTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_oauthClientId" prompt="connection_SnowflakeRawWondertex_oauthClientId?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_String" value="" internalId="_Zeo6DjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawWondertex_oauthPassword" prompt="connection_SnowflakeRawWondertex_oauthPassword?" promptNeeded="false" repositoryContextId="_r-nP4CwUEfGrQp2wzG30Qg" type="id_Password" value="" internalId="_Zeo6DzJpEfG9Y8bGznKwBQ"/>
@@ -31,7 +31,7 @@
     <contextParameter comment="" name="connection_SnowflakeSilver_db" prompt="connection_SnowflakeSilver_db?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="DB_ANALYTICS_DEV" internalId="_Zeo6GzJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcParameters" prompt="connection_SnowflakeSilver_jdbcParameters?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_Zeo6HDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcUrlSuffix" prompt="connection_SnowflakeSilver_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_Zeo6HTJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_Zeo6HjJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_Zeo6HjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_loginTimeout" prompt="connection_SnowflakeSilver_loginTimeout?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_Zeo6HzJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthClientId" prompt="connection_SnowflakeSilver_oauthClientId?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_Zeo6IDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthPassword" prompt="connection_SnowflakeSilver_oauthPassword?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_Zeo6ITJpEfG9Y8bGznKwBQ"/>
@@ -49,7 +49,7 @@
     <contextParameter comment="" name="connection_SnowflakeSilverREF_db" prompt="connection_SnowflakeSilverREF_db?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="DB_ANALYTICS_DEV" internalId="_Zeo6LTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_jdbcParameters" prompt="connection_SnowflakeSilverREF_jdbcParameters?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="" internalId="_Zeo6LjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_jdbcUrlSuffix" prompt="connection_SnowflakeSilverREF_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value=".snowflakecomputing.com" internalId="_Zeo6LzJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="connection_SnowflakeSilverREF_keyAlias" prompt="connection_SnowflakeSilverREF_keyAlias?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="Talend_DEV" internalId="_Zeo6MDJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="connection_SnowflakeSilverREF_keyAlias" prompt="connection_SnowflakeSilverREF_keyAlias?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="snowflake_key" internalId="_Zeo6MDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_loginTimeout" prompt="connection_SnowflakeSilverREF_loginTimeout?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_Integer" value="15" internalId="_Zeo6MTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_oauthClientId" prompt="connection_SnowflakeSilverREF_oauthClientId?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="" internalId="_Zeo6MjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_oauthPassword" prompt="connection_SnowflakeSilverREF_oauthPassword?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_Password" value="" internalId="_Zeo6MzJpEfG9Y8bGznKwBQ"/>
@@ -62,9 +62,9 @@
     <contextParameter comment="" name="connection_SnowflakeSilverREF_UserId" prompt="connection_SnowflakeSilverREF_UserId?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="S_TALEND_DEV" internalId="_Zeo6OjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_userPassword" prompt="connection_SnowflakeSilverREF_userPassword?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_Password" value="enc:system.encryption.key.v1:IJ/IKsrnh+23NHnK4zZSpkGIZ79Hi5tGp7VRYxAvp/t4B+lF0stU2C5B8/c=" internalId="_Zeo6OzJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeSilverREF_warehouse" prompt="connection_SnowflakeSilverREF_warehouse?" promptNeeded="false" repositoryContextId="_PWFkYDJjEfGUl6FMmiGQMw" type="id_String" value="COMPUTE_ETL_DEV" internalId="_Zeo6PDJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="Talend_DEV" internalId="_Zeo6PTJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="D:/Talend_Local_Files/KeyStore/keystoredev.p12" internalId="_Zeo6PjJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:bR6EtX8vSjMWXiT+8hq0Bawy9hD9sDdnnIVg0L7ZyKpUq5w=" internalId="_Zeo6PzJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="snowflake_key" internalId="_Zeo6PTJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="C:/Talend/keys/snowflake_keystore_dev.p12" internalId="_Zeo6PjJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:nt1nYGeyWaZl0t0tpDV6x6oHx8hZyngtHqGXcxKrGy/m3YY=" internalId="_Zeo6PzJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="talendLocalLogs" prompt="talendLocalLogs?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Logs/" internalId="_Zeo6QDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_Zeo6QTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_Zeo6QjJpEfG9Y8bGznKwBQ"/>
@@ -73,7 +73,7 @@
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_account" prompt="connection_SnowflakeRawSeminESP_account?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="https://QMKZKFX-HG22197" internalId="_Zeo6RTJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthPassword" prompt="connection_SnowflakeRawSeminESP_oauthPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_Zeo6RjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_userPassword" prompt="connection_SnowflakeRawSeminESP_userPassword?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:4U5xCRYFOATwJHkxW+C+MPhyZcutRuaA+LZfPlz5IWehLboXl+3e3ug/l/g=" internalId="_Zeo6RzJpEfG9Y8bGznKwBQ"/>
-    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_Zeo6SDJpEfG9Y8bGznKwBQ"/>
+    <contextParameter comment="" name="connection_SnowflakeRawSeminESP_keyAlias" prompt="connection_SnowflakeRawSeminESP_keyAlias?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_Zeo6SDJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_oauthTokenEndpoint" prompt="connection_SnowflakeRawSeminESP_oauthTokenEndpoint?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_Zeo6STJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_regionID" prompt="connection_SnowflakeRawSeminESP_regionID?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_String" value="" internalId="_Zeo6SjJpEfG9Y8bGznKwBQ"/>
     <contextParameter comment="" name="connection_SnowflakeRawSeminESP_clientSecret" prompt="connection_SnowflakeRawSeminESP_clientSecret?" promptNeeded="false" repositoryContextId="_TAyBUMUyEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_Zeo6SzJpEfG9Y8bGznKwBQ"/>
@@ -1338,7 +1338,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="articles_enriched">
         <mapperTableEntries name="NO_" expression="String.valueOf(soure_article.ID)" type="id_String" nullable="true"/>
@@ -5613,7 +5613,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="logRejets" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
@@ -5654,7 +5654,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>

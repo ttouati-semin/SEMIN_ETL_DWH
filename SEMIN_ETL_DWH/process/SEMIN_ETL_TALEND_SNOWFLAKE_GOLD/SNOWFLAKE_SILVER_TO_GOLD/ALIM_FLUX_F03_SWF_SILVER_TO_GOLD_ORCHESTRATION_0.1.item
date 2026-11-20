@@ -6,7 +6,7 @@
     <contextParameter comment="" name="connection_SnowflakeAnalytics_db" prompt="connection_SnowflakeAnalytics_db?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value="DB_ANALYTICS_DEV" internalId="_T0Lzws1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeAnalytics_jdbcParameters" prompt="connection_SnowflakeAnalytics_jdbcParameters?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_T0Lzw81YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeAnalytics_jdbcUrlSuffix" prompt="connection_SnowflakeAnalytics_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_T0LzxM1YEfGnPvwBhOmefw"/>
-    <contextParameter comment="" name="connection_SnowflakeAnalytics_keyAlias" prompt="connection_SnowflakeAnalytics_keyAlias?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_T0Lzxc1YEfGnPvwBhOmefw"/>
+    <contextParameter comment="" name="connection_SnowflakeAnalytics_keyAlias" prompt="connection_SnowflakeAnalytics_keyAlias?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_T0Lzxc1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeAnalytics_loginTimeout" prompt="connection_SnowflakeAnalytics_loginTimeout?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_T0Lzxs1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeAnalytics_oauthClientId" prompt="connection_SnowflakeAnalytics_oauthClientId?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_T0Lzx81YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeAnalytics_oauthPassword" prompt="connection_SnowflakeAnalytics_oauthPassword?" promptNeeded="false" repositoryContextId="_1jzUAMUzEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_T0LzyM1YEfGnPvwBhOmefw"/>
@@ -24,7 +24,7 @@
     <contextParameter comment="" name="connection_SnowflakeSilver_db" prompt="connection_SnowflakeSilver_db?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="DB_ANALYTICS_DEV" internalId="_T0Lz1M1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcParameters" prompt="connection_SnowflakeSilver_jdbcParameters?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_T0Lz1c1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_jdbcUrlSuffix" prompt="connection_SnowflakeSilver_jdbcUrlSuffix?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value=".snowflakecomputing.com" internalId="_T0Lz1s1YEfGnPvwBhOmefw"/>
-    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="Talend_DEV" internalId="_T0Lz181YEfGnPvwBhOmefw"/>
+    <contextParameter comment="" name="connection_SnowflakeSilver_keyAlias" prompt="connection_SnowflakeSilver_keyAlias?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="snowflake_key" internalId="_T0Lz181YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_loginTimeout" prompt="connection_SnowflakeSilver_loginTimeout?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Integer" value="15" internalId="_T0Lz2M1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthClientId" prompt="connection_SnowflakeSilver_oauthClientId?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="" internalId="_T0Lz2c1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_oauthPassword" prompt="connection_SnowflakeSilver_oauthPassword?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Password" value="" internalId="_T0Lz2s1YEfGnPvwBhOmefw"/>
@@ -37,9 +37,9 @@
     <contextParameter comment="" name="connection_SnowflakeSilver_UserId" prompt="connection_SnowflakeSilver_UserId?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="S_TALEND_DEV" internalId="_T0Lz4c1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_userPassword" prompt="connection_SnowflakeSilver_userPassword?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_Password" value="enc:system.encryption.key.v1:hPR0U+hYt3agNSuS652OU1+o8rWKtVSD7dwrf4wKLQ8qu+4QGzSUrxoDFLA=" internalId="_T0Lz4s1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="connection_SnowflakeSilver_warehouse" prompt="connection_SnowflakeSilver_warehouse?" promptNeeded="false" repositoryContextId="_zjGnkMUzEfC2io2mzEp-Bg" type="id_String" value="COMPUTE_ETL_DEV" internalId="_T0Lz481YEfGnPvwBhOmefw"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="Talend_DEV" internalId="_T0Lz5M1YEfGnPvwBhOmefw"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="D:/Talend_Local_Files/KeyStore/keystoredev.p12" internalId="_T0Lz5c1YEfGnPvwBhOmefw"/>
-    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:VgqshL4uhVffhm6g2UI3AbNv34Q6YyrgLE1UxQfUlc8sYh0=" internalId="_T0Lz5s1YEfGnPvwBhOmefw"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyAlias" prompt="SnowflakeRaw_keyAlias?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_String" value="snowflake_key" internalId="_T0Lz5M1YEfGnPvwBhOmefw"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStoreLocation" prompt="SnowflakeRaw_keyStoreLocation?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_File" value="C:/Talend/keys/snowflake_keystore_dev.p12" internalId="_T0Lz5c1YEfGnPvwBhOmefw"/>
+    <contextParameter comment="" name="SnowflakeRaw_keyStorePassword" prompt="SnowflakeRaw_keyStorePassword?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Password" value="enc:system.encryption.key.v1:fNlR12qUko3Pyb78Sd/svqeRJ1nASbPL6qktDCmTmQ14PxA=" internalId="_T0Lz5s1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="talendLocalLogs" prompt="talendLocalLogs?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Logs/" internalId="_T0Lz581YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="talendLocalMapping" prompt="talendLocalMapping?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Mapping/" internalId="_T0Lz6M1YEfGnPvwBhOmefw"/>
     <contextParameter comment="" name="talendLocalStage" prompt="talendLocalStage?" promptNeeded="false" repositoryContextId="_NoQWUMSWEfCYP5oP3Pvz1w" type="id_Directory" value="D:/Talend_Local_Files/Local_Stage/" internalId="_T0Lz6c1YEfGnPvwBhOmefw"/>
@@ -424,7 +424,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="CUSTOMER"/>
+    <elementParameter field="TEXT" name="LABEL" value="CLIENT_SEMIN"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="context.connection_SnowflakeSilver_account" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="KEY_PAIR" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="context.connection_SnowflakeSilver_UserId" show="false"/>
@@ -441,19 +441,19 @@
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="context.connection_SnowflakeSilver_schemaName" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="context.connection_SnowflakeSilver_db" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;CUSTOMER&quot;"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;CLIENT_SEMIN&quot;"/>
     <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_uR7B0MUzEfC2io2mzEp-Bg - CUSTOMER" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select &quot;&#xD;&#xA;+ &quot;NO_ AS NO, &quot;&#xD;&#xA;+ &quot;NAME AS NAME, &quot;&#xD;&#xA;+ &quot;SEARCH_NAME AS SEARCH_NAME, &quot;&#xD;&#xA;+ &quot;ADDRESS AS ADDRESS, &quot;&#xD;&#xA;+ &quot;ADDRESS_2 AS ADDRESS_2, &quot;&#xD;&#xA;+ &quot;CITY AS CITY, &quot;&#xD;&#xA;+ &quot;CONTACT AS CONTACT, &quot;&#xD;&#xA;+ &quot;PHONE_NO AS PHONE_NO, &quot;&#xD;&#xA;+ &quot;TELEX_NO AS TELEX_NO, &quot;&#xD;&#xA;+ &quot;DOCUMENT_SENDING_PROFILE AS DOCUMENT_SENDING_PROFILE, &quot;&#xD;&#xA;+ &quot;TERRITORY_CODE AS TERRITORY_CODE, &quot;&#xD;&#xA;+ &quot;GLOBAL_DIMENSION_1_CODE AS GLOBAL_DIMENSION_1_CODE, &quot;&#xD;&#xA;+ &quot;GLOBAL_DIMENSION_2_CODE AS GLOBAL_DIMENSION_2_CODE, &quot;&#xD;&#xA;+ &quot;CHAIN_NAME AS CHAIN_NAME, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(CREDIT_LIMIT__LCY, 38, 10) AS CREDIT_LIMIT_LCY, &quot;&#xD;&#xA;+ &quot;CUSTOMER_POSTING_GROUP AS CUSTOMER_POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;CUSTOMER_PRICE_GROUP AS CUSTOMER_PRICE_GROUP, &quot;&#xD;&#xA;+ &quot;PAYMENT_TERMS_CODE AS PAYMENT_TERMS_CODE, &quot;&#xD;&#xA;+ &quot;FIN__CHARGE_TERMS_CODE AS FIN__CHARGE_TERMS_CODE, &quot;&#xD;&#xA;+ &quot;SALESPERSON_CODE AS SALESPERSON_CODE, &quot;&#xD;&#xA;+ &quot;SHIPMENT_METHOD_CODE AS SHIPMENT_METHOD_CODE, &quot;&#xD;&#xA;+ &quot;SHIPPING_AGENT_CODE AS SHIPPING_AGENT_CODE, &quot;&#xD;&#xA;+ &quot;PLACE_OF_EXPORT AS PLACE_OF_EXPORT, &quot;&#xD;&#xA;+ &quot;INVOICE_DISC__CODE AS INVOICE_DISC__CODE, &quot;&#xD;&#xA;+ &quot;CUSTOMER_DISC__GROUP AS CUSTOMER_DISC__GROUP, &quot;&#xD;&#xA;+ &quot;COUNTRY_REGION_CODE AS COUNTRY_REGION_CODE, &quot;&#xD;&#xA;+ &quot;BLOCKED::NUMBER(38,10) AS BLOCKED, &quot;&#xD;&#xA;+ &quot;BILL_TO_CUSTOMER_NO_ AS BILL_TO_CUSTOMER_NO, &quot;&#xD;&#xA;+ &quot;PAYMENT_METHOD_CODE AS PAYMENT_METHOD_CODE, &quot;&#xD;&#xA;+ &quot;LAST_DATE_MODIFIED AS LAST_DATE_MODIFIED, &quot;&#xD;&#xA;+ &quot;CASE WHEN PRICES_INCLUDING_VAT THEN 1 WHEN NOT PRICES_INCLUDING_VAT THEN 0 END AS PRICES_INCLUDING_VAT, &quot;&#xD;&#xA;+ &quot;LOCATION_CODE AS LOCATION_CODE, &quot;&#xD;&#xA;+ &quot;FAX_NO_ AS FAX_NO, &quot;&#xD;&#xA;+ &quot;TELEX_ANSWER_BACK AS TELEX_ANSWER_BACK, &quot;&#xD;&#xA;+ &quot;VAT_REGISTRATION_NO AS VAT_REGISTRATION_NO, &quot;&#xD;&#xA;+ &quot;GEN__BUS__POSTING_GROUP AS GEN__BUS__POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;POST_CODE AS POST_CODE, &quot;&#xD;&#xA;+ &quot;COUNTY AS COUNTY, &quot;&#xD;&#xA;+ &quot;E_MAIL AS E_MAIL, &quot;&#xD;&#xA;+ &quot;HOME_PAGE AS HOME_PAGE, &quot;&#xD;&#xA;+ &quot;REMINDER_TERMS_CODE AS REMINDER_TERMS_CODE, &quot;&#xD;&#xA;+ &quot;NO__SERIES AS NO_SERIES, &quot;&#xD;&#xA;+ &quot;VAT_BUS__POSTING_GROUP AS VAT_BUS_POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;BLOCK_PAYMENT_TOLERANCE AS BLOCK_PAYMENT_TOLERANCE, &quot;&#xD;&#xA;+ &quot;IC_PARTNER_CODE AS IC_PARTNER_CODE, &quot;&#xD;&#xA;+ &quot;PREFERRED_BANK_ACCOUNT AS PREFERRED_BANK_ACCOUNT, &quot;&#xD;&#xA;+ &quot;PRIMARY_CONTACT_NO AS PRIMARY_CONTACT_NO_, &quot;&#xD;&#xA;+ &quot;SHIPPING_ADVICE::NUMBER(38,10) AS SHIPPING_ADVICE, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(ETABLISSEMENT_SEMIN, 38, 10) AS ETABLISSEMENT_SEMIN, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(MINIMUM_FRANCO__DEV_SOC, 38, 10) AS MINIMUM_FRANCO_DEV_SOC, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(MINIMUM_FRANCO__KG, 38, 10) AS MINIMUM_FRANCO_KG, &quot;&#xD;&#xA;+ &quot;HEURES_DE_LIVRAISON AS HEURES_DE_LIVRAISON, &quot;&#xD;&#xA;+ &quot;JOURS_DE_LIVRAISON AS JOURS_DE_LIVRAISON, &quot;&#xD;&#xA;+ &quot;COMMENTAIRE_LIVRAISON AS COMMENTAIRE_LIVRAISON, &quot;&#xD;&#xA;+ &quot;DATE_DE_CREATION AS DATE_DE_CREATION, &quot;&#xD;&#xA;+ &quot;SIRET_NO AS SIRET_NO, &quot;&#xD;&#xA;+ &quot;DATE_REDRESSEMENT AS DATE_REDRESSEMENT, &quot;&#xD;&#xA;+ &quot;MODE_DE_TRANSPORT AS MODE_DE_TRANSPORT, &quot;&#xD;&#xA;+ &quot;SELL_TO_CUSTOMER_EAN_NO AS SELL_TO_CUSTOMER_EAN_NO, &quot;&#xD;&#xA;+ &quot;TYPE_MAGASIN::NUMBER(38,10) AS TYPE_MAGASIN, &quot;&#xD;&#xA;+ &quot;CODE_MAGASIN_DESTINATION AS CODE_MAGASIN_DESTINATION, &quot;&#xD;&#xA;+ &quot;CODE_PLATEFORME AS CODE_PLATEFORME, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(TYPE_COMMANDE_EDI, 38, 10) AS TYPE_COMMANDE_EDI, &quot;&#xD;&#xA;+ &quot;PAY_TO_CUSTOMER_NO AS PAY_TO_CUSTOMER_NO, &quot;&#xD;&#xA;+ &quot;TYPE_DE_FACTURE AS TYPE_DE_FACTURE, &quot;&#xD;&#xA;+ &quot;CONTACT_PHONE_NO AS CONTACT_PHONE_NO, &quot;&#xD;&#xA;+ &quot;CONTACT_MOBILE_PHONE_NO AS CONTACT_MOBILE_PHONE_NO, &quot;&#xD;&#xA;+ &quot;FAX_NO__ACCOUNTING AS FAX_NO_ACCOUNTING, &quot;&#xD;&#xA;+ &quot;CODE_ASSISTANTE_COMMERCIALE AS CODE_ASSISTANTE_COMMERCIALE, &quot;&#xD;&#xA;+ &quot;LOCATION_NO AS LOCATION_NO, &quot;&#xD;&#xA;+ &quot;LOCATION_CITY AS LOCATION_CITY, &quot;&#xD;&#xA;+ &quot;PRINT_AR::NUMBER(38,10) AS PRINT_AR, &quot;&#xD;&#xA;+ &quot;TRY_TO_NUMBER(CUSTOMER_STATUS, 38, 10) AS CUSTOMER_STATUS, &quot;&#xD;&#xA;+ &quot;MARKET_TYPE AS MARKET_TYPE, &quot;&#xD;&#xA;+ &quot;TYPE_ENVOI::NUMBER(38,10) AS TYPE_ENVOI, &quot;&#xD;&#xA;+ &quot;CODE_EAN_INFORMATIQUE AS CODE_EAN_INFORMATIQUE, &quot;&#xD;&#xA;+ &quot;ID_CRM AS ID_CRM, &quot;&#xD;&#xA;+ &quot;THIRD_CLASSIFICATION AS THIRD_CLASSIFICATION, &quot;&#xD;&#xA;+ &quot;CUSTOMER_PRICE_GROUP_2 AS CUSTOMER_PRICE_GROUP_2, &quot;&#xD;&#xA;+ &quot;QUALIFICATION_STATUS::NUMBER(38,10) AS QUALIFICATION_STATUS, &quot;&#xD;&#xA;+ &quot;THIRD_TYPE AS THIRD_TYPE, &quot;&#xD;&#xA;+ &quot;PAYMENT_DAYS_CODE AS PAYMENT_DAYS_CODE, &quot;&#xD;&#xA;+ &quot;NON_PAYMT__PERIODS_CODE AS NON_PAYMT__PERIODS_CODE, &quot;&#xD;&#xA;+ &quot;OPALEAN_INTEGRATION::NUMBER(38,10) AS OPALEAN_INTEGRATION, &quot;&#xD;&#xA;+ &quot;REPLACE(DATABASE_ORIGIN, 'SEMIN_ESPAGNE', 'SEMIN_ESP') AS FILIALE, &quot;&#xD;&#xA;+ &quot;PAYS AS PAYS, &quot;&#xD;&#xA;+ &quot;PAYS_GEOGRAPHIE AS PAYS_GEOGRAPHIE, &quot;&#xD;&#xA;+ &quot;DOM_TOM AS DOM_TOM, &quot;&#xD;&#xA;+ &quot;AREA AS AREA, &quot;&#xD;&#xA;+ &quot;CONTINENT AS CONTINENT, &quot;&#xD;&#xA;+ &quot;N1 AS N1 &quot;&#xD;&#xA;+ &quot;from &quot; + context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.CLIENT_SEMIN&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeSilver_jdbcParameters" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeSilver_loginTimeout" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.connection_SnowflakeSilver_role" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="context.connection_SnowflakeSilver_jdbcUrlSuffix" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.useSessionTimezone" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
@@ -739,7 +739,7 @@
   <node componentName="tFlowMeter" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="400">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeter_10" show="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
-    <elementParameter field="TEXT" name="METTERLABEL" value="context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.CUSTOMER&quot;"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.CLIENT_SEMIN&quot;"/>
     <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value="" show="false"/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
@@ -1051,7 +1051,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="UPSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="NO" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeAnalytics_jdbcParameters"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeAnalytics_loginTimeout"/>
@@ -1523,7 +1523,7 @@
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
-    <elementParameter field="TEXT" name="LABEL" value="ITEM"/>
+    <elementParameter field="TEXT" name="LABEL" value="ARTICLE_SEMIN"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.account" value="context.connection_SnowflakeSilver_account" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.dataSet.dataStore.snowflakeAuth.authenticationType" value="KEY_PAIR" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.snowflakeAuth.userId" value="context.connection_SnowflakeSilver_UserId" show="false"/>
@@ -1540,19 +1540,19 @@
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.dbSchema" value="context.connection_SnowflakeSilver_schemaName" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.database" value="context.connection_SnowflakeSilver_db" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.shareConnection" value="false" show="false"/>
-    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;ITEM&quot;"/>
+    <elementParameter field="TACOKIT_VALUE_SELECTION" name="configuration.dataSet.tableName" value="&quot;ARTICLE_SEMIN&quot;"/>
     <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_uR7B0MUzEfC2io2mzEp-Bg - ITEM" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="false"/>
-    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.manualQuery" value="true"/>
+    <elementParameter field="TEXT" name="configuration.dataSet.condition" value="&quot;&quot;" show="false"/>
+    <elementParameter field="MEMO_SQL" name="configuration.dataSet.sqlQuery" value="&quot;select &quot;&#xD;&#xA;+ &quot;SHELF_NO_ AS SHELF_NO_, &quot;&#xD;&#xA;+ &quot;ITEM_DISC__GROUP AS ITEM_DISC__GROUP, &quot;&#xD;&#xA;+ &quot;ALLOW_INVOICE_DISC::NUMBER(38,10) AS ALLOW_INVOICE_DISC, &quot;&#xD;&#xA;+ &quot;LAST_DIRECT_COST::NUMBER(38,10) AS LAST_DIRECT_COST, &quot;&#xD;&#xA;+ &quot;INDIRECT_COST::NUMBER(38,10) AS INDIRECT_COST, &quot;&#xD;&#xA;+ &quot;COST_IS_ADJUSTED::NUMBER(38,10) AS COST_IS_ADJUSTED, &quot;&#xD;&#xA;+ &quot;ALLOW_ONLINE_ADJUSTMENT::NUMBER(38,10) AS ALLOW_ONLINE_ADJUSTMENT, &quot;&#xD;&#xA;+ &quot;VENDOR_ITEM_NO AS VENDOR_ITEM_NO, &quot;&#xD;&#xA;+ &quot;LEAD_TIME_CALCULATION AS LEAD_TIME_CALCULATION, &quot;&#xD;&#xA;+ &quot;MAXIMUM_INVENTORY::NUMBER(38,10) AS MAXIMUM_INVENTORY, &quot;&#xD;&#xA;+ &quot;UNIT_VOLUME::NUMBER(38,10) AS UNIT_VOLUME, &quot;&#xD;&#xA;+ &quot;BUDGETED_AMOUNT::NUMBER(38,10) AS BUDGETED_AMOUNT, &quot;&#xD;&#xA;+ &quot;PICTURE AS PICTURE, &quot;&#xD;&#xA;+ &quot;COUNTRY_REGION_OF_ORIGIN_CODE AS COUNTRY_REGION_OF_ORIGIN_CODE, &quot;&#xD;&#xA;+ &quot;AUTOMATIC_EXT_TEXTS::NUMBER(38,10) AS AUTOMATIC_EXT_TEXTS, &quot;&#xD;&#xA;+ &quot;NO_SERIES AS NO_SERIES, &quot;&#xD;&#xA;+ &quot;TAX_GROUP_CODE AS TAX_GROUP_CODE, &quot;&#xD;&#xA;+ &quot;SCRAP::NUMBER(38,10) AS SCRAP, &quot;&#xD;&#xA;+ &quot;FLUSHING_METHOD::NUMBER(38,10) AS FLUSHING_METHOD, &quot;&#xD;&#xA;+ &quot;REPLENISHMENT_SYSTEM::NUMBER(38,10) AS REPLENISHMENT_SYSTEM, &quot;&#xD;&#xA;+ &quot;ROUNDING_PRECISION::NUMBER(38,10) AS ROUNDING_PRECISION, &quot;&#xD;&#xA;+ &quot;SALES_UNIT_OF_MEASURE AS SALES_UNIT_OF_MEASURE, &quot;&#xD;&#xA;+ &quot;PURCH__UNIT_OF_MEASURE AS PURCH__UNIT_OF_MEASURE, &quot;&#xD;&#xA;+ &quot;TIME_BUCKET AS TIME_BUCKET, &quot;&#xD;&#xA;+ &quot;REORDERING_POLICY::NUMBER(38,10) AS REORDERING_POLICY, &quot;&#xD;&#xA;+ &quot;DAMPENER_QUANTITY::NUMBER(38,10) AS DAMPENER_QUANTITY, &quot;&#xD;&#xA;+ &quot;PUT_AWAY_TEMPLATE_CODE AS PUT_AWAY_TEMPLATE_CODE, &quot;&#xD;&#xA;+ &quot;CODE_MARQUE AS CODE_MARQUE, &quot;&#xD;&#xA;+ &quot;LONGUEUR::NUMBER(38,10) AS LONGUEUR, &quot;&#xD;&#xA;+ &quot;LARGEUR::NUMBER(38,10) AS LARGEUR, &quot;&#xD;&#xA;+ &quot;NON_GERE_EN_STOCK::NUMBER(38,10) AS NON_GERE_EN_STOCK, &quot;&#xD;&#xA;+ &quot;TYPE_CONDITIONNEMENT::NUMBER(38,10) AS TYPE_CONDITIONNEMENT, &quot;&#xD;&#xA;+ &quot;ENTRY_NO_LIST_INVENTORYK::NUMBER(38,10) AS ENTRY_NO_LIST_INVENTORYK, &quot;&#xD;&#xA;+ &quot;COUT_SEMIN_DEV_SOC::NUMBER(38,10) AS COUT_SEMIN_DEV_SOC, &quot;&#xD;&#xA;+ &quot;ART_COND_NON_MARQUE::NUMBER(38,10) AS ART_COND_NON_MARQUE, &quot;&#xD;&#xA;+ &quot;CODE_TARIF_CROSS_DOCK AS CODE_TARIF_CROSS_DOCK, &quot;&#xD;&#xA;+ &quot;RUPTURE_SEMI_FINI::NUMBER(38,10) AS RUPTURE_SEMI_FINI, &quot;&#xD;&#xA;+ &quot;ENTRY_NO_LIST_INVENT_ESPIRA::NUMBER(38,10) AS ENTRY_NO_LIST_INVENT_ESPIRA, &quot;&#xD;&#xA;+ &quot;ENTRY_NO_LIST_INVENT_AMBLAIN::NUMBER(38,10) AS ENTRY_NO_LIST_INVENT_AMBLAIN, &quot;&#xD;&#xA;+ &quot;ITEM_WITHOUT_GENCOD::NUMBER(38,10) AS ITEM_WITHOUT_GENCOD, &quot;&#xD;&#xA;+ &quot;COST_TURNOVER::NUMBER(38,10) AS COST_TURNOVER, &quot;&#xD;&#xA;+ &quot;ENTRY_NO_LIST_INVENT_PROFIL::NUMBER(38,10) AS ENTRY_NO_LIST_INVENT_PROFIL, &quot;&#xD;&#xA;+ &quot;CODE_BARRE_EAN13 AS CODE_BARRE_EAN13, &quot;&#xD;&#xA;+ &quot;SHIP_UNIT_OF_MEASURE AS SHIP_UNIT_OF_MEASURE, &quot;&#xD;&#xA;+ &quot;FORECAST_INTERVAL AS FORECAST_INTERVAL, &quot;&#xD;&#xA;+ &quot;HANDLING_UNIT_OF_MEASURE AS HANDLING_UNIT_OF_MEASURE, &quot;&#xD;&#xA;+ &quot;QT_MINIMUM_PLANNING::NUMBER(38,10) AS QT_MINIMUM_PLANNING, &quot;&#xD;&#xA;+ &quot;COV_VALUE::NUMBER(38,10) AS COV_VALUE, &quot;&#xD;&#xA;+ &quot;ITEM_STATUS::NUMBER(38,10) AS ITEM_STATUS, &quot;&#xD;&#xA;+ &quot;HANDLING_TYPE AS HANDLING_TYPE, &quot;&#xD;&#xA;+ &quot;ROUTING_NO AS ROUTING_NO, &quot;&#xD;&#xA;+ &quot;PRODUCTION_BOM_NO AS PRODUCTION_BOM_NO, &quot;&#xD;&#xA;+ &quot;SINGLE_LEVEL_MATERIAL_COST::NUMBER(38,10) AS SINGLE_LEVEL_MATERIAL_COST, &quot;&#xD;&#xA;+ &quot;SINGLE_LEVEL_CAPACITY_COST::NUMBER(38,10) AS SINGLE_LEVEL_CAPACITY_COST, &quot;&#xD;&#xA;+ &quot;SINGLE_LEVEL_SUBCONTRD__COST::NUMBER(38,10) AS SINGLE_LEVEL_SUBCONTRD__COST, &quot;&#xD;&#xA;+ &quot;SINGLE_LEVEL_CAP_OVHD_COST::NUMBER(38,10) AS SINGLE_LEVEL_CAP_OVHD_COST, &quot;&#xD;&#xA;+ &quot;SINGLE_LEVEL_MFG_OVHD_COST::NUMBER(38,10) AS SINGLE_LEVEL_MFG_OVHD_COST, &quot;&#xD;&#xA;+ &quot;NO_ AS NO_, &quot;&#xD;&#xA;+ &quot;NO__2 AS NO__2, &quot;&#xD;&#xA;+ &quot;DESCRIPTION AS DESCRIPTION_ITEM, &quot;&#xD;&#xA;+ &quot;SEARCH_DESCRIPTION AS SEARCH_DESCRIPTION, &quot;&#xD;&#xA;+ &quot;DESCRIPTION_2 AS DESCRIPTION_2, &quot;&#xD;&#xA;+ &quot;BASE_UNIT_OF_MEASURE AS BASE_UNIT_OF_MEASURE, &quot;&#xD;&#xA;+ &quot;PRICE_UNIT_CONVERSION::NUMBER(38,10) AS PRICE_UNIT_CONVERSION, &quot;&#xD;&#xA;+ &quot;TYPE::NUMBER(38,10) AS TYPE, &quot;&#xD;&#xA;+ &quot;INVENTORY_POSTING_GROUP AS INVENTORY_POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;STATISTICS_GROUP::NUMBER(38,10) AS STATISTICS_GROUP, &quot;&#xD;&#xA;+ &quot;COMMISSION_GROUP::NUMBER(38,10) AS COMMISSION_GROUP, &quot;&#xD;&#xA;+ &quot;UNIT_PRICE::NUMBER(38,10) AS UNIT_PRICE, &quot;&#xD;&#xA;+ &quot;PRICE_PROFIT_CALCULATION::NUMBER(38,10) AS PRICE_PROFIT_CALCULATION, &quot;&#xD;&#xA;+ &quot;PROFIT::NUMBER(38,10) AS PROFIT, &quot;&#xD;&#xA;+ &quot;REORDER_QUANTITY::NUMBER(38,10) AS REORDER_QUANTITY, &quot;&#xD;&#xA;+ &quot;ALTERNATIVE_ITEM_NO AS ALTERNATIVE_ITEM_NO, &quot;&#xD;&#xA;+ &quot;UNIT_LIST_PRICE::NUMBER(38,10) AS UNIT_LIST_PRICE, &quot;&#xD;&#xA;+ &quot;NET_WEIGHT AS NET_WEIGHT, &quot;&#xD;&#xA;+ &quot;UNITS_PER_PARCEL::NUMBER(38,10) AS UNITS_PER_PARCEL, &quot;&#xD;&#xA;+ &quot;DURABILITY AS DURABILITY, &quot;&#xD;&#xA;+ &quot;FREIGHT_TYPE AS FREIGHT_TYPE, &quot;&#xD;&#xA;+ &quot;TARIFF_NO AS TARIFF_NO, &quot;&#xD;&#xA;+ &quot;DUTY_UNIT_CONVERSION::NUMBER(38,10) AS DUTY_UNIT_CONVERSION, &quot;&#xD;&#xA;+ &quot;COUNTRY_REGION_PURCHASED_CODE AS COUNTRY_REGION_PURCHASED_CODE, &quot;&#xD;&#xA;+ &quot;BUDGET_PROFIT::NUMBER(38,10) AS BUDGET_PROFIT, &quot;&#xD;&#xA;+ &quot;BLOCKED::NUMBER(38,10) AS BLOCKED, &quot;&#xD;&#xA;+ &quot;PRICE_INCLUDES_VAT::NUMBER(38,10) AS PRICE_INCLUDES_VAT, &quot;&#xD;&#xA;+ &quot;VAT_BUS_POSTING_GR_PRICE AS VAT_BUS_POSTING_GR_PRICE, &quot;&#xD;&#xA;+ &quot;GEN_PROD_POSTING_GROUP AS GEN_PROD_POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;VAT_PROD_POSTING_GROUP AS VAT_PROD_POSTING_GROUP, &quot;&#xD;&#xA;+ &quot;DEFAULT_DEFERRAL_TEMPLATE_CODE AS DEFAULT_DEFERRAL_TEMPLATE_CODE, &quot;&#xD;&#xA;+ &quot;LOW_LEVEL_CODE::NUMBER(38,10) AS LOW_LEVEL_CODE, &quot;&#xD;&#xA;+ &quot;LOT_SIZE::NUMBER(38,10) AS LOT_SIZE, &quot;&#xD;&#xA;+ &quot;ROLLED_UP_CAPACITY_COST::NUMBER(38,10) AS ROLLED_UP_CAPACITY_COST, &quot;&#xD;&#xA;+ &quot;INVENTORY_VALUE_ZERO::NUMBER(38,10) AS INVENTORY_VALUE_ZERO, &quot;&#xD;&#xA;+ &quot;DISCRETE_ORDER_QUANTITY::NUMBER(38,10) AS DISCRETE_ORDER_QUANTITY, &quot;&#xD;&#xA;+ &quot;MINIMUM_ORDER_QUANTITY::NUMBER(38,10) AS MINIMUM_ORDER_QUANTITY, &quot;&#xD;&#xA;+ &quot;MAXIMUM_ORDER_QUANTITY::NUMBER(38,10) AS MAXIMUM_ORDER_QUANTITY, &quot;&#xD;&#xA;+ &quot;SAFETY_STOCK_QUANTITY::NUMBER(38,10) AS SAFETY_STOCK_QUANTITY, &quot;&#xD;&#xA;+ &quot;ORDER_MULTIPLE::NUMBER(38,10) AS ORDER_MULTIPLE, &quot;&#xD;&#xA;+ &quot;SAFETY_LEAD_TIME AS SAFETY_LEAD_TIME, &quot;&#xD;&#xA;+ &quot;INCLUDE_INVENTORY::NUMBER(38,10) AS INCLUDE_INVENTORY, &quot;&#xD;&#xA;+ &quot;MANUFACTURING_POLICY::NUMBER(38,10) AS MANUFACTURING_POLICY, &quot;&#xD;&#xA;+ &quot;RESCHEDULING_PERIOD AS RESCHEDULING_PERIOD, &quot;&#xD;&#xA;+ &quot;LOT_ACCUMULATION_PERIOD AS LOT_ACCUMULATION_PERIOD, &quot;&#xD;&#xA;+ &quot;DAMPENER_PERIOD AS DAMPENER_PERIOD, &quot;&#xD;&#xA;+ &quot;OVERFLOW_LEVEL::NUMBER(38,10) AS OVERFLOW_LEVEL, &quot;&#xD;&#xA;+ &quot;ITEM_CATEGORY_CODE AS ITEM_CATEGORY_CODE, &quot;&#xD;&#xA;+ &quot;CREATED_FROM_NONSTOCK_ITEM::NUMBER(38,10) AS CREATED_FROM_NONSTOCK_ITEM, &quot;&#xD;&#xA;+ &quot;PRODUCT_GROUP_CODE AS PRODUCT_GROUP_CODE, &quot;&#xD;&#xA;+ &quot;SERVICE_ITEM_GROUP AS SERVICE_ITEM_GROUP, &quot;&#xD;&#xA;+ &quot;ITEM_TRACKING_CODE AS ITEM_TRACKING_CODE, &quot;&#xD;&#xA;+ &quot;LOT_NOS AS LOT_NOS, &quot;&#xD;&#xA;+ &quot;EXPIRATION_CALCULATION AS EXPIRATION_CALCULATION, &quot;&#xD;&#xA;+ &quot;SPECIAL_EQUIPMENT_CODE AS SPECIAL_EQUIPMENT_CODE, &quot;&#xD;&#xA;+ &quot;PUT_AWAY_UNIT_OF_MEASURE_CODE AS PUT_AWAY_UNIT_OF_MEASURE_CODE, &quot;&#xD;&#xA;+ &quot;PHYS_INVT_COUNTING_PERIOD_CODE AS PHYS_INVT_COUNTING_PERIOD_CODE, &quot;&#xD;&#xA;+ &quot;LAST_COUNTING_PERIOD_UPDATE AS LAST_COUNTING_PERIOD_UPDATE, &quot;&#xD;&#xA;+ &quot;USE_CROSS_DOCKING::NUMBER(38,10) AS USE_CROSS_DOCKING, &quot;&#xD;&#xA;+ &quot;NEXT_COUNTING_START_DATE AS NEXT_COUNTING_START_DATE, &quot;&#xD;&#xA;+ &quot;NEXT_COUNTING_END_DATE AS NEXT_COUNTING_END_DATE, &quot;&#xD;&#xA;+ &quot;UNIT_CONDMNT_MULTIPLE AS UNIT_CONDMNT_MULTIPLE, &quot;&#xD;&#xA;+ &quot;INT_GRER_DS_CALC_POIDS_FRANCO::NUMBER(38,10) AS INT_GRER_DS_CALC_POIDS_FRANCO, &quot;&#xD;&#xA;+ &quot;ART_DE_TYPE_CONDT_::NUMBER(38,10) AS ART_DE_TYPE_CONDT_, &quot;&#xD;&#xA;+ &quot;MODE_DE_GESTION::NUMBER(38,10) AS MODE_DE_GESTION, &quot;&#xD;&#xA;+ &quot;TYPE_ARTICLE::NUMBER(38,10) AS TYPE_ARTICLE, &quot;&#xD;&#xA;+ &quot;CLE_EAN13 AS CLE_EAN13, &quot;&#xD;&#xA;+ &quot;GENCODE_EAN13 AS GENCODE_EAN13, &quot;&#xD;&#xA;+ &quot;SECTIONS_PROFIL AS SECTIONS_PROFIL, &quot;&#xD;&#xA;+ &quot;NORMENF::NUMBER(38,10) AS NORMENF, &quot;&#xD;&#xA;+ &quot;\&quot;ECO DDS\&quot; AS \&quot;ECO DDS\&quot;, &quot;&#xD;&#xA;+ &quot;OVERHEAD_RATE::NUMBER(38,10) AS OVERHEAD_RATE, &quot;&#xD;&#xA;+ &quot;ROLLED_UP_SUBCONTRACTED_COST::NUMBER(38,10) AS ROLLED_UP_SUBCONTRACTED_COST, &quot;&#xD;&#xA;+ &quot;ROLLED_UP_CAP_OVERHEAD_COST::NUMBER(38,10) AS ROLLED_UP_CAP_OVERHEAD_COST, &quot;&#xD;&#xA;+ &quot;ROLLED_UP_CAP__OVERHEAD_COST::NUMBER(38,10) AS ROLLED_UP_CAP__OVERHEAD_COST, &quot;&#xD;&#xA;+ &quot;ORDER_TRACKING_POLICY::NUMBER(38,10) AS ORDER_TRACKING_POLICY, &quot;&#xD;&#xA;+ &quot;CRITICAL::NUMBER(38,10) AS CRITICAL, &quot;&#xD;&#xA;+ &quot;COMMON_ITEM_NO AS COMMON_ITEM_NO, &quot;&#xD;&#xA;+ &quot;PR_ALERT_RULES::NUMBER(38,10) AS PR_ALERT_RULES, &quot;&#xD;&#xA;+ &quot;END_OF_MARKETING_DATE AS END_OF_MARKETING_DATE, &quot;&#xD;&#xA;+ &quot;DDMRP_ACTIVATE_BY_DEFAULT::NUMBER(38,10) AS DDMRP_ACTIVATE_BY_DEFAULT, &quot;&#xD;&#xA;+ &quot;RECIPE_ROOT AS RECIPE_ROOT, &quot;&#xD;&#xA;+ &quot;BEST_BEFORE_CALCULATION AS BEST_BEFORE_CALCULATION, &quot;&#xD;&#xA;+ &quot;COALESCE(NULLIF(TRIM(LEV_1_ACTIVITY), ''), NULLIF(TRIM(LEV_1___ACTIVITY), '')) AS LEV_1_ACTIVITY, &quot;&#xD;&#xA;+ &quot;COALESCE(NULLIF(TRIM(LEV_2_ROUTING), ''), NULLIF(TRIM(LEV_2___ROUTING), '')) AS LEV_2_ROUTING, &quot;&#xD;&#xA;+ &quot;COALESCE(NULLIF(TRIM(LEV_3_FAMILY), ''), NULLIF(TRIM(LEV_3___FAMILY), '')) AS LEV_3_FAMILY, &quot;&#xD;&#xA;+ &quot;COALESCE(NULLIF(TRIM(LEV_4_SUB_FAMILY), ''), NULLIF(TRIM(LEV_4___SUB_FAMILY), '')) AS LEV_4_SUB_FAMILY, &quot;&#xD;&#xA;+ &quot;CREATE_DATE AS CREATE_DATE, &quot;&#xD;&#xA;+ &quot;WARRANTY_DURATION AS WARRANTY_DURATION, &quot;&#xD;&#xA;+ &quot;DISPLAY_BB_ON_LABELS::NUMBER(38,10) AS DISPLAY_BB_ON_LABELS, &quot;&#xD;&#xA;+ &quot;ONEBASE_PRODUCT_GROUP_CODE AS ONEBASE_PRODUCT_GROUP_CODE, &quot;&#xD;&#xA;+ &quot;TPV_CODE AS TPV_CODE, &quot;&#xD;&#xA;+ &quot;PRB_ITEM::NUMBER(38,10) AS PRB_ITEM, &quot;&#xD;&#xA;+ &quot;REPLACE(DATABASE_ORIGIN, 'SEMIN_ESPAGNE', 'SEMIN_ESP') AS FILIALE, &quot;&#xD;&#xA;+ &quot;NUMBER_SALES_UNITS_R2::NUMBER(38,10) AS NUMBER_SALES_UNITS_R2, &quot;&#xD;&#xA;+ &quot;NUMBER_BASE_UNITS_R2::NUMBER(38,10) AS NUMBER_BASE_UNITS_R2, &quot;&#xD;&#xA;+ &quot;LENGTH::NUMBER(38,10) AS LENGTH, &quot;&#xD;&#xA;+ &quot;WIDTH::NUMBER(38,10) AS WIDTH, &quot;&#xD;&#xA;+ &quot;HEIGHT::NUMBER(38,10) AS HEIGHT, &quot;&#xD;&#xA;+ &quot;CUBAGE::NUMBER(38,10) AS CUBAGE, &quot;&#xD;&#xA;+ &quot;WEIGHT::NUMBER(38,10) AS WEIGHT, &quot;&#xD;&#xA;+ &quot;GROSS_WEIGHT::NUMBER(38,10) AS GROSS_WEIGHT, &quot;&#xD;&#xA;+ &quot;NET_WEIGHT_IUM::NUMBER(38,10) AS NET_WEIGHT_IUM, &quot;&#xD;&#xA;+ &quot;DIAMETER::NUMBER(38,10) AS DIAMETER, &quot;&#xD;&#xA;+ &quot;LAYER_PER_PALLET::NUMBER(38,10) AS LAYER_PER_PALLET, &quot;&#xD;&#xA;+ &quot;FABDIS_UNIT::NUMBER(38,10) AS FABDIS_UNIT, &quot;&#xD;&#xA;+ &quot;LAST_DATE_MODIFIED AS LAST_DATE_MODIFIED, &quot;&#xD;&#xA;+ &quot;DESCRIPTION_LEVEL1 AS DESCRIPTION_LEVEL1, &quot;&#xD;&#xA;+ &quot;LEVEL_1::NUMBER(38,10) AS LEVEL_1, &quot;&#xD;&#xA;+ &quot;DESCRIPTION_LEVEL2 AS DESCRIPTION_LEVEL2, &quot;&#xD;&#xA;+ &quot;LEVEL_2::NUMBER(38,10) AS LEVEL_2, &quot;&#xD;&#xA;+ &quot;DESCRIPTION_LEVEL3 AS DESCRIPTION_LEVEL3, &quot;&#xD;&#xA;+ &quot;LEVEL_3::NUMBER(38,10) AS LEVEL_3, &quot;&#xD;&#xA;+ &quot;DESCRIPTION_LEVEL4 AS DESCRIPTION_LEVEL4, &quot;&#xD;&#xA;+ &quot;LEVEL_4::NUMBER(38,10) AS LEVEL_4, &quot;&#xD;&#xA;+ &quot;BRAND_TYPE AS BRAND_TYPE, &quot;&#xD;&#xA;+ &quot;UNITE_DE_MESURE AS UNITE_DE_MESURE &quot;&#xD;&#xA;+ &quot;from &quot; + context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.ARTICLE_SEMIN&quot;"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeSilver_jdbcParameters" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeSilver_loginTimeout" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.role" value="context.connection_SnowflakeSilver_role" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcUrlSuffix" value="context.connection_SnowflakeSilver_jdbcUrlSuffix" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true"/>
+    <elementParameter field="CHECK" name="configuration.dataSet.useUnquotedObjectIdentifiers" value="true" show="false"/>
     <elementParameter field="CHECK" name="configuration.dataSet.useSessionTimezone" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
@@ -2101,7 +2101,7 @@
   <node componentName="tFlowMeter" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="280" posY="880">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeter_13" show="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
-    <elementParameter field="TEXT" name="METTERLABEL" value="context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.ITEM&quot;"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="context.connection_SnowflakeSilver_db + &quot;.&quot; + context.connection_SnowflakeSilver_schemaName + &quot;.ARTICLE_SEMIN&quot;"/>
     <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value="" show="false"/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
@@ -2676,7 +2676,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="UPSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="NO_" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeAnalytics_jdbcParameters"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeAnalytics_loginTimeout"/>
@@ -3596,7 +3596,7 @@
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="UPSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="ENTRY_NO_" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeAnalytics_jdbcParameters"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeAnalytics_loginTimeout"/>
@@ -3737,8 +3737,8 @@
       <outputTables sizeState="INTERMEDIATE" name="logRejetsSales">
         <mapperTableEntries name="MOMENT" expression="TalendDate.getCurrentDate() " type="id_Date" nullable="true"/>
         <mapperTableEntries name="PID" expression="pid" type="id_String" nullable="true"/>
-        <mapperTableEntries name="PROJECT_NAME" expression="jobName" type="id_String" nullable="true"/>
-        <mapperTableEntries name="JOB_NAME" expression="projectName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PROJECT_NAME" expression="projectName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="JOB_NAME" expression="jobName" type="id_String" nullable="true"/>
         <mapperTableEntries name="columnName" expression="row6.columnName" type="id_String"/>
         <mapperTableEntries name="rowNumber" expression="row6.rowNumber" type="id_String"/>
         <mapperTableEntries name="category" expression="row6.category" type="id_String"/>
@@ -3836,95 +3836,6 @@
       <column comment="" key="false" length="255" name="line" nullable="false" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="sqlState" nullable="false" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="255" name="code" nullable="false" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tFlowMeterCatcher" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="400">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeterCatcher_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFlowMeterCatcher_1">
-      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="8" name="system_pid" nullable="true" precision="0" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job_repository_id" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job_version" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="label" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="count" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="reference" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="thresholds" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1520" posY="400">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
-    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
-    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
-    <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="moment" id="0"/>
-      <elementValue elementRef="LENGTH" value="10" id="1"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="pid" id="2"/>
-      <elementValue elementRef="LENGTH" value="10" id="3"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="father_pid" id="4"/>
-      <elementValue elementRef="LENGTH" value="10" id="5"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="root_pid" id="6"/>
-      <elementValue elementRef="LENGTH" value="10" id="7"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="system_pid" id="8"/>
-      <elementValue elementRef="LENGTH" value="10" id="9"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="project" id="10"/>
-      <elementValue elementRef="LENGTH" value="10" id="11"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="job" id="12"/>
-      <elementValue elementRef="LENGTH" value="10" id="13"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="job_repository_id" id="14"/>
-      <elementValue elementRef="LENGTH" value="10" id="15"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="job_version" id="16"/>
-      <elementValue elementRef="LENGTH" value="10" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="context" id="18"/>
-      <elementValue elementRef="LENGTH" value="10" id="19"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="origin" id="20"/>
-      <elementValue elementRef="LENGTH" value="10" id="21"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="label" id="22"/>
-      <elementValue elementRef="LENGTH" value="10" id="23"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="count" id="24"/>
-      <elementValue elementRef="LENGTH" value="10" id="25"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="reference" id="26"/>
-      <elementValue elementRef="LENGTH" value="10" id="27"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="thresholds" id="28"/>
-      <elementValue elementRef="LENGTH" value="10" id="29"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tLogRow_1">
-      <column defaultValue="" key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="8" name="system_pid" nullable="true" precision="0" sourceType="" type="id_Long" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job_repository_id" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="job_version" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="label" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="count" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="3" name="reference" nullable="true" precision="0" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="thresholds" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="SnowflakeCommit" componentVersion="1" offsetLabelX="0" offsetLabelY="0" posX="80" posY="720">
@@ -4155,10 +4066,10 @@
     <elementParameter field="TACOKIT_GUESS_SCHEMA" name="configuration.dataSet.schema:Guess Schema_configuration.dataSet.schema" value=""/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="configuration.dataSet.schema:REPOSITORY_SCHEMA_TYPE" value="_wggZQMUzEfC2io2mzEp-Bg - DIM_RFA" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="DROP_IF_EXISTS_AND_CREATE"/>
+    <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.tableAction" value="TRUNCATE"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dataAction" value="INSERT"/>
     <elementParameter field="COLUMN_LIST" name="configuration.snowflakeOutputCommonConfig.upsertKeyColumn" value="SOCIETE" show="false"/>
-    <elementParameter field="CHECK" name="configuration.dieOnError" value="false"/>
+    <elementParameter field="CHECK" name="configuration.dieOnError" value="true"/>
     <elementParameter field="CHECK" name="configuration.dataSet.dataStore.autoCommit" value="true" show="false"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.jdbcParameters" value="context.connection_SnowflakeAnalytics_jdbcParameters"/>
     <elementParameter field="TEXT" name="configuration.dataSet.dataStore.loginTimeout" value="context.connection_SnowflakeAnalytics_loginTimeout"/>
@@ -4167,11 +4078,11 @@
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.convertColumnsAndTableToUppercase" value="true"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useSchemaKeysForUpsert" value="true" show="false"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.enforceDatabaseSchema" value="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.usePersonalDBType" value="false" show="false"/>
     <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.columnAndDBTypes" show="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDateMapping" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="configuration.snowflakeOutputCommonConfig.dateMapping" value="DATE" show="false"/>
-    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false"/>
+    <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useDBMappingFile" value="false" show="false"/>
     <elementParameter field="CHECK" name="configuration.snowflakeOutputCommonConfig.useVectors" value="false"/>
     <elementParameter field="TABLE" name="configuration.snowflakeOutputCommonConfig.vectorConfigs" show="false"/>
     <elementParameter field="CHECK" name="configuration.convertEmptyStringsToNull" value="false"/>
@@ -4247,7 +4158,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="copyOflogRejetsSales">
+    <metadata connector="FLOW" label="metadata" name="logRejetsRFA">
       <column comment="" key="false" length="-1" name="MOMENT" nullable="true" pattern="&quot;dd-MM-yyyy HH:mm:ss&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="PID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="PROJECT_NAME" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
@@ -4265,11 +4176,11 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="copyOflogRejetsSales">
+      <outputTables sizeState="INTERMEDIATE" name="logRejetsRFA">
         <mapperTableEntries name="MOMENT" expression="TalendDate.getCurrentDate() " type="id_Date" nullable="true"/>
         <mapperTableEntries name="PID" expression="pid" type="id_String" nullable="true"/>
-        <mapperTableEntries name="PROJECT_NAME" expression="jobName" type="id_String" nullable="true"/>
-        <mapperTableEntries name="JOB_NAME" expression="projectName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="PROJECT_NAME" expression="projectName" type="id_String" nullable="true"/>
+        <mapperTableEntries name="JOB_NAME" expression="jobName" type="id_String" nullable="true"/>
         <mapperTableEntries name="columnName" expression="row16.columnName" type="id_String"/>
         <mapperTableEntries name="rowNumber" expression="row16.rowNumber" type="id_String"/>
         <mapperTableEntries name="category" expression="row16.category" type="id_String"/>
@@ -4296,7 +4207,7 @@
   <node componentName="tFlowMeter" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="680" posY="2040">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeter_24" show="false"/>
     <elementParameter field="CHECK" name="USEROWLABEL" value="false"/>
-    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;Rejets upsert - &quot; + context.connection_SnowflakeAnalytics_db + &quot;.&quot; + context.connection_SnowflakeAnalytics_schemaName + &quot;.FACT_SALES&quot;"/>
+    <elementParameter field="TEXT" name="METTERLABEL" value="&quot;Rejets insert - &quot; + context.connection_SnowflakeAnalytics_db + &quot;.&quot; + context.connection_SnowflakeAnalytics_schemaName + &quot;.DIM_RFA&quot;"/>
     <elementParameter field="CLOSED_LIST" name="ABSOLUTE" value="Absolute"/>
     <elementParameter field="CONNECTION_LIST" name="CONNECTIONS" value="" show="false"/>
     <elementParameter field="TABLE" name="THRESHLODS"/>
@@ -4401,18 +4312,11 @@
     <metadata connector="MERGE" name="MERGE"/>
     <metadata connector="REJECT" name="REJECT"/>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="240" posY="200">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_EDITOR_JAVA" name="CODE" value="String alias = context.connection_SnowflakeAnalytics_keyAlias;&#xD;&#xA;&#xD;&#xA;System.out.println(&#xD;&#xA;    &quot;[DEBUG] SILVER_TO_GOLD&quot;&#xD;&#xA;    + &quot; | Contexte = &quot; + contextStr&#xD;&#xA;    + &quot; | Alias renseigné = &quot;&#xD;&#xA;    + (alias != null &amp;&amp; !alias.trim().isEmpty())&#xD;&#xA;    + &quot; | Longueur alias = &quot;&#xD;&#xA;    + (alias == null ? 0 : alias.length())&#xD;&#xA;);"/>
-    <elementParameter field="MEMO_EDITOR_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1"/>
-  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tSetKeystore_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetKeystore_1" offsetLabelX="0" offsetLabelY="0" source="tSetKeystore_1" target="tJava_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tSetKeystore_1" offsetLabelX="0" offsetLabelY="0" source="tSetKeystore_1" target="tDBConnection_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk10" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWarn_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
@@ -4519,11 +4423,6 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row12" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="row13" lineStyle="0" metaname="tFlowMeterCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tFlowMeterCatcher_1" target="tLogRow_1">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row13" show="false"/>
-  </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBCommit_1" offsetLabelX="0" offsetLabelY="0" source="tDBCommit_1" target="tDBInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
   </connection>
@@ -4551,16 +4450,13 @@
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBOutput_4" offsetLabelX="0" offsetLabelY="0" source="tDBOutput_4" target="tDBRollback_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentError9" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="copyOflogRejetsSales" lineStyle="0" metaname="copyOflogRejetsSales" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFlowMeter_24">
+  <connection connectorName="FLOW" label="logRejetsRFA" lineStyle="0" metaname="logRejetsRFA" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tFlowMeter_24">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="copyOflogRejetsSales" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="logRejetsRFA" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="row17" lineStyle="0" metaname="tFlowMeter_24" offsetLabelX="0" offsetLabelY="0" source="tFlowMeter_24" target="tFileOutputDelimited_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row17" show="false"/>
-  </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tDBConnection_2">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk9" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -4645,11 +4541,6 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFlowMeterCatcher_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;0;255"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;0"/>
@@ -4693,10 +4584,5 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_4" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;255;0"/>
-  </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;93;185" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="0;93;185"/>
   </subjob>
 </talendfile:ProcessType>

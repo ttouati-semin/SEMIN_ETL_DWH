@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin">
   <deletedFolders>process/FLUX_NAVISION/FLUX_WAPRO</deletedFolders>
+  <deletedFolders>process/OLD</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER</deletedFolders>
   <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/ESP</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ</deletedFolders>
+  <deletedFolders>process/OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX</deletedFolders>
+  <deletedFolders>process/SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/RUG</deletedFolders>
+  <deletedItems id="_jz4DgNjxEfG_AuPOYus-Mgdoc" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="JOB_DOC"/>
   <deletedItems id="_wkph0MbeEfGVT976ri37bA" path="" type="METADATA_CONNECTIONS"/>
   <deletedItems id="_42KAkIyTEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
   <deletedItems id="_CYQ8EIysEfCQ8OWAfw9dRQ" path="FLUX/BRONZE/DELTA/SEMIN_PROFIL" type="PROCESS"/>
@@ -34,6 +41,7 @@
   <deletedItems id="_xZ2ZINz6EfCCxeKF1CC12Q" path="FLUX/BRONZE/FULL/SEMIN_SA" type="PROCESS"/>
   <deletedItems id="_KULtAMbdEfGVT976ri37bA" path="FLUX_BUITEX/BRONZE/FULL" type="PROCESS"/>
   <deletedItems id="_c6uR8MY7EfGDasN5h3YboQ" path="FLUX_BUITEX/BRONZE/FULL" type="PROCESS"/>
+  <deletedItems id="_Kn9BENkGEfGgDdjofKKQ7w" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
   <deletedItems id="_Q7FAQN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
   <deletedItems id="_UlNvsN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
   <deletedItems id="_YJOpAN_lEfCb1fxtoKgLGg" path="FLUX_NAVISION/BRONZE/FULL/SEMIN_ESPAGNE" type="PROCESS"/>
@@ -54,8 +62,27 @@
   <deletedItems id="_IOQvIK2_EfGwxLFVXoQvKw" path="FLUX_WAPRO/SEMIN_POLOGNE" type="PROCESS"/>
   <deletedItems id="_yyrGsKxSEfGpjonidsgSow" path="FLUX_WAPRO/SEMIN_POLOGNE" type="PROCESS"/>
   <deletedItems id="_gdxT4NXmEfCXRa0-j-SNbA" path="OLD/SNOWFLAKE_RAW_TO_SILVER" type="PROCESS"/>
-  <deletedItems id="_PwfHQD1tEfG-CKuz1Thu0Q" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
-  <deletedItems id="_V6AN4D5XEfG_JZn4CWW4cQ" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
-  <deletedItems id="_ZjkVkD5XEfG_JZn4CWW4cQ" path="OLD/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_mqD8gIaqEfGld-N6gtN7zA" path="OLD/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_5Cr5IDTmEfGVy4WJF40xVw" path="OLD/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_BPeYcNn7EfGtIoqqoedTzQ" path="SEMIN_ETL_TALEND_SNOWFLAKE_GOLD/SNOWFLAKE_SILVER_TO_GOLD" type="PROCESS"/>
+  <deletedItems id="_x9lUgOT3EfGywexce_sYcw" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/RUG" type="PROCESS"/>
+  <deletedItems id="_yDNbYOT3EfGywexce_sYcw" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/RUG" type="PROCESS"/>
+  <deletedItems id="_yHKHQOT3EfGywexce_sYcw" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/RUG" type="PROCESS"/>
+  <deletedItems id="_M75qwNk0EfGgDdjofKKQ7w" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER" type="PROCESS"/>
+  <deletedItems id="_QZU--cvCEfGn2qP3yaCU7g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_V6AN4D5XEfG_JZn4CWW4cQ" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/BUITEX" type="PROCESS"/>
+  <deletedItems id="_LDkPgJyAEfG20ogMq--R0w" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/LORRAINE_REFENDAGE" type="PROCESS"/>
+  <deletedItems id="_ZQFYkJyAEfG20ogMq--R0w" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/LORRAINE_REFENDAGE" type="PROCESS"/>
+  <deletedItems id="_bsnxUNhpEfGpB8ycjnkoVQ" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/LORRAINE_REFENDAGE" type="PROCESS"/>
+  <deletedItems id="_QZU--8vCEfGn2qP3yaCU7g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_Wurd4IaqEfGld-N6gtN7zA" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/RUG_CZ" type="PROCESS"/>
+  <deletedItems id="_29f-8DMdEfGje5_gE3ir5g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
   <deletedItems id="_FWji4NFFEfGpGLR0iYxb-g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_QZU-_MvCEfGn2qP3yaCU7g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_a6pAUNFOEfGpGLR0iYxb-g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_aeRNYNFOEfGpGLR0iYxb-g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_bWUPsNFOEfGpGLR0iYxb-g" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_jz4DgNjxEfG_AuPOYus-Mg" path="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER/SNOWFLAKE_RAW_TO_SILVER/WONDERTEX" type="PROCESS"/>
+  <deletedItems id="_4KlSELDdEfGuaJaZpn6TiA" path="SNOWFLAKE_RAW_TO_SILVER/SEMIN_POLOGNE" type="PROCESS"/>
+  <deletedItems id="_5LQE4LDdEfGuaJaZpn6TiA" path="SNOWFLAKE_RAW_TO_SILVER/SEMIN_POLOGNE" type="PROCESS"/>
 </recyclebin:RecycleBin>

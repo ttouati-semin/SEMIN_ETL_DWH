@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:TacokitSnowflakeConnection xmi:id="_T2slAC3SEfG0B4MSPsq-Qw" name="CONNEXION_SnowflakeSilverREF" properties="configuration.snowflakeAuth.password&#xA;&#xA;context.connection_SnowflakeSilverREF_userPassword&#xA;&#xA;configuration.snowflakeAuth.userId&#xA;&#xA;context.connection_SnowflakeSilverREF_UserId&#xA;&#xA;configuration.snowflakeAuth.scope&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthScope&#xA;&#xA;configuration.database&#xA;&#xA;context.connection_SnowflakeSilverREF_db&#xA;&#xA;configuration.loginTimeout&#xA;&#xA;context.connection_SnowflakeSilverREF_loginTimeout&#xA;&#xA;configuration.snowflakeAuth.oauthUsername&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthUserName&#xA;&#xA;configuration.jdbcUrlSuffix&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcUrlSuffix&#xA;&#xA;configuration.snowflakeAuth.authenticationType&#xA;&#xA;KEY_PAIR&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZSNkYXRhc3RvcmUjU25vd2ZsYWtlRGF0YVN0b3Jl&#xA;&#xA;configuration.snowflakeAuth.oauthPassword&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthPassword&#xA;&#xA;configuration.snowflakeAuth.keyAlias&#xA;&#xA;context.connection_SnowflakeSilverREF_keyAlias&#xA;&#xA;configuration.snowflakeAuth.clientId&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthClientId&#xA;&#xA;configuration.snowflakeAuth.clientSecret&#xA;&#xA;context.connection_SnowflakeSilverREF_clientSecret&#xA;&#xA;configuration.jdbcParameters&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcParameters&#xA;&#xA;configuration.role&#xA;&#xA;context.connection_SnowflakeSilverREF_role&#xA;&#xA;configuration.snowflakeAuth.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.snowflakeAuth.oauthTokenEndpoint&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthTokenEndpoint&#xA;&#xA;configuration.dbSchema&#xA;&#xA;context.connection_SnowflakeSilverREF_schemaName&#xA;&#xA;configuration.warehouse&#xA;&#xA;context.connection_SnowflakeSilverREF_warehouse&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZQ&#xA;&#xA;configuration.autoCommit&#xA;&#xA;true&#xA;&#xA;configuration.account&#xA;&#xA;context.connection_SnowflakeSilverREF_account&#xA;&#xA;" label="CONNEXION_SnowflakeSilverREF" dataPackage="_H5jqoZfrEfGiwelzCseADg" ContextMode="true" ContextId="_PWFkYDJjEfGUl6FMmiGQMw" contextName="Developpement" DatabaseType="Snowflake" ProductId="SNOWFLAKE" supportNLS="false"/>
+  <TalendMetadata:TacokitSnowflakeConnection xmi:id="_T2slAC3SEfG0B4MSPsq-Qw" name="CONNEXION_SnowflakeSilverREF" properties="configuration.snowflakeAuth.password&#xA;&#xA;context.connection_SnowflakeSilverREF_userPassword&#xA;&#xA;configuration.snowflakeAuth.userId&#xA;&#xA;context.connection_SnowflakeSilverREF_UserId&#xA;&#xA;configuration.snowflakeAuth.scope&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthScope&#xA;&#xA;configuration.database&#xA;&#xA;context.connection_SnowflakeSilverREF_db&#xA;&#xA;configuration.loginTimeout&#xA;&#xA;context.connection_SnowflakeSilverREF_loginTimeout&#xA;&#xA;configuration.snowflakeAuth.oauthUsername&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthUserName&#xA;&#xA;configuration.jdbcUrlSuffix&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcUrlSuffix&#xA;&#xA;configuration.snowflakeAuth.authenticationType&#xA;&#xA;KEY_PAIR&#xA;&#xA;__TACOKIT_CONFIG_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZSNkYXRhc3RvcmUjU25vd2ZsYWtlRGF0YVN0b3Jl&#xA;&#xA;configuration.snowflakeAuth.oauthPassword&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthPassword&#xA;&#xA;configuration.snowflakeAuth.keyAlias&#xA;&#xA;context.connection_SnowflakeSilverREF_keyAlias&#xA;&#xA;configuration.snowflakeAuth.clientId&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthClientId&#xA;&#xA;configuration.snowflakeAuth.clientSecret&#xA;&#xA;context.connection_SnowflakeSilverREF_clientSecret&#xA;&#xA;configuration.jdbcParameters&#xA;&#xA;context.connection_SnowflakeSilverREF_jdbcParameters&#xA;&#xA;configuration.role&#xA;&#xA;context.connection_SnowflakeSilverREF_role&#xA;&#xA;configuration.snowflakeAuth.grantType&#xA;&#xA;CLIENT_CREDENTIALS&#xA;&#xA;configuration.snowflakeAuth.oauthTokenEndpoint&#xA;&#xA;context.connection_SnowflakeSilverREF_oauthTokenEndpoint&#xA;&#xA;configuration.dbSchema&#xA;&#xA;context.connection_SnowflakeSilverREF_schemaName&#xA;&#xA;configuration.warehouse&#xA;&#xA;context.connection_SnowflakeSilverREF_warehouse&#xA;&#xA;__TACOKIT_CONFIG_PARENT_ID&#xA;&#xA;c25vd2ZsYWtlI1Nub3dmbGFrZQ&#xA;&#xA;configuration.autoCommit&#xA;&#xA;true&#xA;&#xA;configuration.account&#xA;&#xA;context.connection_SnowflakeSilverREF_account&#xA;&#xA;" label="CONNEXION_SnowflakeSilverREF" dataPackage="_wmyZ8NhwEfGgo_X4lq0nHQ _H5jqoZfrEfGiwelzCseADg" ContextMode="true" ContextId="_PWFkYDJjEfGUl6FMmiGQMw" contextName="Developpement" DatabaseType="Snowflake" DriverClass="net.snowflake.client.jdbc.SnowflakeDriver" DbmsId="snowflake_id" ProductId="SNOWFLAKE" supportNLS="false">
+    <taggedValue xmi:id="_wRQ14NhwEfGgo_X4lq0nHQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_wRQ14dhwEfGgo_X4lq0nHQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_wRQ14thwEfGgo_X4lq0nHQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_wRQ149hwEfGgo_X4lq0nHQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_wRQ15NhwEfGgo_X4lq0nHQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_wRQ15dhwEfGgo_X4lq0nHQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_wZHxYNhwEfGgo_X4lq0nHQ" tag="DB ProductName" value="Snowflake"/>
+    <taggedValue xmi:id="_wZHxYdhwEfGgo_X4lq0nHQ" tag="DB ProductVersion" value="10.40.100"/>
+    <taggedValue xmi:id="_wZHxYthwEfGgo_X4lq0nHQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+  </TalendMetadata:TacokitSnowflakeConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_wmyZ8NhwEfGgo_X4lq0nHQ" name="DB_ANALYTICS_DEV" dataManager="_T2slAC3SEfG0B4MSPsq-Qw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_wmyZ8dhwEfGgo_X4lq0nHQ" name="SILVER_REF">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_1WMvYNhwEfGgo_X4lq0nHQ" name="MAPPING_ARTICLE_BUITEX" id="_1WMIUNhwEfGgo_X4lq0nHQ" label="MAPPING_ARTICLE_BUITEX" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvYdhwEfGgo_X4lq0nHQ" name="NO_" label="NO_" length="100" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_1WMvYthwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMvY9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMvZNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvZdhwEfGgo_X4lq0nHQ" name="LEV_1_ACTIVITY" label="LEV_1_ACTIVITY" length="100" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1WMvZthwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMvZ9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMvaNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvadhwEfGgo_X4lq0nHQ" name="LEV_2_ROUTING" label="LEV_2_ROUTING" length="100" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1WMvathwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMva9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMvbNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvbdhwEfGgo_X4lq0nHQ" name="LEV_3_FAMILY" label="LEV_3_FAMILY" length="100" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1WMvbthwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMvb9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMvcNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvcdhwEfGgo_X4lq0nHQ" name="LEV_4_SUB_FAMILY" label="LEV_4_SUB_FAMILY" length="100" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1WMvcthwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMvc9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMvdNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1WMvddhwEfGgo_X4lq0nHQ" name="SOURCE" label="SOURCE" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_1WMvdthwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1WMvd9hwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1WMveNhwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_1-7jUdhwEfGgo_X4lq0nHQ" name="MAPPING_THA" id="_1-7jUNhwEfGgo_X4lq0nHQ" label="MAPPING_THA" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_1-7jUthwEfGgo_X4lq0nHQ" name="DATABASE_ORIGIN" label="DATABASE_ORIGIN" length="16777216" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1-8KYNhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1-8KYdhwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1-8KYthwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1-8KY9hwEfGgo_X4lq0nHQ" name="HIERARCHIE_SOURCE" label="HIERARCHIE_SOURCE" length="16777216" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1-8KZNhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1-8KZdhwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1-8KZthwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_1-8KZ9hwEfGgo_X4lq0nHQ" name="HIERARCHIE_CIBLE" label="HIERARCHIE_CIBLE" length="16777216" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_1-8KaNhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_1-8KadhwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_1-8KathwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_H5jqoZfrEfGiwelzCseADg" name="context.connection_SnowflakeSilverREF_db" dataManager="_T2slAC3SEfG0B4MSPsq-Qw">
     <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_H5jqopfrEfGiwelzCseADg" name="context.connection_SnowflakeSilverREF_schemaName">
       <ownedElement xsi:type="relational:TdTable" xmi:id="_hfrusC6MEfGiV6Vf_4ljpw" name="ENR_ARTICLES" id="_hfC1gC6MEfGiV6Vf_4ljpw" label="ENR_ARTICLES">
@@ -44,21 +107,35 @@
         </feature>
       </ownedElement>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_dgUsEGQUEfG1YeIBx4vmLQ" name="MAPPING_PAYS" id="_dfu2MGQUEfG1YeIBx4vmLQ" label="MAPPING_PAYS">
-        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsE2QUEfG1YeIBx4vmLQ" name="CODE" label="CODE" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
-          <taggedValue xmi:id="_dgUsFGQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="CODE"/>
-          <initialValue xmi:id="_dgUsFWQUEfG1YeIBx4vmLQ"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_5eidwNhwEfGgo_X4lq0nHQ" name="CODE_1" label="CODE_1" length="1" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_5eidwdhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_5eidwthwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eidw9hwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsFmQUEfG1YeIBx4vmLQ" name="NOM" label="NOM" length="16777216" precision="-1" talendType="id_String" originalLength="-1">
-          <taggedValue xmi:id="_dgUsF2QUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="NOM"/>
-          <initialValue xmi:id="_dgUsGGQUEfG1YeIBx4vmLQ"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_5eidxNhwEfGgo_X4lq0nHQ" name="CODE_2" label="CODE_2" length="16777216" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_5eidxdhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_5eidxthwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eidx9hwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsGWQUEfG1YeIBx4vmLQ" name="AUTRES EXPORTS" label="AUTRES_EXPORTS" length="38" talendType="id_BigDecimal" originalLength="-1">
-          <taggedValue xmi:id="_dgUsGmQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="AUTRES_EXPORTS"/>
-          <initialValue xmi:id="_dgUsG2QUEfG1YeIBx4vmLQ"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_5eidyNhwEfGgo_X4lq0nHQ" name="CODE_3" label="CODE_3" length="3" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_5eidydhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_5eidythwEfGgo_X4lq0nHQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eidy9hwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsHGQUEfG1YeIBx4vmLQ" name="TOTAL EXPORT" label="TOTAL_EXPORT" length="38" talendType="id_BigDecimal" originalLength="-1">
-          <taggedValue xmi:id="_dgUsHWQUEfG1YeIBx4vmLQ" tag="AVRO_TECHNICAL_KEY" value="TOTAL_EXPORT"/>
-          <initialValue xmi:id="_dgUsHmQUEfG1YeIBx4vmLQ"/>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsFmQUEfG1YeIBx4vmLQ" name="NOM" label="NOM" length="16777216" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_5eidzdhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dgUsGGQUEfG1YeIBx4vmLQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eidz9hwEfGgo_X4lq0nHQ" name="VARCHAR" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsGWQUEfG1YeIBx4vmLQ" name="AUTRES EXPORTS" label="AUTRES_EXPORTS" length="38" sourceType="NUMBER" talendType="id_BigDecimal">
+          <taggedValue xmi:id="_5eid0dhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dgUsG2QUEfG1YeIBx4vmLQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eid09hwEfGgo_X4lq0nHQ" name="NUMBER" javaDataType="-5" nullable="columnNullable"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_dgUsHGQUEfG1YeIBx4vmLQ" name="TOTAL EXPORT" label="TOTAL_EXPORT" length="38" sourceType="NUMBER" talendType="id_BigDecimal">
+          <taggedValue xmi:id="_5eid1dhwEfGgo_X4lq0nHQ" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_dgUsHmQUEfG1YeIBx4vmLQ" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_5eid19hwEfGgo_X4lq0nHQ" name="NUMBER" javaDataType="-5" nullable="columnNullable"/>
         </feature>
       </ownedElement>
       <ownedElement xsi:type="relational:TdTable" xmi:id="_1RUdIDTiEfGsRKKkyVZSsw" name="TRANSCO_CLASSIFICATION_TIERS" id="_1PB-IDTiEfGsRKKkyVZSsw" label="TRANSCO_CLASSIFICATION_TIERS">
