@@ -2023,7 +2023,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_20" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E12_TB_CLIENT_SEMIN_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E12_TB_CLIENT_SEMIN_RUG_CZ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_IokbINh1EfGxvYzmuZUAjQ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -2052,7 +2052,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_21" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E13_TB_ARTICLE_SEMIN_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E13_TB_ARTICLE_SEMIN_RUG_CZ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_xQfJINhuEfGUUp5k4noLxw"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -2081,7 +2081,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_22" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E14_TB_SALES_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E14_TB_SALES_RUG_CZ"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER:_pCvrIIaqEfGld-N6gtN7zA"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
@@ -2124,9 +2124,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_23" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E12_TB_CLIENT_SEMIN_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E20_TB_CLIENT_SEMIN_RUG"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_IokbINh1EfGxvYzmuZUAjQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_HPWvYOUAEfGoIaFE-Rr7_g"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -2153,9 +2153,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_24" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E13_TB_ARTICLE_SEMIN_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E21_TB_ARTICLE_SEMIN_RUG"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_xQfJINhuEfGUUp5k4noLxw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_S0F94OUAEfGoIaFE-Rr7_g"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -2174,7 +2174,7 @@
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="FLUX_F02_SWF_RAW_TO_SILVER_E12_TB_ARTICLE_SEMIN_RUG"/>
+    <elementParameter field="TEXT" name="LABEL" value="FLUX_F02_SWF_RAW_TO_SILVER_E21_TB_ARTICLE_SEMIN_RUG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_24"/>
   </node>
@@ -2182,9 +2182,9 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_25" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
-    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E14_TB_SALES_RUG_RUG_CZ"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="FLUX_F02_SWF_RAW_TO_SILVER_E22_TB_SALES_RUG"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Developpement"/>
-    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_TALEND_SNOWFLAKE_RAW_SILVER:_pCvrIIaqEfGld-N6gtN7zA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="SEMIN_ETL_DWH:_arhNIOUAEfGoIaFE-Rr7_g"/>
     <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
     <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
     <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
@@ -2203,7 +2203,7 @@
     <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="LOAD_CONTEXT_FROM_FILE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_BASE64" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="FLUX_F02_SWF_RAW_TO_SILVER_E14_TB_SALES_RUG"/>
+    <elementParameter field="TEXT" name="LABEL" value="FLUX_F02_SWF_RAW_TO_SILVER_E22_TB_SALES_RUG"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_25"/>
   </node>
